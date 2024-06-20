@@ -1,0 +1,2204 @@
+<?xml version="1.0"?>
+<?mso-application progid="Excel.Sheet"?>
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:o="urn:schemas-microsoft-com:office:office"
+ xmlns:x="urn:schemas-microsoft-com:office:excel"
+ xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:html="http://www.w3.org/TR/REC-html40">
+ <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+  <Author>선민호 [habi1229]</Author>
+  <LastAuthor>선민호 [habi1229]</LastAuthor>
+  <Created>2014-05-30T04:33:01Z</Created>
+  <Version>14.00</Version>
+ </DocumentProperties>
+ <OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office">
+  <AllowPNG/>
+ </OfficeDocumentSettings>
+ <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
+  <WindowHeight>14805</WindowHeight>
+  <WindowWidth>28035</WindowWidth>
+  <WindowTopX>360</WindowTopX>
+  <WindowTopY>135</WindowTopY>
+  <ProtectStructure>False</ProtectStructure>
+  <ProtectWindows>False</ProtectWindows>
+ </ExcelWorkbook>
+ <Styles>
+  <Style ss:ID="Default" ss:Name="Normal">
+   <Alignment ss:Vertical="Center"/>
+   <Borders/>
+   <Font ss:FontName="맑은 고딕" x:CharSet="129" x:Family="Modern" ss:Size="11"
+    ss:Color="#000000"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s62" ss:Name="표준 2">
+   <Alignment ss:Vertical="Center"/>
+   <Borders/>
+   <Font ss:FontName="맑은 고딕" x:CharSet="129" x:Family="Modern" ss:Size="11"
+    ss:Color="#000000"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s63">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font ss:FontName="맑은 고딕" x:CharSet="129" x:Family="Modern" ss:Size="9"
+    ss:Color="#FFFFFF"/>
+   <Interior ss:Color="#404040" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s64">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font ss:FontName="맑은 고딕" x:CharSet="129" x:Family="Modern" ss:Size="9"
+    ss:Color="#FFFFFF"/>
+   <Interior ss:Color="#494529" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s65">
+   <Alignment ss:Vertical="Center"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font ss:FontName="맑은 고딕" x:CharSet="129" x:Family="Modern" ss:Size="9"
+    ss:Color="#FFFFFF"/>
+   <Interior ss:Color="#404040" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s66">
+   <Font ss:FontName="맑은 고딕" x:CharSet="129" x:Family="Modern" ss:Size="11"/>
+   <Interior ss:Color="#C0504D" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s67">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font ss:FontName="맑은 고딕" x:CharSet="129" x:Family="Modern" ss:Size="9"/>
+   <Interior ss:Color="#C0504D" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s68">
+   <Alignment ss:Vertical="Center"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font ss:FontName="맑은 고딕" x:CharSet="129" x:Family="Modern" ss:Size="9"/>
+   <Interior ss:Color="#C0504D" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s70" ss:Parent="s62">
+   <Font ss:FontName="맑은 고딕" x:CharSet="129" x:Family="Modern" ss:Size="9"
+    ss:Color="#000000"/>
+   <Interior/>
+  </Style>
+  <Style ss:ID="s71" ss:Parent="s62">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font ss:FontName="맑은 고딕" x:CharSet="129" x:Family="Modern" ss:Size="9"
+    ss:Color="#000000"/>
+   <Interior/>
+  </Style>
+  <Style ss:ID="s72" ss:Parent="s62">
+   <Alignment ss:Vertical="Center"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font ss:FontName="맑은 고딕" x:CharSet="129" x:Family="Modern" ss:Size="9"
+    ss:Color="#000000"/>
+   <Interior/>
+  </Style>
+  <Style ss:ID="s73">
+   <Alignment ss:Vertical="Center"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font ss:FontName="맑은 고딕" x:CharSet="129" x:Family="Modern" ss:Size="9"
+    ss:Color="#000000"/>
+   <Interior ss:Color="#DA9694" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s74">
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font ss:FontName="맑은 고딕" x:CharSet="129" x:Family="Modern" ss:Size="9"
+    ss:Color="#000000"/>
+   <Interior ss:Color="#DA9694" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s76">
+   <Alignment ss:Vertical="Center"/>
+   <Font ss:FontName="맑은 고딕" x:CharSet="129" x:Family="Modern" ss:Size="9"
+    ss:Color="#000000"/>
+  </Style>
+  <Style ss:ID="s79">
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font ss:FontName="맑은 고딕" x:CharSet="129" x:Family="Modern" ss:Size="9"/>
+   <Interior ss:Color="#DA9694" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s81">
+   <Font ss:FontName="맑은 고딕" x:CharSet="129" x:Family="Modern" ss:Size="9"
+    ss:Color="#000000"/>
+  </Style>
+  <Style ss:ID="s84">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font ss:FontName="맑은 고딕" x:CharSet="129" x:Family="Modern" ss:Size="9"
+    ss:Color="#000000"/>
+   <Interior ss:Color="#DA9694" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s85">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font ss:FontName="맑은 고딕" x:CharSet="129" x:Family="Modern" ss:Size="9"/>
+   <Interior ss:Color="#DA9694" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s87">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center" ss:WrapText="1"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font ss:FontName="맑은 고딕" x:CharSet="129" x:Family="Modern" ss:Size="9"
+    ss:Color="#000000"/>
+   <Interior ss:Color="#DA9694" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s88">
+   <Alignment ss:Vertical="Center"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font ss:FontName="맑은 고딕" x:CharSet="129" x:Family="Modern" ss:Size="9"
+    ss:Color="#000000"/>
+   <Interior ss:Color="#C4D79B" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s89">
+   <Alignment ss:Vertical="Center"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font ss:FontName="맑은 고딕" x:CharSet="129" x:Family="Modern" ss:Size="9"
+    ss:Color="#000000"/>
+   <Interior ss:Color="#B1A0C7" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s90">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font ss:FontName="맑은 고딕" x:CharSet="129" x:Family="Modern" ss:Size="9"
+    ss:Color="#000000"/>
+   <Interior ss:Color="#C4D79B" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s91">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font ss:FontName="맑은 고딕" x:CharSet="129" x:Family="Modern" ss:Size="9"
+    ss:Color="#000000"/>
+   <Interior ss:Color="#B1A0C7" ss:Pattern="Solid"/>
+  </Style>
+ </Styles>
+ <Worksheet ss:Name="Sheet1">
+  <Table ss:ExpandedColumnCount="102" ss:ExpandedRowCount="18" x:FullColumns="1"
+   x:FullRows="1" ss:DefaultColumnWidth="54" ss:DefaultRowHeight="15">
+   <Column ss:Index="2" ss:Width="45"/>
+   <Column ss:AutoFitWidth="0" ss:Width="119.25"/>
+   <Row ss:AutoFitHeight="0" ss:Height="16.5">
+    <Cell ss:StyleID="s63"><Data ss:Type="String">스킬 ID</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">스킬레벨</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">스킬이름</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">아이콘</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">에니</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">이펙트</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">스킬 타입</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">사운드</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">캐릭레벨</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">세력분류</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">공전</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">방전</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">정로</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">사로</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">공법</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">보법</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">성장속도</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">포인트</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">기본분류</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">공격형태별</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">효과형태별</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">세부분류</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">요구착용무기1</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">요구착용무기2</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">요구착용무기3</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">요구착용무기4</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">요구착용무기5</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">요구착용무기6</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">요구착용무기7</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">요구착용무기8</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">요구착용무기9</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">요구착용무기10</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">요구착용무기11</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">요구착용무기12</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">요구착용무기13</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">요구착용무기14</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">요구착용무기15</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">요구착용무기19</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">소모SP</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">소모MP</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">시전시간</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">쿨타임</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">사거리</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">상태속성</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">4대속성</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">딜레이</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">요구선행스킬</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">성공확률종류</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">성공확률</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">타겟형태</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">적용범위</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">연타횟수</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">지속시간</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">무기종류1</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">무기종류2</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">능력치</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">가방수</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">어그로</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">일반공격데미지 타입</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">일반공격데미지 HP</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">일반공격데미지 SP</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">일반공격데미지 MP</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">지속데미지 타입</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">지속데미지 HP</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">지속데미지 SP</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">지속데미지 MP</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">추가데미지 HP</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">추가데미지 SP</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">추가데미지 MP</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">종류1</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">값1</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">종류2</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">값2</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">종류3</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">값3</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">종류4</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">값4</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">종류5</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">값5</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">종류6</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">값6</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">종류7</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">값7</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">종류8</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">값8</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">종류9</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">값9</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">종류10</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">값10</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">힐 HP</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">힐 SP</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">힐 MP</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">지속힐 HP</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">지속힐 SP</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">지속힐 MP</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">회피 분류</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">회피 값</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">저력제한HP</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">사망 후 지속</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">변신 종류</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">변신 값</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">텍스트</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="16.5" ss:StyleID="s66">
+    <Cell ss:StyleID="s67"><Data ss:Type="String">id</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">skilllevel</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">name</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">image</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">ani</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">effect</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">toggletype</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">sound</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">level</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">country</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">attackfighter</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">defensefighter</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">patrolrogue</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">shootrogue</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">attackmage</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">defensemage</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">grow</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">point</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">typeshow</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">typeattack</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">typeeffect</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">type</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">needweapon1</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">needweapon2</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">needweapon3</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">needweapon4</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">needweapon5</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">needweapon6</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">needweapon7</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">needweapon8</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">needweapon9</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">needweapon10</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">needweapon11</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">needweapon12</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">needweapon13</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">needweapon14</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">needweapon15</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">shield</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">sp</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">mp</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">readytime</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">resettime</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">attackrange</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">statetype</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">attribtype</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">disable</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">prevskill</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">successtype</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">successvalue</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">targettype</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">applyrange</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">multiattack</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">keeptime</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">weapon1</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">weapon2</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">weaponvalue</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">bag</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">arrow</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">damagetype</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">damage1</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">damage2</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">damage3</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">timedamagetype</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">timedamage1</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">timedamage2</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">timedamage3</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">adddamage1</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">adddamage2</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">adddamage3</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">abilitytype1</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">abilityvalue1</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">abilitytype2</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">abilityvalue2</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">abilitytype3</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">abilityvalue3</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">abilitytype4</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">abilityvalue4</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">abilitytype5</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">abilityvalue5</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">abilitytype6</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">abilityvalue6</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">abilitytype7</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">abilityvalue7</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">abilitytype8</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">abilityvalue8</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">abilitytype9</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">abilityvalue9</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">abilitytype10</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">abilityvalue10</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">heal1</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">heal2</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">heal3</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">timeheal1</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">timeheal2</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">timeheal3</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">defencetype</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">defencevalue</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">limithp</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">fixrange</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">changetype</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">changelevel</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">text</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="12" ss:StyleID="s70">
+    <Cell ss:StyleID="s71"><Data ss:Type="Number">112</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="String">리더쉽Lv1</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="Number">112</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="Number">7</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="Number">6</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="Number">4</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="Number">4</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="Number">82</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="Number">70</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="Number">55</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="Number">100</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="Number">4</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="Number">50</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="Number">900</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="Number">23</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="Number">13</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">15분간 자신 반경 &lt;[applyrange]&gt;m 이내의 파티 전원의 물리공격력을 &lt;[abilityvalue1]&gt;만큼 높이는 주문</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="12" ss:StyleID="s70">
+    <Cell ss:StyleID="s71"><Data ss:Type="Number">181</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="String">데이플라이_실드Lv1</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="Number">181</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="Number">50</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="Number">6</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="Number">7</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="Number">4</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="Number">4</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="Number">83</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="Number">620</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="Number">470</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="Number">720</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="Number">100</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="Number">4</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="Number">8</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="Number">5</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">&lt;[keeptime]&gt;초간 반경 8m 범위 내 파티원 전원에게 지속적인 피해와 활력, 마력 피해를 제외한 모든 공격으로부터 보호시키며, 데미지를 적에게 반사시키는 최강의 방어 기술\n일부 몬스터는 내성을 가지고 있다</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="12" ss:StyleID="s70">
+    <Cell ss:StyleID="s71"><Data ss:Type="Number">345</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="String">일레이트Lv1</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="Number">1050</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="Number">87</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="Number">24</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="Number">6</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="Number">4</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="Number">4</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="Number">82</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="Number">18</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="Number">100</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="Number">3</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="Number">12</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="Number">5</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="Number">55</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">활력과 마력을 모두 소모하여 방어력으로 치환한 후, &lt;[keeptime]&gt;초 동안 대상의 반응값을 &lt;[abilityvalue1]&gt; 만큼 상승시키는 버프</Data></Cell>
+   </Row>
+   <Row ss:Height="12" ss:StyleID="s76">
+    <Cell ss:StyleID="s84"><Data ss:Type="Number">617</Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="String">리더쉽</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="Number">112</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="Number">6</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="Number">4</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="Number">82</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s74" ss:Formula="=INT(38.94)"><Data ss:Type="Number">38</Data></Cell>
+    <Cell ss:StyleID="s74" ss:Formula="=INT(19.47)"><Data ss:Type="Number">19</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="Number">30</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="Number">100</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="Number">8</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="Number">15</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="Number">900</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="Number">23</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="Number">42</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="String">15분간 자신 반경 &lt;[applyrange]&gt;m 이내의 파티나 유니온 전원의 물리공격력을 &lt;[abilityvalue1]&gt;만큼 높이는 주문</Data></Cell>
+   </Row>
+   <Row ss:Height="12" ss:StyleID="s81">
+    <Cell ss:StyleID="s85"><Data ss:Type="Number">654</Data></Cell>
+    <Cell ss:StyleID="s85"><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:StyleID="s85"><Data ss:Type="String">데이플라이 가드</Data></Cell>
+    <Cell ss:StyleID="s79"><Data ss:Type="Number">181</Data></Cell>
+    <Cell ss:StyleID="s79"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s79"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s79"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s79"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s79"><Data ss:Type="Number">30</Data></Cell>
+    <Cell ss:StyleID="s79"><Data ss:Type="Number">6</Data></Cell>
+    <Cell ss:StyleID="s79"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s79"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s79"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s79"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s79"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s79"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s79"><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:StyleID="s79"><Data ss:Type="Number">12</Data></Cell>
+    <Cell ss:StyleID="s79"><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:StyleID="s79"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s79"><Data ss:Type="Number">4</Data></Cell>
+    <Cell ss:StyleID="s79"><Data ss:Type="Number">83</Data></Cell>
+    <Cell ss:StyleID="s79"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s79"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s79"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s79"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s79"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s79"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s79"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s79"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s79"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s79"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s79"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s79"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s79"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s79"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s79"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s79"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s79" ss:Formula="=INT(168.73)"><Data ss:Type="Number">168</Data></Cell>
+    <Cell ss:StyleID="s79" ss:Formula="=INT(175.91)"><Data ss:Type="Number">175</Data></Cell>
+    <Cell ss:StyleID="s79"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s79"><Data ss:Type="Number">100</Data></Cell>
+    <Cell ss:StyleID="s79"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s79"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s79"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s79"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s79"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s79"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s79"><Data ss:Type="Number">100</Data></Cell>
+    <Cell ss:StyleID="s79"><Data ss:Type="Number">8</Data></Cell>
+    <Cell ss:StyleID="s79"><Data ss:Type="Number">7</Data></Cell>
+    <Cell ss:StyleID="s79"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s79"><Data ss:Type="Number">4</Data></Cell>
+    <Cell ss:StyleID="s79"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s79"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s79"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s79"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s79"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s79"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s79"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s79"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s79"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s79"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s79"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s79"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s79"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s79"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s79"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s79"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s79"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s79"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s79"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s79"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s79"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s79"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s79"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s79"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s79"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s79"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s79"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s79"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s79"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s79"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s79"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s79"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s79"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s79"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s79"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s79"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s79"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s79"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s79"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s79"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s79"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s79"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s79"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s79"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s79"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s79"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s79"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s79"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s79"><Data ss:Type="String">&lt;[keeptime]&gt;초간 반경 &lt;[applyrange]&gt;m 범위 내 파티나 유니온 전원에게 지속적인 피해와 활력, 마력 피해를 제외한 모든 공격으로부터 보호시키며, 데미지를 적에게 반사시키는 최강의 방어 기술\n일부 몬스터는 내성을 가지고 있다</Data></Cell>
+   </Row>
+   <Row ss:Height="12" ss:StyleID="s81">
+    <Cell ss:StyleID="s84"><Data ss:Type="Number">658</Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:StyleID="s87"><Data ss:Type="String">일레이트</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="Number">1050</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="Number">87</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="Number">11</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="Number">6</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="Number">4</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="Number">82</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="Number">100</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="Number">3</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="Number">12</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="Number">5</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="Number">57</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="String">활력과 마력을 모두 소모하여 방어력으로 치환한 후, &lt;[keeptime]&gt;초 동안 대상의 반응값을 &lt;[abilityvalue1]&gt; 만큼 상승시키는 버프</Data></Cell>
+   </Row>
+   <Row ss:Height="12" ss:StyleID="s76">
+    <Cell ss:StyleID="s84"><Data ss:Type="Number">686</Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="String">인켄테이션</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">120</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">65</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">6</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">3</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">4</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">82</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s73" ss:Formula="=INT(865.8)"><Data ss:Type="Number">865</Data></Cell>
+    <Cell ss:StyleID="s73" ss:Formula="=INT(205.4)"><Data ss:Type="Number">205</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">60</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">100</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">8</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">15</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">900</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">9</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">230</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="String">15분간 자신이 속한 파티나 유니온의 행운을 &lt;[abilityvalue1]&gt; 높이는 주문\n자신 중심 반경 &lt;[applyrange]&gt;m 이내의 파티나 유니온 전원에게 혜택을 줄 수 있다</Data></Cell>
+   </Row>
+   <Row ss:Height="12" ss:StyleID="s76">
+    <Cell ss:StyleID="s84"><Data ss:Type="Number">744</Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="String">서포트 스펠</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">117</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">6</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">4</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">82</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s73" ss:Formula="=INT(18.24)"><Data ss:Type="Number">18</Data></Cell>
+    <Cell ss:StyleID="s73" ss:Formula="=INT(66.88)"><Data ss:Type="Number">66</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">60</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">100</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">8</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">10</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">900</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">25</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">30</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">60</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="String">15분간 자신 중심 반경 &lt;[applyrange]&gt;m 이내 파티나 유니온 전원의 마법공격력을 &lt;[abilityvalue1]&gt; 높여주고, 최대 마력을 &lt;[abilityvalue2]&gt; 만큼 높여주는 버프  </Data></Cell>
+   </Row>
+   <Row ss:Height="12" ss:StyleID="s76">
+    <Cell ss:StyleID="s84"><Data ss:Type="Number">767</Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="String">스피릿 스트림</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">1094</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">9</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">6</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">4</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">81</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s73" ss:Formula="=INT(31.8)"><Data ss:Type="Number">31</Data></Cell>
+    <Cell ss:StyleID="s73" ss:Formula="=INT(127.2)"><Data ss:Type="Number">127</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">10</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">24</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">100</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">3</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">60</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">120</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="String">1분 동안  대상의 MP를 주기적으로 &lt;[timeheal3]&gt;만큼  회복한다.</Data></Cell>
+   </Row>
+   <Row ss:Height="12" ss:StyleID="s76">
+    <Cell ss:StyleID="s84"><Data ss:Type="Number">768</Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="String">오오라 오브 피스</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">116</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">7</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">6</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">3</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">4</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">82</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s73" ss:Formula="=INT(91.44)"><Data ss:Type="Number">91</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">24</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">100</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">3</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">1800</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">263</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="String">30분간 대상의 최대 체력을 &lt;[abilityvalue1]&gt; 높여주는 주문</Data></Cell>
+   </Row>
+   <Row ss:Height="12" ss:StyleID="s76">
+    <Cell ss:StyleID="s84"><Data ss:Type="Number">769</Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="String">프레이어</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">123</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">5</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">6</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">5</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">4</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">82</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s73" ss:Formula="=INT(26.25)"><Data ss:Type="Number">26</Data></Cell>
+    <Cell ss:StyleID="s73" ss:Formula="=INT(103.25)"><Data ss:Type="Number">103</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">60</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">100</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">8</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">10</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">600</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">4</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">38</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">5</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">38</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">7</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">38</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="String">&lt;[keeptime]&gt;초간 &lt;[applyrange]&gt;m 내의 파티나 유니온 전원의 근력, 반응, 지혜를 각각 &lt;[abilityvalue1]&gt; 높이도록 기도하는 주문</Data></Cell>
+   </Row>
+   <Row ss:Height="12" ss:StyleID="s76">
+    <Cell ss:StyleID="s84"><Data ss:Type="Number">770</Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="String">막스맨 송</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">121</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">12</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">6</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">4</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">4</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">82</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s73" ss:Formula="=INT(195.22)"><Data ss:Type="Number">195</Data></Cell>
+    <Cell ss:StyleID="s73" ss:Formula="=INT(54.48)"><Data ss:Type="Number">54</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">60</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">100</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">8</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">15</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">900</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">24</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">59</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">27</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">59</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">3</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">150</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="String">15분간&lt;[applyrange]&gt;m 내의 자신이 속한 파티나 유니온의 사격공격력과 사격방어력을 &lt;[abilityvalue1]&gt; 높이고 추가로 최대 활력을 &lt;[abilityvalue3]&gt; 만큼 상승시켜주는 주문</Data></Cell>
+   </Row>
+   <Row ss:Height="12" ss:StyleID="s76">
+    <Cell ss:StyleID="s84"><Data ss:Type="Number">771</Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="String">바디 프로텍터</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">132</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">6</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">5</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">4</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">82</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s73" ss:Formula="=INT(15.86)"><Data ss:Type="Number">15</Data></Cell>
+    <Cell ss:StyleID="s73" ss:Formula="=INT(58.56)"><Data ss:Type="Number">58</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">60</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">100</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">8</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">6</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">480</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">26</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">34</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">29</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="String">8분간 &lt;[applyrange]&gt;m 내의 파티나 유니온 전원의 물리방어력을 &lt;[abilityvalue1]&gt;만큼, 물리공격 회피율을 &lt;[abilityvalue2]&gt;퍼센트 증가시키는 기술</Data></Cell>
+   </Row>
+   <Row ss:Height="12" ss:StyleID="s76">
+    <Cell ss:StyleID="s84"><Data ss:Type="Number">774</Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="String">에테인 블레스</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">185</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">49</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">6</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">5</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">4</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">82</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">10</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">600</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">30</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">100</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">8</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">8</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">120</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">16</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="String">자신의 남은 활력,마력을 모두 소모해 2분간 자신 중심 반경 &lt;[applyrange]&gt;m 의 모든 파티나 유니온들의 공격속도를 증가시킨다.</Data></Cell>
+   </Row>
+   <Row ss:Height="12" ss:StyleID="s76">
+    <Cell ss:StyleID="s90"><Data ss:Type="Number">789</Data></Cell>
+    <Cell ss:StyleID="s90"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s90"><Data ss:Type="String">컴플리트 리스토어</Data></Cell>
+    <Cell ss:StyleID="s88"><Data ss:Type="Number">1070</Data></Cell>
+    <Cell ss:StyleID="s88"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s88"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s88"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s88"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s88"><Data ss:Type="Number">30</Data></Cell>
+    <Cell ss:StyleID="s88"><Data ss:Type="Number">6</Data></Cell>
+    <Cell ss:StyleID="s88"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s88"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s88"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s88"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s88"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s88"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s88"><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:StyleID="s88"><Data ss:Type="Number">3</Data></Cell>
+    <Cell ss:StyleID="s88"><Data ss:Type="Number">3</Data></Cell>
+    <Cell ss:StyleID="s88"><Data ss:Type="Number">3</Data></Cell>
+    <Cell ss:StyleID="s88"><Data ss:Type="Number">4</Data></Cell>
+    <Cell ss:StyleID="s88"><Data ss:Type="Number">81</Data></Cell>
+    <Cell ss:StyleID="s88"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s88"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s88"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s88"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s88"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s88"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s88"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s88"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s88"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s88"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s88"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s88"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s88"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s88"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s88"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s88"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s88" ss:Formula="=INT(49.5)"><Data ss:Type="Number">49</Data></Cell>
+    <Cell ss:StyleID="s88" ss:Formula="=INT(256.5)"><Data ss:Type="Number">256</Data></Cell>
+    <Cell ss:StyleID="s88"><Data ss:Type="Number">6</Data></Cell>
+    <Cell ss:StyleID="s88"><Data ss:Type="Number">11</Data></Cell>
+    <Cell ss:StyleID="s88"><Data ss:Type="Number">27</Data></Cell>
+    <Cell ss:StyleID="s88"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s88"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s88"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s88"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s88"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s88"><Data ss:Type="Number">100</Data></Cell>
+    <Cell ss:StyleID="s88"><Data ss:Type="Number">3</Data></Cell>
+    <Cell ss:StyleID="s88"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s88"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s88"><Data ss:Type="Number">10</Data></Cell>
+    <Cell ss:StyleID="s88"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s88"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s88"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s88"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s88"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s88"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s88"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s88"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s88"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s88"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s88"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s88"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s88"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s88"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s88"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s88"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s88"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s88"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s88"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s88"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s88"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s88"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s88"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s88"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s88"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s88"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s88"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s88"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s88"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s88"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s88"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s88"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s88"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s88"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s88"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s88"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s88"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s88"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s88"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s88"><Data ss:Type="Number">255</Data></Cell>
+    <Cell ss:StyleID="s88"><Data ss:Type="Number">144</Data></Cell>
+    <Cell ss:StyleID="s88"><Data ss:Type="Number">144</Data></Cell>
+    <Cell ss:StyleID="s88"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s88"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s88"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s88"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s88"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s88"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s88"><Data ss:Type="String">&lt;[keeptime]&gt;초 동안 매 주기 마다 선택 대상의 체력을 &lt;[timeheal1]&gt;만큼, 활력/마력을 각각 &lt;[timeheal2]&gt;만큼 지속적으로 회복시키는 마법.</Data></Cell>
+   </Row>
+   <Row ss:Height="12" ss:StyleID="s76">
+    <Cell ss:StyleID="s91"><Data ss:Type="Number">790</Data></Cell>
+    <Cell ss:StyleID="s91"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s91"><Data ss:Type="String">파티 리스토어</Data></Cell>
+    <Cell ss:StyleID="s89"><Data ss:Type="Number">124</Data></Cell>
+    <Cell ss:StyleID="s89"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s89"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s89"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s89"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s89"><Data ss:Type="Number">32</Data></Cell>
+    <Cell ss:StyleID="s89"><Data ss:Type="Number">6</Data></Cell>
+    <Cell ss:StyleID="s89"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s89"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s89"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s89"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s89"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s89"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s89"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s89"><Data ss:Type="Number">4</Data></Cell>
+    <Cell ss:StyleID="s89"><Data ss:Type="Number">4</Data></Cell>
+    <Cell ss:StyleID="s89"><Data ss:Type="Number">3</Data></Cell>
+    <Cell ss:StyleID="s89"><Data ss:Type="Number">4</Data></Cell>
+    <Cell ss:StyleID="s89"><Data ss:Type="Number">81</Data></Cell>
+    <Cell ss:StyleID="s89"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s89"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s89"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s89"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s89"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s89"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s89"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s89"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s89"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s89"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s89"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s89"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s89"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s89"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s89"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s89"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s89"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s89" ss:Formula="=INT(408.6)"><Data ss:Type="Number">408</Data></Cell>
+    <Cell ss:StyleID="s89"><Data ss:Type="Number">6</Data></Cell>
+    <Cell ss:StyleID="s89"><Data ss:Type="Number">9</Data></Cell>
+    <Cell ss:StyleID="s89"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s89"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s89"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s89"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s89"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s89"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s89"><Data ss:Type="Number">100</Data></Cell>
+    <Cell ss:StyleID="s89"><Data ss:Type="Number">4</Data></Cell>
+    <Cell ss:StyleID="s89"><Data ss:Type="Number">11</Data></Cell>
+    <Cell ss:StyleID="s89"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s89"><Data ss:Type="Number">12</Data></Cell>
+    <Cell ss:StyleID="s89"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s89"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s89"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s89"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s89"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s89"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s89"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s89"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s89"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s89"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s89"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s89"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s89"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s89"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s89"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s89"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s89"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s89"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s89"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s89"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s89"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s89"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s89"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s89"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s89"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s89"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s89"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s89"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s89"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s89"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s89"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s89"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s89"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s89"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s89"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s89"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s89"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s89"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s89"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s89"><Data ss:Type="Number">460</Data></Cell>
+    <Cell ss:StyleID="s89"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s89"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s89"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s89"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s89"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s89"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s89"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s89"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s89"><Data ss:Type="String">자신 반경 &lt;[applyrange]&gt;m 이내의 파티원 전원의 체력을 &lt;[keeptime]&gt;초 동안 매 주기 마다 &lt;[timeheal1]&gt;씩 지속적으로 회복시키는 마법</Data></Cell>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <PageSetup>
+    <Header x:Margin="0.3"/>
+    <Footer x:Margin="0.3"/>
+    <PageMargins x:Bottom="0.75" x:Left="0.7" x:Right="0.7" x:Top="0.75"/>
+   </PageSetup>
+   <Unsynced/>
+   <Print>
+    <ValidPrinterInfo/>
+    <PaperSizeIndex>9</PaperSizeIndex>
+    <HorizontalResolution>600</HorizontalResolution>
+    <VerticalResolution>600</VerticalResolution>
+   </Print>
+   <Selected/>
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+     <ActiveRow>19</ActiveRow>
+     <ActiveCol>5</ActiveCol>
+    </Pane>
+   </Panes>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+ <Worksheet ss:Name="Sheet2">
+  <Table ss:ExpandedColumnCount="1" ss:ExpandedRowCount="1" x:FullColumns="1"
+   x:FullRows="1" ss:DefaultColumnWidth="54" ss:DefaultRowHeight="16.5">
+   <Row ss:AutoFitHeight="0"/>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <PageSetup>
+    <Header x:Margin="0.3"/>
+    <Footer x:Margin="0.3"/>
+    <PageMargins x:Bottom="0.75" x:Left="0.7" x:Right="0.7" x:Top="0.75"/>
+   </PageSetup>
+   <Unsynced/>
+   <TopRowVisible>155</TopRowVisible>
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+     <ActiveRow>155</ActiveRow>
+     <RangeSelection>R1:R1048576</RangeSelection>
+    </Pane>
+   </Panes>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+ <Worksheet ss:Name="Sheet3">
+  <Table ss:ExpandedColumnCount="1" ss:ExpandedRowCount="1" x:FullColumns="1"
+   x:FullRows="1" ss:DefaultColumnWidth="54" ss:DefaultRowHeight="16.5">
+   <Row ss:AutoFitHeight="0"/>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <PageSetup>
+    <Header x:Margin="0.3"/>
+    <Footer x:Margin="0.3"/>
+    <PageMargins x:Bottom="0.75" x:Left="0.7" x:Right="0.7" x:Top="0.75"/>
+   </PageSetup>
+   <Unsynced/>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+</Workbook>

@@ -1,0 +1,1447 @@
+<?xml version="1.0"?>
+<?mso-application progid="Excel.Sheet"?>
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:o="urn:schemas-microsoft-com:office:office"
+ xmlns:x="urn:schemas-microsoft-com:office:excel"
+ xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:html="http://www.w3.org/TR/REC-html40">
+ <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+  <Author>정영민 </Author>
+  <LastAuthor>최승현 [xiahah18]</LastAuthor>
+  <Created>2013-06-20T05:42:09Z</Created>
+  <LastSaved>2014-10-16T00:08:13Z</LastSaved>
+  <Version>14.00</Version>
+ </DocumentProperties>
+ <OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office">
+  <AllowPNG/>
+ </OfficeDocumentSettings>
+ <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
+  <WindowHeight>11115</WindowHeight>
+  <WindowWidth>24825</WindowWidth>
+  <WindowTopX>540</WindowTopX>
+  <WindowTopY>150</WindowTopY>
+  <ProtectStructure>False</ProtectStructure>
+  <ProtectWindows>False</ProtectWindows>
+ </ExcelWorkbook>
+ <Styles>
+  <Style ss:ID="Default" ss:Name="Normal">
+   <Alignment ss:Vertical="Center"/>
+   <Borders/>
+   <Font ss:FontName="맑은 고딕" x:CharSet="129" x:Family="Modern" ss:Size="11"
+    ss:Color="#000000"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s62">
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#BFBFBF"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#BFBFBF"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#BFBFBF"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#BFBFBF"/>
+   </Borders>
+   <Interior ss:Color="#FFFFFF" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s63">
+   <Alignment ss:Horizontal="Left" ss:Vertical="Center"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#BFBFBF"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#BFBFBF"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#BFBFBF"/>
+   </Borders>
+   <Interior ss:Color="#FFFFFF" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s64">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#BFBFBF"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#BFBFBF"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#BFBFBF"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#BFBFBF"/>
+   </Borders>
+   <Interior ss:Color="#FFFFFF" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s65">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#BFBFBF"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#BFBFBF"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#BFBFBF"/>
+   </Borders>
+   <Interior ss:Color="#FFFFFF" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s66">
+   <Alignment ss:Horizontal="Left" ss:Vertical="Center"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#BFBFBF"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#BFBFBF"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#BFBFBF"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#BFBFBF"/>
+   </Borders>
+   <Interior ss:Color="#FFFFFF" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s67">
+   <Alignment ss:Vertical="Center"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#BFBFBF"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#BFBFBF"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#BFBFBF"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#BFBFBF"/>
+   </Borders>
+   <Interior ss:Color="#FFFFFF" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s69">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#BFBFBF"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#BFBFBF"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#BFBFBF"/>
+   </Borders>
+   <Interior ss:Color="#FFFFFF" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s70">
+   <Alignment ss:Vertical="Center"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#BFBFBF"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#BFBFBF"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#BFBFBF"/>
+   </Borders>
+   <Interior ss:Color="#FFFFFF" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s71">
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#BFBFBF"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#BFBFBF"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#BFBFBF"/>
+   </Borders>
+   <Interior ss:Color="#FFFFFF" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s72">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#BFBFBF"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#BFBFBF"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#BFBFBF"/>
+   </Borders>
+   <Font ss:FontName="맑은 고딕" x:CharSet="129" x:Family="Modern" ss:Size="11"
+    ss:Color="#000000" ss:Bold="1"/>
+   <Interior ss:Color="#FFFFFF" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s73">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#BFBFBF"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#BFBFBF"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#BFBFBF"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#BFBFBF"/>
+   </Borders>
+   <Font ss:FontName="맑은 고딕" x:CharSet="129" x:Family="Modern" ss:Size="11"
+    ss:Color="#000000" ss:Bold="1"/>
+   <Interior ss:Color="#FFFFFF" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s74">
+   <Alignment ss:Horizontal="Left" ss:Vertical="Center"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#BFBFBF"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#BFBFBF"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#BFBFBF"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#BFBFBF"/>
+   </Borders>
+   <Interior/>
+  </Style>
+  <Style ss:ID="s75">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center"/>
+   <Borders>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#BFBFBF"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#BFBFBF"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#BFBFBF"/>
+   </Borders>
+   <Font ss:FontName="맑은 고딕" x:CharSet="129" x:Family="Modern" ss:Size="11"
+    ss:Color="#000000" ss:Bold="1"/>
+   <Interior ss:Color="#C4D79B" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s76">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#BFBFBF"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#BFBFBF"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#BFBFBF"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#BFBFBF"/>
+   </Borders>
+   <Font ss:FontName="맑은 고딕" x:CharSet="129" x:Family="Modern" ss:Size="11"
+    ss:Color="#000000" ss:Bold="1"/>
+   <Interior ss:Color="#C4D79B" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s77">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#BFBFBF"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#BFBFBF"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#BFBFBF"/>
+   </Borders>
+   <Interior ss:Color="#EBF1DE" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s78">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#BFBFBF"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#BFBFBF"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#BFBFBF"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#BFBFBF"/>
+   </Borders>
+   <Interior ss:Color="#EBF1DE" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s79">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#BFBFBF"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#BFBFBF"/>
+   </Borders>
+   <Interior ss:Color="#FAFAFA" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s80">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#BFBFBF"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#BFBFBF"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#BFBFBF"/>
+   </Borders>
+   <Interior ss:Color="#000000" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s81">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#BFBFBF"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#BFBFBF"/>
+   </Borders>
+   <Interior ss:Color="#EBF1DE" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s82">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#BFBFBF"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#BFBFBF"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#BFBFBF"/>
+   </Borders>
+   <Interior ss:Color="#EBF1DE" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s83">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#BFBFBF"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#BFBFBF"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#BFBFBF"/>
+   </Borders>
+   <Interior ss:Color="#FAFAFA" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s84">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#BFBFBF"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#BFBFBF"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#BFBFBF"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#BFBFBF"/>
+   </Borders>
+   <Interior ss:Color="#000000" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s85">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#BFBFBF"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#BFBFBF"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#BFBFBF"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#BFBFBF"/>
+   </Borders>
+   <Interior ss:Color="#393939" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s86">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#BFBFBF"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#BFBFBF"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#BFBFBF"/>
+   </Borders>
+   <Interior ss:Color="#FFFF00" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s87">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#BFBFBF"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#BFBFBF"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#BFBFBF"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#BFBFBF"/>
+   </Borders>
+   <Interior ss:Color="#FFFF00" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s88">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#BFBFBF"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#BFBFBF"/>
+   </Borders>
+   <Interior ss:Color="#FFFFFF" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s89">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#BFBFBF"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#BFBFBF"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#BFBFBF"/>
+   </Borders>
+   <Interior ss:Color="#FFEB3E" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s90">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#BFBFBF"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#BFBFBF"/>
+   </Borders>
+   <Interior ss:Color="#FFFF00" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s91">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#BFBFBF"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#BFBFBF"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#BFBFBF"/>
+   </Borders>
+   <Interior ss:Color="#FFFF00" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s92">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#BFBFBF"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#BFBFBF"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#BFBFBF"/>
+   </Borders>
+   <Interior ss:Color="#3EE6FF" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s93">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center"/>
+   <Borders>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#BFBFBF"/>
+   </Borders>
+   <Interior ss:Color="#FFFFFF" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s94">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center"/>
+   <Borders>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#BFBFBF"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#BFBFBF"/>
+   </Borders>
+   <Interior ss:Color="#FFFFFF" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s95">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center"/>
+   <Borders>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#BFBFBF"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#BFBFBF"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#BFBFBF"/>
+   </Borders>
+   <Interior ss:Color="#FFFFFF" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s96">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#BFBFBF"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#BFBFBF"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#BFBFBF"/>
+   </Borders>
+   <Interior ss:Color="#FFFFFF" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s97">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#BFBFBF"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#BFBFBF"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#BFBFBF"/>
+   </Borders>
+   <Interior ss:Color="#FDE9D9" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s98">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#BFBFBF"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#BFBFBF"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#BFBFBF"/>
+   </Borders>
+   <Interior ss:Color="#FDE9D9" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s99">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#BFBFBF"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#BFBFBF"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#BFBFBF"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#BFBFBF"/>
+   </Borders>
+   <Interior ss:Color="#FDE9D9" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s100">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#BFBFBF"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#BFBFBF"/>
+   </Borders>
+   <Interior ss:Color="#FDE9D9" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s101">
+   <Alignment ss:Vertical="Center"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#BFBFBF"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#BFBFBF"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#BFBFBF"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#BFBFBF"/>
+   </Borders>
+   <Interior ss:Color="#000000" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s102">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#BFBFBF"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#BFBFBF"/>
+   </Borders>
+   <Interior ss:Color="#FDE9D9" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s103">
+   <Alignment ss:Horizontal="Left" ss:Vertical="Center"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#BFBFBF"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#BFBFBF"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#BFBFBF"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#BFBFBF"/>
+   </Borders>
+   <Interior ss:Color="#FDEEA7" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s104">
+   <Alignment ss:Horizontal="Left" ss:Vertical="Center"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#BFBFBF"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#BFBFBF"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#BFBFBF"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#BFBFBF"/>
+   </Borders>
+   <Interior ss:Color="#A6A59E" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s105">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#BFBFBF"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#BFBFBF"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#BFBFBF"/>
+   </Borders>
+   <Interior ss:Color="#FDE9D9" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s106">
+   <Alignment ss:Horizontal="Left" ss:Vertical="Center"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#BFBFBF"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#BFBFBF"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#BFBFBF"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#BFBFBF"/>
+   </Borders>
+   <Interior ss:Color="#93918C" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s107">
+   <Alignment ss:Horizontal="Left" ss:Vertical="Center"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#BFBFBF"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#BFBFBF"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#BFBFBF"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#BFBFBF"/>
+   </Borders>
+   <Font ss:FontName="맑은 고딕" x:CharSet="129" x:Family="Modern" ss:Size="11"
+    ss:Color="#C0C0C0"/>
+   <Interior ss:Color="#D7D7CD" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s108">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#BFBFBF"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#BFBFBF"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#BFBFBF"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#BFBFBF"/>
+   </Borders>
+   <Interior ss:Color="#0F0F0F" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s109">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#BFBFBF"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#BFBFBF"/>
+   </Borders>
+   <Interior ss:Color="#D8E4BC" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s110">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#BFBFBF"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#BFBFBF"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#BFBFBF"/>
+   </Borders>
+   <Interior ss:Color="#D8E4BC" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s111">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#BFBFBF"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#BFBFBF"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#BFBFBF"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#BFBFBF"/>
+   </Borders>
+   <Interior ss:Color="#D8E4BC" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s112">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#BFBFBF"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#BFBFBF"/>
+   </Borders>
+   <Interior ss:Color="#D8E4BC" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s113">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#BFBFBF"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#BFBFBF"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#BFBFBF"/>
+   </Borders>
+   <Interior ss:Color="#D8E4BC" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s114">
+   <Borders/>
+  </Style>
+ </Styles>
+ <Worksheet ss:Name="폰트 스타일 정리">
+  <Table ss:ExpandedColumnCount="34" ss:ExpandedRowCount="31" x:FullColumns="1"
+   x:FullRows="1" ss:StyleID="s62" ss:DefaultColumnWidth="54"
+   ss:DefaultRowHeight="16.5">
+   <Column ss:StyleID="s63" ss:Width="71.25"/>
+   <Column ss:StyleID="s64" ss:Width="59.25"/>
+   <Column ss:StyleID="s64" ss:Width="74.25"/>
+   <Column ss:StyleID="s64" ss:Width="62.25"/>
+   <Column ss:StyleID="s64" ss:Width="71.25"/>
+   <Column ss:StyleID="s64" ss:Width="82.5" ss:Span="1"/>
+   <Column ss:Index="8" ss:StyleID="s65" ss:Width="82.5"/>
+   <Column ss:StyleID="s64" ss:Width="128.25" ss:Span="2"/>
+   <Column ss:Index="12" ss:StyleID="s66" ss:Width="153"/>
+   <Column ss:StyleID="s67" ss:Width="153"/>
+   <Column ss:StyleID="s67" ss:AutoFitWidth="0" ss:Width="236.25"/>
+   <Column ss:StyleID="s67" ss:AutoFitWidth="0" ss:Span="19"/>
+   <Row ss:AutoFitHeight="0" ss:Height="17.25" ss:StyleID="s71">
+    <Cell ss:StyleID="s72"><Data ss:Type="String">폰트 인덱스</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="String">폰트 크기</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="String">폰트두께</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="String">폰트정렬</Data><Comment
+      ss:Author="박문수 "><ss:Data xmlns="http://www.w3.org/TR/REC-html40"><B><Font
+         html:Face="돋움" x:CharSet="129" x:Family="Modern" html:Size="9"
+         html:Color="#000000">박문수</Font><Font html:Face="Tahoma" x:CharSet="129"
+         x:Family="Swiss" html:Size="9" html:Color="#000000"> :</Font></B><Font
+        html:Face="Tahoma" x:CharSet="129" x:Family="Swiss" html:Size="9"
+        html:Color="#000000">&#10;1</Font><Font html:Face="돋움" x:CharSet="129"
+        x:Family="Modern" html:Size="9" html:Color="#000000">은</Font><Font
+        html:Face="Tahoma" x:CharSet="129" x:Family="Swiss" html:Size="9"
+        html:Color="#000000"> </Font><Font html:Face="돋움" x:CharSet="129"
+        x:Family="Modern" html:Size="9" html:Color="#000000">왼쪽정렬&#10;</Font><Font
+        html:Face="Tahoma" x:CharSet="129" x:Family="Swiss" html:Size="9"
+        html:Color="#000000">2</Font><Font html:Face="돋움" x:CharSet="129"
+        x:Family="Modern" html:Size="9" html:Color="#000000">는</Font><Font
+        html:Face="Tahoma" x:CharSet="129" x:Family="Swiss" html:Size="9"
+        html:Color="#000000"> </Font><Font html:Face="돋움" x:CharSet="129"
+        x:Family="Modern" html:Size="9" html:Color="#000000">오른쪽</Font><Font
+        html:Face="Tahoma" x:CharSet="129" x:Family="Swiss" html:Size="9"
+        html:Color="#000000"> </Font><Font html:Face="돋움" x:CharSet="129"
+        x:Family="Modern" html:Size="9" html:Color="#000000">정렬&#10;</Font><Font
+        html:Face="Tahoma" x:CharSet="129" x:Family="Swiss" html:Size="9"
+        html:Color="#000000">3</Font><Font html:Face="돋움" x:CharSet="129"
+        x:Family="Modern" html:Size="9" html:Color="#000000">는</Font><Font
+        html:Face="Tahoma" x:CharSet="129" x:Family="Swiss" html:Size="9"
+        html:Color="#000000"> </Font><Font html:Face="돋움" x:CharSet="129"
+        x:Family="Modern" html:Size="9" html:Color="#000000">가운데</Font><Font
+        html:Face="Tahoma" x:CharSet="129" x:Family="Swiss" html:Size="9"
+        html:Color="#000000"> </Font><Font html:Face="돋움" x:CharSet="129"
+        x:Family="Modern" html:Size="9" html:Color="#000000">정렬</Font></ss:Data></Comment></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="String">폰트 테두리</Data><Comment
+      ss:Author="박문수 "><ss:Data xmlns="http://www.w3.org/TR/REC-html40"><B><Font
+         html:Face="돋움" x:CharSet="129" x:Family="Modern" html:Size="9"
+         html:Color="#000000">박문수</Font><Font html:Face="Tahoma" x:CharSet="129"
+         x:Family="Swiss" html:Size="9" html:Color="#000000"> :</Font></B><Font
+        html:Face="Tahoma" x:CharSet="129" x:Family="Swiss" html:Size="9"
+        html:Color="#000000">&#10;0</Font><Font html:Face="돋움" x:CharSet="129"
+        x:Family="Modern" html:Size="9" html:Color="#000000">은</Font><Font
+        html:Face="Tahoma" x:CharSet="129" x:Family="Swiss" html:Size="9"
+        html:Color="#000000"> </Font><Font html:Face="돋움" x:CharSet="129"
+        x:Family="Modern" html:Size="9" html:Color="#000000">일반&#10;</Font><Font
+        html:Face="Tahoma" x:CharSet="129" x:Family="Swiss" html:Size="9"
+        html:Color="#000000">1</Font><Font html:Face="돋움" x:CharSet="129"
+        x:Family="Modern" html:Size="9" html:Color="#000000">은</Font><Font
+        html:Face="Tahoma" x:CharSet="129" x:Family="Swiss" html:Size="9"
+        html:Color="#000000"> </Font><Font html:Face="돋움" x:CharSet="129"
+        x:Family="Modern" html:Size="9" html:Color="#000000">테두리</Font><Font
+        html:Face="Tahoma" x:CharSet="129" x:Family="Swiss" html:Size="9"
+        html:Color="#000000"> </Font><Font html:Face="돋움" x:CharSet="129"
+        x:Family="Modern" html:Size="9" html:Color="#000000">있음</Font></ss:Data></Comment></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="String">글자색(~255)</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="String">글자색(~255)</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="String">글자색(~255)</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="String">글자 테두리 색(~255)</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="String">글자 테두리 색(~255)</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="String">글자 테두리 색(~255)</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="String">게임에 사용되지 않는 정보</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="String">게임에 사용되지 않는 정보</Data></Cell>
+    <Cell ss:StyleID="s70"/>
+    <Cell ss:StyleID="s70"/>
+    <Cell ss:StyleID="s70"/>
+    <Cell ss:StyleID="s70"/>
+    <Cell ss:StyleID="s70"/>
+    <Cell ss:StyleID="s70"/>
+    <Cell ss:StyleID="s70"/>
+    <Cell ss:StyleID="s70"/>
+    <Cell ss:StyleID="s70"/>
+    <Cell ss:StyleID="s70"/>
+    <Cell ss:StyleID="s70"/>
+    <Cell ss:StyleID="s70"/>
+    <Cell ss:StyleID="s70"/>
+    <Cell ss:StyleID="s70"/>
+    <Cell ss:StyleID="s70"/>
+    <Cell ss:StyleID="s70"/>
+    <Cell ss:StyleID="s70"/>
+    <Cell ss:StyleID="s70"/>
+    <Cell ss:StyleID="s70"/>
+    <Cell ss:StyleID="s70"/>
+    <Cell ss:StyleID="s70"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="17.25" ss:StyleID="s71">
+    <Cell ss:StyleID="s75"><Data ss:Type="String">Index</Data></Cell>
+    <Cell ss:StyleID="s75"><Data ss:Type="String">FontSize</Data></Cell>
+    <Cell ss:StyleID="s75"><Data ss:Type="String">FontWeight</Data></Cell>
+    <Cell ss:StyleID="s75"><Data ss:Type="String">FontAlign</Data></Cell>
+    <Cell ss:StyleID="s75"><Data ss:Type="String">FontStroke</Data></Cell>
+    <Cell ss:StyleID="s75"><Data ss:Type="String">TextColor_R</Data></Cell>
+    <Cell ss:StyleID="s75"><Data ss:Type="String">TextColor_G</Data></Cell>
+    <Cell ss:StyleID="s75"><Data ss:Type="String">TextColor_B</Data></Cell>
+    <Cell ss:StyleID="s75"><Data ss:Type="String">TextStrokeColor_R</Data></Cell>
+    <Cell ss:StyleID="s75"><Data ss:Type="String">TextStrokeColor_G</Data></Cell>
+    <Cell ss:StyleID="s75"><Data ss:Type="String">TextStrokeColor_B</Data></Cell>
+    <Cell ss:StyleID="s76"><Data ss:Type="String">글자색</Data></Cell>
+    <Cell ss:StyleID="s76"><Data ss:Type="String">테두리색</Data></Cell>
+    <Cell ss:StyleID="s70"/>
+    <Cell ss:StyleID="s70"/>
+    <Cell ss:StyleID="s70"/>
+    <Cell ss:StyleID="s70"/>
+    <Cell ss:StyleID="s70"/>
+    <Cell ss:StyleID="s70"/>
+    <Cell ss:StyleID="s70"/>
+    <Cell ss:StyleID="s70"/>
+    <Cell ss:StyleID="s70"/>
+    <Cell ss:StyleID="s70"/>
+    <Cell ss:StyleID="s70"/>
+    <Cell ss:StyleID="s70"/>
+    <Cell ss:StyleID="s70"/>
+    <Cell ss:StyleID="s70"/>
+    <Cell ss:StyleID="s70"/>
+    <Cell ss:StyleID="s70"/>
+    <Cell ss:StyleID="s70"/>
+    <Cell ss:StyleID="s70"/>
+    <Cell ss:StyleID="s70"/>
+    <Cell ss:StyleID="s70"/>
+    <Cell ss:StyleID="s70"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="17.25" ss:StyleID="s71">
+    <Cell ss:StyleID="s77"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s78"><Data ss:Type="Number">14</Data></Cell>
+    <Cell ss:StyleID="s78"><Data ss:Type="Number">480</Data></Cell>
+    <Cell ss:StyleID="s78"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s78"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s78"><Data ss:Type="Number">250</Data></Cell>
+    <Cell ss:StyleID="s78"><Data ss:Type="Number">250</Data></Cell>
+    <Cell ss:StyleID="s78"><Data ss:Type="Number">250</Data></Cell>
+    <Cell ss:StyleID="s78"/>
+    <Cell ss:StyleID="s78"/>
+    <Cell ss:StyleID="s78"/>
+    <Cell ss:StyleID="s79"/>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">x</Data></Cell>
+    <Cell ss:StyleID="s70"/>
+    <Cell ss:StyleID="s70"/>
+    <Cell ss:StyleID="s70"/>
+    <Cell ss:StyleID="s70"/>
+    <Cell ss:StyleID="s70"/>
+    <Cell ss:StyleID="s70"/>
+    <Cell ss:StyleID="s70"/>
+    <Cell ss:StyleID="s70"/>
+    <Cell ss:StyleID="s70"/>
+    <Cell ss:StyleID="s70"/>
+    <Cell ss:StyleID="s70"/>
+    <Cell ss:StyleID="s70"/>
+    <Cell ss:StyleID="s70"/>
+    <Cell ss:StyleID="s70"/>
+    <Cell ss:StyleID="s70"/>
+    <Cell ss:StyleID="s70"/>
+    <Cell ss:StyleID="s70"/>
+    <Cell ss:StyleID="s70"/>
+    <Cell ss:StyleID="s70"/>
+    <Cell ss:StyleID="s70"/>
+    <Cell ss:StyleID="s70"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s81"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="Number">14</Data></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="Number">480</Data></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="Number">250</Data></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="Number">250</Data></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="Number">250</Data></Cell>
+    <Cell ss:StyleID="s78"/>
+    <Cell ss:StyleID="s78"/>
+    <Cell ss:StyleID="s78"/>
+    <Cell ss:StyleID="s83"/>
+    <Cell ss:StyleID="s84"><Data ss:Type="String">x</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s81"><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="Number">14</Data></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="Number">480</Data></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="Number">3</Data></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="Number">250</Data></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="Number">250</Data></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="Number">250</Data></Cell>
+    <Cell ss:StyleID="s78"/>
+    <Cell ss:StyleID="s78"/>
+    <Cell ss:StyleID="s78"/>
+    <Cell ss:StyleID="s83"/>
+    <Cell ss:StyleID="s84"><Data ss:Type="String">x</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s81"><Data ss:Type="Number">3</Data></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="Number">14</Data></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="Number">480</Data></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="Number">250</Data></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="Number">250</Data></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="Number">250</Data></Cell>
+    <Cell ss:StyleID="s78"><Data ss:Type="Number">57</Data></Cell>
+    <Cell ss:StyleID="s78"><Data ss:Type="Number">57</Data></Cell>
+    <Cell ss:StyleID="s78"><Data ss:Type="Number">57</Data></Cell>
+    <Cell ss:StyleID="s83"/>
+    <Cell ss:StyleID="s85"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s81"><Data ss:Type="Number">4</Data></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="Number">14</Data></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="Number">480</Data></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="Number">250</Data></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="Number">250</Data></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="Number">250</Data></Cell>
+    <Cell ss:StyleID="s78"><Data ss:Type="Number">57</Data></Cell>
+    <Cell ss:StyleID="s78"><Data ss:Type="Number">57</Data></Cell>
+    <Cell ss:StyleID="s78"><Data ss:Type="Number">57</Data></Cell>
+    <Cell ss:StyleID="s83"/>
+    <Cell ss:StyleID="s85"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s86"><Data ss:Type="Number">5</Data></Cell>
+    <Cell ss:StyleID="s87"><Data ss:Type="Number">17</Data></Cell>
+    <Cell ss:StyleID="s87"><Data ss:Type="Number">480</Data></Cell>
+    <Cell ss:StyleID="s78"><Data ss:Type="Number">3</Data></Cell>
+    <Cell ss:StyleID="s78"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s78"><Data ss:Type="Number">250</Data></Cell>
+    <Cell ss:StyleID="s78"><Data ss:Type="Number">250</Data></Cell>
+    <Cell ss:StyleID="s78"><Data ss:Type="Number">250</Data></Cell>
+    <Cell ss:StyleID="s78"><Data ss:Type="Number">57</Data></Cell>
+    <Cell ss:StyleID="s78"><Data ss:Type="Number">57</Data></Cell>
+    <Cell ss:StyleID="s78"><Data ss:Type="Number">57</Data></Cell>
+    <Cell ss:StyleID="s83"/>
+    <Cell ss:StyleID="s85"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s88"><Data ss:Type="Number">6</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">14</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">480</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">255</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">235</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">62</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">57</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">57</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">57</Data></Cell>
+    <Cell ss:StyleID="s89"/>
+    <Cell ss:StyleID="s85"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s88"><Data ss:Type="Number">7</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">14</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">480</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">255</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">235</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">62</Data></Cell>
+    <Cell><Data ss:Type="Number">57</Data></Cell>
+    <Cell><Data ss:Type="Number">57</Data></Cell>
+    <Cell><Data ss:Type="Number">57</Data></Cell>
+    <Cell ss:StyleID="s89"/>
+    <Cell ss:StyleID="s85"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="17.25">
+    <Cell ss:StyleID="s90"><Data ss:Type="Number">8</Data></Cell>
+    <Cell ss:StyleID="s91"><Data ss:Type="Number">17</Data></Cell>
+    <Cell ss:StyleID="s91"><Data ss:Type="Number">480</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">3</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">255</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">235</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">62</Data></Cell>
+    <Cell><Data ss:Type="Number">57</Data></Cell>
+    <Cell><Data ss:Type="Number">57</Data></Cell>
+    <Cell><Data ss:Type="Number">57</Data></Cell>
+    <Cell ss:StyleID="s89"/>
+    <Cell ss:StyleID="s85"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s88"><Data ss:Type="Number">9</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">14</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">480</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">62</Data></Cell>
+    <Cell><Data ss:Type="Number">230</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">255</Data></Cell>
+    <Cell><Data ss:Type="Number">57</Data></Cell>
+    <Cell><Data ss:Type="Number">57</Data></Cell>
+    <Cell><Data ss:Type="Number">57</Data></Cell>
+    <Cell ss:StyleID="s92"/>
+    <Cell ss:StyleID="s85"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s88"><Data ss:Type="Number">10</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">14</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">480</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">62</Data></Cell>
+    <Cell><Data ss:Type="Number">230</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">255</Data></Cell>
+    <Cell><Data ss:Type="Number">57</Data></Cell>
+    <Cell><Data ss:Type="Number">57</Data></Cell>
+    <Cell><Data ss:Type="Number">57</Data></Cell>
+    <Cell ss:StyleID="s92"/>
+    <Cell ss:StyleID="s85"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s93"><Data ss:Type="Number">11</Data></Cell>
+    <Cell ss:StyleID="s94"><Data ss:Type="Number">14</Data></Cell>
+    <Cell ss:StyleID="s94"><Data ss:Type="Number">480</Data></Cell>
+    <Cell ss:StyleID="s94"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s94"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s95"><Data ss:Type="Number">62</Data></Cell>
+    <Cell ss:StyleID="s95"><Data ss:Type="Number">230</Data></Cell>
+    <Cell ss:StyleID="s95"><Data ss:Type="Number">255</Data></Cell>
+    <Cell ss:StyleID="s95"><Data ss:Type="Number">57</Data></Cell>
+    <Cell ss:StyleID="s95"><Data ss:Type="Number">57</Data></Cell>
+    <Cell ss:StyleID="s95"><Data ss:Type="Number">57</Data></Cell>
+    <Cell ss:StyleID="s92"/>
+    <Cell ss:StyleID="s85"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s96"><Data ss:Type="Number">12</Data></Cell>
+    <Cell><Data ss:Type="Number">15</Data></Cell>
+    <Cell><Data ss:Type="Number">530</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">250</Data></Cell>
+    <Cell><Data ss:Type="Number">250</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">250</Data></Cell>
+    <Cell ss:Index="12" ss:StyleID="s79"/>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">x</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s88"><Data ss:Type="Number">13</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">15</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">530</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">250</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">250</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">250</Data></Cell>
+    <Cell ss:Index="12" ss:StyleID="s83"/>
+    <Cell ss:StyleID="s84"><Data ss:Type="String">x</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s88"><Data ss:Type="Number">14</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">15</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">530</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">3</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">250</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">250</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">250</Data></Cell>
+    <Cell ss:Index="12" ss:StyleID="s83"/>
+    <Cell ss:StyleID="s84"><Data ss:Type="String">x</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s88"><Data ss:Type="Number">15</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">15</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">530</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">250</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">250</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">250</Data></Cell>
+    <Cell><Data ss:Type="Number">57</Data></Cell>
+    <Cell><Data ss:Type="Number">57</Data></Cell>
+    <Cell><Data ss:Type="Number">57</Data></Cell>
+    <Cell ss:StyleID="s83"/>
+    <Cell ss:StyleID="s85"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s88"><Data ss:Type="Number">16</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">15</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">530</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">250</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">250</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">250</Data></Cell>
+    <Cell><Data ss:Type="Number">57</Data></Cell>
+    <Cell><Data ss:Type="Number">57</Data></Cell>
+    <Cell><Data ss:Type="Number">57</Data></Cell>
+    <Cell ss:StyleID="s83"/>
+    <Cell ss:StyleID="s85"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s88"><Data ss:Type="Number">17</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">15</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">530</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">3</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">250</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">250</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">250</Data></Cell>
+    <Cell><Data ss:Type="Number">57</Data></Cell>
+    <Cell><Data ss:Type="Number">57</Data></Cell>
+    <Cell><Data ss:Type="Number">57</Data></Cell>
+    <Cell ss:StyleID="s83"/>
+    <Cell ss:StyleID="s85"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s97"><Data ss:Type="Number">18</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="Number">15</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="Number">480</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="Number">3</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s99"><Data ss:Type="Number">255</Data></Cell>
+    <Cell ss:StyleID="s99"><Data ss:Type="Number">255</Data></Cell>
+    <Cell ss:StyleID="s99"><Data ss:Type="Number">255</Data></Cell>
+    <Cell ss:StyleID="s100"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s99"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s99"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:Index="13" ss:StyleID="s101"/>
+    <Cell><Data ss:Type="String">normal / selected</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s102"><Data ss:Type="Number">19</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="Number">15</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="Number">480</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="Number">3</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s99"><Data ss:Type="Number">253</Data></Cell>
+    <Cell ss:StyleID="s99"><Data ss:Type="Number">238</Data></Cell>
+    <Cell ss:StyleID="s99"><Data ss:Type="Number">167</Data></Cell>
+    <Cell ss:StyleID="s100"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s99"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s99"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s103"/>
+    <Cell ss:StyleID="s101"/>
+    <Cell><Data ss:Type="String">over</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s102"><Data ss:Type="Number">20</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="Number">15</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="Number">480</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="Number">3</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s99"><Data ss:Type="Number">166</Data></Cell>
+    <Cell ss:StyleID="s99"><Data ss:Type="Number">165</Data></Cell>
+    <Cell ss:StyleID="s99"><Data ss:Type="Number">158</Data></Cell>
+    <Cell ss:StyleID="s100"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s99"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s99"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s104"/>
+    <Cell ss:StyleID="s101"/>
+    <Cell><Data ss:Type="String">click</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s102"><Data ss:Type="Number">21</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="Number">15</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="Number">480</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="Number">3</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s99"><Data ss:Type="Number">147</Data></Cell>
+    <Cell ss:StyleID="s99"><Data ss:Type="Number">145</Data></Cell>
+    <Cell ss:StyleID="s105"><Data ss:Type="Number">140</Data></Cell>
+    <Cell ss:StyleID="s100"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s99"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s99"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s106"/>
+    <Cell ss:StyleID="s101"/>
+    <Cell><Data ss:Type="String">disable</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s97"><Data ss:Type="Number">22</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="Number">15</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="Number">480</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="Number">3</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s99"><Data ss:Type="Number">215</Data></Cell>
+    <Cell ss:StyleID="s99"><Data ss:Type="Number">215</Data></Cell>
+    <Cell ss:StyleID="s99"><Data ss:Type="Number">205</Data></Cell>
+    <Cell ss:StyleID="s100"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s99"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s99"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s107"/>
+    <Cell ss:StyleID="s101"/>
+    <Cell><Data ss:Type="String">normal</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s96"><Data ss:Type="Number">23</Data></Cell>
+    <Cell><Data ss:Type="Number">13</Data></Cell>
+    <Cell><Data ss:Type="Number">480</Data></Cell>
+    <Cell><Data ss:Type="Number">3</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">255</Data></Cell>
+    <Cell><Data ss:Type="Number">255</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">255</Data></Cell>
+    <Cell><Data ss:Type="Number">15</Data></Cell>
+    <Cell><Data ss:Type="Number">15</Data></Cell>
+    <Cell><Data ss:Type="Number">15</Data></Cell>
+    <Cell ss:StyleID="s65"/>
+    <Cell ss:StyleID="s108"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s86"><Data ss:Type="Number">24</Data></Cell>
+    <Cell ss:StyleID="s87"><Data ss:Type="Number">14</Data></Cell>
+    <Cell ss:StyleID="s87"><Data ss:Type="Number">480</Data></Cell>
+    <Cell><Data ss:Type="Number">3</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">255</Data></Cell>
+    <Cell><Data ss:Type="Number">255</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">255</Data></Cell>
+    <Cell><Data ss:Type="Number">15</Data></Cell>
+    <Cell><Data ss:Type="Number">15</Data></Cell>
+    <Cell><Data ss:Type="Number">15</Data></Cell>
+    <Cell ss:StyleID="s65"/>
+    <Cell ss:StyleID="s108"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s96"><Data ss:Type="Number">25</Data></Cell>
+    <Cell><Data ss:Type="Number">22</Data></Cell>
+    <Cell><Data ss:Type="Number">550</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">255</Data></Cell>
+    <Cell><Data ss:Type="Number">255</Data></Cell>
+    <Cell><Data ss:Type="Number">255</Data></Cell>
+    <Cell><Data ss:Type="Number">15</Data></Cell>
+    <Cell><Data ss:Type="Number">15</Data></Cell>
+    <Cell><Data ss:Type="Number">15</Data></Cell>
+    <Cell ss:Index="13" ss:StyleID="s108"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s109"><Data ss:Type="Number">26</Data></Cell>
+    <Cell ss:StyleID="s110"><Data ss:Type="Number">12</Data></Cell>
+    <Cell ss:StyleID="s110"><Data ss:Type="Number">480</Data></Cell>
+    <Cell ss:StyleID="s110"><Data ss:Type="Number">3</Data></Cell>
+    <Cell ss:StyleID="s110"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s111"><Data ss:Type="Number">253</Data></Cell>
+    <Cell ss:StyleID="s111"><Data ss:Type="Number">238</Data></Cell>
+    <Cell ss:StyleID="s111"><Data ss:Type="Number">167</Data></Cell>
+    <Cell ss:StyleID="s112"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s111"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s111"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s103"/>
+    <Cell ss:StyleID="s101"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s109"><Data ss:Type="Number">27</Data></Cell>
+    <Cell ss:StyleID="s110"><Data ss:Type="Number">12</Data></Cell>
+    <Cell ss:StyleID="s110"><Data ss:Type="Number">480</Data></Cell>
+    <Cell ss:StyleID="s110"><Data ss:Type="Number">3</Data></Cell>
+    <Cell ss:StyleID="s110"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s111"><Data ss:Type="Number">166</Data></Cell>
+    <Cell ss:StyleID="s111"><Data ss:Type="Number">165</Data></Cell>
+    <Cell ss:StyleID="s111"><Data ss:Type="Number">158</Data></Cell>
+    <Cell ss:StyleID="s112"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s111"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s111"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s104"/>
+    <Cell ss:StyleID="s101"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s109"><Data ss:Type="Number">28</Data></Cell>
+    <Cell ss:StyleID="s110"><Data ss:Type="Number">12</Data></Cell>
+    <Cell ss:StyleID="s110"><Data ss:Type="Number">480</Data></Cell>
+    <Cell ss:StyleID="s110"><Data ss:Type="Number">3</Data></Cell>
+    <Cell ss:StyleID="s110"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s111"><Data ss:Type="Number">147</Data></Cell>
+    <Cell ss:StyleID="s111"><Data ss:Type="Number">145</Data></Cell>
+    <Cell ss:StyleID="s113"><Data ss:Type="Number">140</Data></Cell>
+    <Cell ss:StyleID="s112"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s111"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s111"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s106"/>
+    <Cell ss:StyleID="s101"/>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <PageSetup>
+    <Header x:Margin="0.3"/>
+    <Footer x:Margin="0.3"/>
+    <PageMargins x:Bottom="0.75" x:Left="0.7" x:Right="0.7" x:Top="0.75"/>
+   </PageSetup>
+   <Unsynced/>
+   <Print>
+    <ValidPrinterInfo/>
+    <PaperSizeIndex>9</PaperSizeIndex>
+    <HorizontalResolution>600</HorizontalResolution>
+    <VerticalResolution>600</VerticalResolution>
+   </Print>
+   <Selected/>
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+     <ActiveRow>27</ActiveRow>
+     <ActiveCol>1</ActiveCol>
+    </Pane>
+   </Panes>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+ <Worksheet ss:Name="버튼사용폰트묶음">
+  <Table ss:ExpandedColumnCount="7" ss:ExpandedRowCount="7" x:FullColumns="1"
+   x:FullRows="1" ss:StyleID="s114" ss:DefaultColumnWidth="54"
+   ss:DefaultRowHeight="16.5">
+   <Column ss:StyleID="s114" ss:Width="117"/>
+   <Column ss:StyleID="s114" ss:Width="50.25"/>
+   <Column ss:StyleID="s114" ss:Width="67.5" ss:Span="1"/>
+   <Column ss:Index="6" ss:StyleID="s114" ss:Width="55.5"/>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s72"><Data ss:Type="String">버튼폰트묶음인덱스</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="String">일반</Data><Comment
+      ss:Author="박문수 "><ss:Data xmlns="http://www.w3.org/TR/REC-html40"><B><Font
+         html:Face="돋움" x:CharSet="129" x:Family="Modern" html:Size="9"
+         html:Color="#000000">박문수</Font><Font html:Face="Tahoma" x:CharSet="129"
+         x:Family="Swiss" html:Size="9" html:Color="#000000"> :</Font></B><Font
+        html:Face="Tahoma" x:CharSet="129" x:Family="Swiss" html:Size="9"
+        html:Color="#000000">&#10;</Font><Font html:Face="돋움" x:CharSet="129"
+        x:Family="Modern" html:Size="9" html:Color="#000000">특정</Font><Font
+        html:Face="Tahoma" x:CharSet="129" x:Family="Swiss" html:Size="9"
+        html:Color="#000000"> </Font><Font html:Face="돋움" x:CharSet="129"
+        x:Family="Modern" html:Size="9" html:Color="#000000">폰트</Font><Font
+        html:Face="Tahoma" x:CharSet="129" x:Family="Swiss" html:Size="9"
+        html:Color="#000000"> </Font><Font html:Face="돋움" x:CharSet="129"
+        x:Family="Modern" html:Size="9" html:Color="#000000">크기</Font><Font
+        html:Face="Tahoma" x:CharSet="129" x:Family="Swiss" html:Size="9"
+        html:Color="#000000"> </Font><Font html:Face="돋움" x:CharSet="129"
+        x:Family="Modern" html:Size="9" html:Color="#000000">사용시</Font><Font
+        html:Face="Tahoma" x:CharSet="129" x:Family="Swiss" html:Size="9"
+        html:Color="#000000"> </Font><Font html:Face="돋움" x:CharSet="129"
+        x:Family="Modern" html:Size="9" html:Color="#000000">프로그래머와</Font><Font
+        html:Face="Tahoma" x:CharSet="129" x:Family="Swiss" html:Size="9"
+        html:Color="#000000"> </Font><Font html:Face="돋움" x:CharSet="129"
+        x:Family="Modern" html:Size="9" html:Color="#000000">협의</Font><Font
+        html:Face="Tahoma" x:CharSet="129" x:Family="Swiss" html:Size="9"
+        html:Color="#000000"> </Font><Font html:Face="돋움" x:CharSet="129"
+        x:Family="Modern" html:Size="9" html:Color="#000000">해야함&#10;현재는</Font><Font
+        html:Face="Tahoma" x:CharSet="129" x:Family="Swiss" html:Size="9"
+        html:Color="#000000"> &#10;1 : 12, BOLD&#10;2 : 15, BOLD&#10;3 : 20, BOLD</Font></ss:Data></Comment></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="String">마우스오버</Data><Comment
+      ss:Author="박문수 "><ss:Data xmlns="http://www.w3.org/TR/REC-html40"><B><Font
+         html:Face="돋움" x:CharSet="129" x:Family="Modern" html:Size="9"
+         html:Color="#000000">박문수</Font><Font html:Face="Tahoma" x:CharSet="129"
+         x:Family="Swiss" html:Size="9" html:Color="#000000"> :</Font></B><Font
+        html:Face="Tahoma" x:CharSet="129" x:Family="Swiss" html:Size="9"
+        html:Color="#000000">&#10;1</Font><Font html:Face="돋움" x:CharSet="129"
+        x:Family="Modern" html:Size="9" html:Color="#000000">은</Font><Font
+        html:Face="Tahoma" x:CharSet="129" x:Family="Swiss" html:Size="9"
+        html:Color="#000000"> </Font><Font html:Face="돋움" x:CharSet="129"
+        x:Family="Modern" html:Size="9" html:Color="#000000">왼쪽정렬&#10;</Font><Font
+        html:Face="Tahoma" x:CharSet="129" x:Family="Swiss" html:Size="9"
+        html:Color="#000000">2</Font><Font html:Face="돋움" x:CharSet="129"
+        x:Family="Modern" html:Size="9" html:Color="#000000">는</Font><Font
+        html:Face="Tahoma" x:CharSet="129" x:Family="Swiss" html:Size="9"
+        html:Color="#000000"> </Font><Font html:Face="돋움" x:CharSet="129"
+        x:Family="Modern" html:Size="9" html:Color="#000000">오른쪽</Font><Font
+        html:Face="Tahoma" x:CharSet="129" x:Family="Swiss" html:Size="9"
+        html:Color="#000000"> </Font><Font html:Face="돋움" x:CharSet="129"
+        x:Family="Modern" html:Size="9" html:Color="#000000">정렬&#10;</Font><Font
+        html:Face="Tahoma" x:CharSet="129" x:Family="Swiss" html:Size="9"
+        html:Color="#000000">3</Font><Font html:Face="돋움" x:CharSet="129"
+        x:Family="Modern" html:Size="9" html:Color="#000000">는</Font><Font
+        html:Face="Tahoma" x:CharSet="129" x:Family="Swiss" html:Size="9"
+        html:Color="#000000"> </Font><Font html:Face="돋움" x:CharSet="129"
+        x:Family="Modern" html:Size="9" html:Color="#000000">가운데</Font><Font
+        html:Face="Tahoma" x:CharSet="129" x:Family="Swiss" html:Size="9"
+        html:Color="#000000"> </Font><Font html:Face="돋움" x:CharSet="129"
+        x:Family="Modern" html:Size="9" html:Color="#000000">정렬</Font></ss:Data></Comment></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="String">마우스클릭</Data><Comment
+      ss:Author="박문수 " ss:ShowAlways="1"><ss:Data
+       xmlns="http://www.w3.org/TR/REC-html40"><B><Font html:Face="돋움"
+         x:CharSet="129" x:Family="Modern" html:Size="9" html:Color="#000000">박문수</Font><Font
+         html:Face="Tahoma" x:CharSet="129" x:Family="Swiss" html:Size="9"
+         html:Color="#000000"> :</Font></B><Font html:Face="Tahoma"
+        x:CharSet="129" x:Family="Swiss" html:Size="9" html:Color="#000000">&#10;0</Font><Font
+        html:Face="돋움" x:CharSet="129" x:Family="Modern" html:Size="9"
+        html:Color="#000000">은</Font><Font html:Face="Tahoma" x:CharSet="129"
+        x:Family="Swiss" html:Size="9" html:Color="#000000"> </Font><Font
+        html:Face="돋움" x:CharSet="129" x:Family="Modern" html:Size="9"
+        html:Color="#000000">일반&#10;</Font><Font html:Face="Tahoma"
+        x:CharSet="129" x:Family="Swiss" html:Size="9" html:Color="#000000">1</Font><Font
+        html:Face="돋움" x:CharSet="129" x:Family="Modern" html:Size="9"
+        html:Color="#000000">은</Font><Font html:Face="Tahoma" x:CharSet="129"
+        x:Family="Swiss" html:Size="9" html:Color="#000000"> </Font><Font
+        html:Face="돋움" x:CharSet="129" x:Family="Modern" html:Size="9"
+        html:Color="#000000">테두리</Font><Font html:Face="Tahoma" x:CharSet="129"
+        x:Family="Swiss" html:Size="9" html:Color="#000000"> </Font><Font
+        html:Face="돋움" x:CharSet="129" x:Family="Modern" html:Size="9"
+        html:Color="#000000">있음</Font></ss:Data></Comment></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="String">선택된</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="String">비활성</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s75"><Data ss:Type="String">Index</Data></Cell>
+    <Cell ss:StyleID="s75"><Data ss:Type="String">Normal</Data></Cell>
+    <Cell ss:StyleID="s75"><Data ss:Type="String">Over</Data></Cell>
+    <Cell ss:StyleID="s75"><Data ss:Type="String">Click</Data></Cell>
+    <Cell ss:StyleID="s76"><Data ss:Type="String">Selected</Data></Cell>
+    <Cell ss:StyleID="s76"><Data ss:Type="String">Disabled</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s88"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">18</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">19</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">20</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">18</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">21</Data></Cell>
+    <Cell><Data ss:Type="String">일반</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s88"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">22</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">19</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">20</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">18</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">21</Data></Cell>
+    <Cell><Data ss:Type="String">탭 기능</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s88"/>
+    <Cell ss:StyleID="s69"/>
+    <Cell ss:StyleID="s69"/>
+    <Cell ss:StyleID="s69"/>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s96"/>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s69"/>
+    <Cell ss:StyleID="s69"/>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s96"/>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s69"/>
+    <Cell ss:StyleID="s69"/>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <PageSetup>
+    <Header x:Margin="0.3"/>
+    <Footer x:Margin="0.3"/>
+    <PageMargins x:Bottom="0.75" x:Left="0.7" x:Right="0.7" x:Top="0.75"/>
+   </PageSetup>
+   <Unsynced/>
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+     <ActiveRow>4</ActiveRow>
+     <ActiveCol>1</ActiveCol>
+    </Pane>
+   </Panes>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+</Workbook>

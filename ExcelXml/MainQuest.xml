@@ -1,0 +1,426 @@
+<?xml version="1.0"?>
+<?mso-application progid="Excel.Sheet"?>
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:o="urn:schemas-microsoft-com:office:office"
+ xmlns:x="urn:schemas-microsoft-com:office:excel"
+ xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:html="http://www.w3.org/TR/REC-html40">
+ <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+  <Author>선민호 [habi1229]</Author>
+  <LastAuthor>선민호 [habi1229]</LastAuthor>
+  <Created>2014-05-30T04:33:01Z</Created>
+  <Version>14.00</Version>
+ </DocumentProperties>
+ <OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office">
+  <AllowPNG/>
+ </OfficeDocumentSettings>
+ <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
+  <WindowHeight>14805</WindowHeight>
+  <WindowWidth>28035</WindowWidth>
+  <WindowTopX>360</WindowTopX>
+  <WindowTopY>135</WindowTopY>
+  <ProtectStructure>False</ProtectStructure>
+  <ProtectWindows>False</ProtectWindows>
+ </ExcelWorkbook>
+ <Styles>
+  <Style ss:ID="Default" ss:Name="Normal">
+   <Alignment ss:Vertical="Center"/>
+   <Borders/>
+   <Font ss:FontName="맑은 고딕" x:CharSet="129" x:Family="Modern" ss:Size="11"
+    ss:Color="#000000"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s62">
+   <Interior ss:Color="#92D050" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s63">
+   <Interior ss:Color="#FFFF00" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s64">
+   <Interior/>
+  </Style>
+ </Styles>
+ <Worksheet ss:Name="Sheet1">
+  <Table ss:ExpandedColumnCount="194" ss:ExpandedRowCount="26" x:FullColumns="1"
+   x:FullRows="1" ss:DefaultColumnWidth="54" ss:DefaultRowHeight="15">
+   <Column ss:Index="2" ss:AutoFitWidth="0" ss:Width="172.5"/>
+   <Column ss:AutoFitWidth="0" ss:Width="119.25"/>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">설명탭</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">ID</Data><Comment ss:Author="노소영 [sayrsy]"><ss:Data
+       xmlns="http://www.w3.org/TR/REC-html40"><B><Font html:Face="돋움"
+         x:CharSet="129" x:Family="Modern" html:Size="9" html:Color="#000000">노소영</Font><Font
+         html:Face="Tahoma" x:CharSet="129" x:Family="Swiss" html:Size="9"
+         html:Color="#000000"> [sayrsy]:</Font></B><Font html:Face="Tahoma"
+        x:CharSet="129" x:Family="Swiss" html:Size="9" html:Color="#000000">&#10;&#10;ID </Font><Font
+        html:Face="돋움" x:CharSet="129" x:Family="Modern" html:Size="9"
+        html:Color="#000000">만</Font><Font html:Face="Tahoma" x:CharSet="129"
+        x:Family="Swiss" html:Size="9" html:Color="#000000"> </Font><Font
+        html:Face="돋움" x:CharSet="129" x:Family="Modern" html:Size="9"
+        html:Color="#000000">읽습니다</Font><Font html:Face="Tahoma" x:CharSet="129"
+        x:Family="Swiss" html:Size="9" html:Color="#000000">.&#10;</Font><Font
+        html:Face="돋움" x:CharSet="129" x:Family="Modern" html:Size="9"
+        html:Color="#000000">다른</Font><Font html:Face="Tahoma" x:CharSet="129"
+        x:Family="Swiss" html:Size="9" html:Color="#000000"> </Font><Font
+        html:Face="돋움" x:CharSet="129" x:Family="Modern" html:Size="9"
+        html:Color="#000000">부분은</Font><Font html:Face="Tahoma" x:CharSet="129"
+        x:Family="Swiss" html:Size="9" html:Color="#000000"> </Font><Font
+        html:Face="돋움" x:CharSet="129" x:Family="Modern" html:Size="9"
+        html:Color="#000000">참고용</Font><Font html:Face="Tahoma" x:CharSet="129"
+        x:Family="Swiss" html:Size="9" html:Color="#000000">~~</Font></ss:Data></Comment></Cell>
+    <Cell><Data ss:Type="String">Name</Data></Cell>
+    <Cell><Data ss:Type="String">TransInfo</Data></Cell>
+    <Cell><Data ss:Type="String">LevelMin</Data></Cell>
+    <Cell><Data ss:Type="String">LevelMax</Data></Cell>
+    <Cell><Data ss:Type="String">Country</Data></Cell>
+    <Cell><Data ss:Type="String">Grow</Data></Cell>
+    <Cell><Data ss:Type="String">Sex0</Data></Cell>
+    <Cell><Data ss:Type="String">Sex1</Data></Cell>
+    <Cell><Data ss:Type="String">Job0</Data></Cell>
+    <Cell><Data ss:Type="String">Job1</Data></Cell>
+    <Cell><Data ss:Type="String">Job2</Data></Cell>
+    <Cell><Data ss:Type="String">Job3</Data></Cell>
+    <Cell><Data ss:Type="String">Job4</Data></Cell>
+    <Cell><Data ss:Type="String">Job5</Data></Cell>
+    <Cell><Data ss:Type="String">Job6</Data></Cell>
+    <Cell><Data ss:Type="String">HG</Data></Cell>
+    <Cell><Data ss:Type="String">VG</Data></Cell>
+    <Cell><Data ss:Type="String">Cg</Data></Cell>
+    <Cell><Data ss:Type="String">Og</Data></Cell>
+    <Cell><Data ss:Type="String">Ig</Data></Cell>
+    <Cell><Data ss:Type="String">wPrevQuest</Data></Cell>
+    <Cell><Data ss:Type="String">dwPrevKillCount</Data></Cell>
+    <Cell><Data ss:Type="String">Temp0</Data></Cell>
+    <Cell><Data ss:Type="String">Temp1</Data></Cell>
+    <Cell><Data ss:Type="String">Temp2</Data></Cell>
+    <Cell><Data ss:Type="String">TimeMin</Data></Cell>
+    <Cell><Data ss:Type="String">Time</Data></Cell>
+    <Cell><Data ss:Type="String">TickStartTerm</Data></Cell>
+    <Cell><Data ss:Type="String">TickKeepTime</Data></Cell>
+    <Cell><Data ss:Type="String">TickRecvCount</Data></Cell>
+    <Cell><Data ss:Type="String">StartType</Data></Cell>
+    <Cell><Data ss:Type="String">StartNPCType</Data></Cell>
+    <Cell><Data ss:Type="String">StartNPCID</Data></Cell>
+    <Cell><Data ss:Type="String">StartItemType</Data></Cell>
+    <Cell><Data ss:Type="String">StartItemID</Data></Cell>
+    <Cell><Data ss:Type="String">GetItemType1</Data></Cell>
+    <Cell><Data ss:Type="String">GetItemID1</Data></Cell>
+    <Cell><Data ss:Type="String">GetItemCount1</Data></Cell>
+    <Cell><Data ss:Type="String">GetItemType2</Data></Cell>
+    <Cell><Data ss:Type="String">GetItemID2</Data></Cell>
+    <Cell><Data ss:Type="String">GetItemCount2</Data></Cell>
+    <Cell><Data ss:Type="String">GetItemType3</Data></Cell>
+    <Cell><Data ss:Type="String">GetItemID3</Data></Cell>
+    <Cell><Data ss:Type="String">GetItemCount3</Data></Cell>
+    <Cell><Data ss:Type="String">EndType</Data></Cell>
+    <Cell><Data ss:Type="String">EndNPCType</Data></Cell>
+    <Cell><Data ss:Type="String">EndNPCID</Data></Cell>
+    <Cell><Data ss:Type="String">EndItemType1</Data></Cell>
+    <Cell><Data ss:Type="String">EndItemID1</Data></Cell>
+    <Cell><Data ss:Type="String">EndItemCount1</Data></Cell>
+    <Cell><Data ss:Type="String">EndItemType2</Data></Cell>
+    <Cell><Data ss:Type="String">EndItemID2</Data></Cell>
+    <Cell><Data ss:Type="String">EndItemCount2</Data></Cell>
+    <Cell><Data ss:Type="String">EndItemType3</Data></Cell>
+    <Cell><Data ss:Type="String">EndItemID3</Data></Cell>
+    <Cell><Data ss:Type="String">EndItemCount3</Data></Cell>
+    <Cell><Data ss:Type="String">PcKillCount</Data></Cell>
+    <Cell><Data ss:Type="String">MOBID0</Data></Cell>
+    <Cell><Data ss:Type="String">MOBID1</Data></Cell>
+    <Cell><Data ss:Type="String">MOBKillCount0</Data></Cell>
+    <Cell><Data ss:Type="String">MOBKillCount1</Data></Cell>
+    <Cell><Data ss:Type="String">byResultType</Data></Cell>
+    <Cell><Data ss:Type="String">byResultUserSelect</Data></Cell>
+    <Cell><Data ss:Type="String">QResult0_NeedMobID</Data></Cell>
+    <Cell><Data ss:Type="String">QResult0_NeedMobCount</Data></Cell>
+    <Cell><Data ss:Type="String">QResult0_NeedItemID</Data></Cell>
+    <Cell><Data ss:Type="String">QResult0_NeedItemCount</Data></Cell>
+    <Cell><Data ss:Type="String">QResult0_NeedTime</Data></Cell>
+    <Cell><Data ss:Type="String">QResult0_NeedHG</Data></Cell>
+    <Cell><Data ss:Type="String">QResult0_NeedVG</Data></Cell>
+    <Cell><Data ss:Type="String">QResult0_NeedOG</Data></Cell>
+    <Cell><Data ss:Type="String">QResult0_Exp</Data></Cell>
+    <Cell><Data ss:Type="String">QResult0_Money</Data></Cell>
+    <Cell><Data ss:Type="String">QResult0_CompensateItem0_ItemType</Data></Cell>
+    <Cell><Data ss:Type="String">QResult0_CompensateItem0_ItemTypeID</Data></Cell>
+    <Cell><Data ss:Type="String">QResult0_CompensateItem0_ItemCount</Data></Cell>
+    <Cell><Data ss:Type="String">QResult0_CompensateItem1_ItemType</Data></Cell>
+    <Cell><Data ss:Type="String">QResult0_CompensateItem1_ItemTypeID</Data></Cell>
+    <Cell><Data ss:Type="String">QResult0_CompensateItem1_ItemCount</Data></Cell>
+    <Cell><Data ss:Type="String">QResult0_CompensateItem2_ItemType</Data></Cell>
+    <Cell><Data ss:Type="String">QResult0_CompensateItem2_ItemTypeID</Data></Cell>
+    <Cell><Data ss:Type="String">QResult0_CompensateItem2_ItemCount</Data></Cell>
+    <Cell><Data ss:Type="String">QResult0_NextQuest</Data></Cell>
+    <Cell><Data ss:Type="String">QResult0_TransTalk</Data></Cell>
+    <Cell><Data ss:Type="String">QResult1_NeedMobID</Data></Cell>
+    <Cell><Data ss:Type="String">QResult1_NeedMobCount</Data></Cell>
+    <Cell><Data ss:Type="String">QResult1_NeedItemID</Data></Cell>
+    <Cell><Data ss:Type="String">QResult1_NeedItemCount</Data></Cell>
+    <Cell><Data ss:Type="String">QResult1_NeedTime</Data></Cell>
+    <Cell><Data ss:Type="String">QResult1_NeedHG</Data></Cell>
+    <Cell><Data ss:Type="String">QResult1_NeedVG</Data></Cell>
+    <Cell><Data ss:Type="String">QResult1_NeedOG</Data></Cell>
+    <Cell><Data ss:Type="String">QResult1_Exp</Data></Cell>
+    <Cell><Data ss:Type="String">QResult1_Money</Data></Cell>
+    <Cell><Data ss:Type="String">QResult1_CompensateItem0_ItemType</Data></Cell>
+    <Cell><Data ss:Type="String">QResult1_CompensateItem0_ItemTypeID</Data></Cell>
+    <Cell><Data ss:Type="String">QResult1_CompensateItem0_ItemCount</Data></Cell>
+    <Cell><Data ss:Type="String">QResult1_CompensateItem1_ItemType</Data></Cell>
+    <Cell><Data ss:Type="String">QResult1_CompensateItem1_ItemTypeID</Data></Cell>
+    <Cell><Data ss:Type="String">QResult1_CompensateItem1_ItemCount</Data></Cell>
+    <Cell><Data ss:Type="String">QResult1_CompensateItem2_ItemType</Data></Cell>
+    <Cell><Data ss:Type="String">QResult1_CompensateItem2_ItemTypeID</Data></Cell>
+    <Cell><Data ss:Type="String">QResult1_CompensateItem2_ItemCount</Data></Cell>
+    <Cell><Data ss:Type="String">QResult1_NextQuest</Data></Cell>
+    <Cell><Data ss:Type="String">QResult1_TransTalk</Data></Cell>
+    <Cell><Data ss:Type="String">QResult2_NeedMobID</Data></Cell>
+    <Cell><Data ss:Type="String">QResult2_NeedMobCount</Data></Cell>
+    <Cell><Data ss:Type="String">QResult2_NeedItemID</Data></Cell>
+    <Cell><Data ss:Type="String">QResult2_NeedItemCount</Data></Cell>
+    <Cell><Data ss:Type="String">QResult2_NeedTime</Data></Cell>
+    <Cell><Data ss:Type="String">QResult2_NeedHG</Data></Cell>
+    <Cell><Data ss:Type="String">QResult2_NeedVG</Data></Cell>
+    <Cell><Data ss:Type="String">QResult2_NeedOG</Data></Cell>
+    <Cell><Data ss:Type="String">QResult2_Exp</Data></Cell>
+    <Cell><Data ss:Type="String">QResult2_Money</Data></Cell>
+    <Cell><Data ss:Type="String">QResult2_CompensateItem0_ItemType</Data></Cell>
+    <Cell><Data ss:Type="String">QResult2_CompensateItem0_ItemTypeID</Data></Cell>
+    <Cell><Data ss:Type="String">QResult2_CompensateItem0_ItemCount</Data></Cell>
+    <Cell><Data ss:Type="String">QResult2_CompensateItem1_ItemType</Data></Cell>
+    <Cell><Data ss:Type="String">QResult2_CompensateItem1_ItemTypeID</Data></Cell>
+    <Cell><Data ss:Type="String">QResult2_CompensateItem1_ItemCount</Data></Cell>
+    <Cell><Data ss:Type="String">QResult2_CompensateItem2_ItemType</Data></Cell>
+    <Cell><Data ss:Type="String">QResult2_CompensateItem2_ItemTypeID</Data></Cell>
+    <Cell><Data ss:Type="String">QResult2_CompensateItem2_ItemCount</Data></Cell>
+    <Cell><Data ss:Type="String">QResult2_NextQuest</Data></Cell>
+    <Cell><Data ss:Type="String">QResult2_TransTalk</Data></Cell>
+    <Cell><Data ss:Type="String">QResult3_NeedMobID</Data></Cell>
+    <Cell><Data ss:Type="String">QResult3_NeedMobCount</Data></Cell>
+    <Cell><Data ss:Type="String">QResult3_NeedItemID</Data></Cell>
+    <Cell><Data ss:Type="String">QResult3_NeedItemCount</Data></Cell>
+    <Cell><Data ss:Type="String">QResult3_NeedTime</Data></Cell>
+    <Cell><Data ss:Type="String">QResult3_NeedHG</Data></Cell>
+    <Cell><Data ss:Type="String">QResult3_NeedVG</Data></Cell>
+    <Cell><Data ss:Type="String">QResult3_NeedOG</Data></Cell>
+    <Cell><Data ss:Type="String">QResult3_Exp</Data></Cell>
+    <Cell><Data ss:Type="String">QResult3_Money</Data></Cell>
+    <Cell><Data ss:Type="String">QResult3_CompensateItem0_ItemType</Data></Cell>
+    <Cell><Data ss:Type="String">QResult3_CompensateItem0_ItemTypeID</Data></Cell>
+    <Cell><Data ss:Type="String">QResult3_CompensateItem0_ItemCount</Data></Cell>
+    <Cell><Data ss:Type="String">QResult3_CompensateItem1_ItemType</Data></Cell>
+    <Cell><Data ss:Type="String">QResult3_CompensateItem1_ItemTypeID</Data></Cell>
+    <Cell><Data ss:Type="String">QResult3_CompensateItem1_ItemCount</Data></Cell>
+    <Cell><Data ss:Type="String">QResult3_CompensateItem2_ItemType</Data></Cell>
+    <Cell><Data ss:Type="String">QResult3_CompensateItem2_ItemTypeID</Data></Cell>
+    <Cell><Data ss:Type="String">QResult3_CompensateItem2_ItemCount</Data></Cell>
+    <Cell><Data ss:Type="String">QResult3_NextQuest</Data></Cell>
+    <Cell><Data ss:Type="String">QResult3_TransTalk</Data></Cell>
+    <Cell><Data ss:Type="String">QResult4_NeedMobID</Data></Cell>
+    <Cell><Data ss:Type="String">QResult4_NeedMobCount</Data></Cell>
+    <Cell><Data ss:Type="String">QResult4_NeedItemID</Data></Cell>
+    <Cell><Data ss:Type="String">QResult4_NeedItemCount</Data></Cell>
+    <Cell><Data ss:Type="String">QResult4_NeedTime</Data></Cell>
+    <Cell><Data ss:Type="String">QResult4_NeedHG</Data></Cell>
+    <Cell><Data ss:Type="String">QResult4_NeedVG</Data></Cell>
+    <Cell><Data ss:Type="String">QResult4_NeedOG</Data></Cell>
+    <Cell><Data ss:Type="String">QResult4_Exp</Data></Cell>
+    <Cell><Data ss:Type="String">QResult4_Money</Data></Cell>
+    <Cell><Data ss:Type="String">QResult4_CompensateItem0_ItemType</Data></Cell>
+    <Cell><Data ss:Type="String">QResult4_CompensateItem0_ItemTypeID</Data></Cell>
+    <Cell><Data ss:Type="String">QResult4_CompensateItem0_ItemCount</Data></Cell>
+    <Cell><Data ss:Type="String">QResult4_CompensateItem1_ItemType</Data></Cell>
+    <Cell><Data ss:Type="String">QResult4_CompensateItem1_ItemTypeID</Data></Cell>
+    <Cell><Data ss:Type="String">QResult4_CompensateItem1_ItemCount</Data></Cell>
+    <Cell><Data ss:Type="String">QResult4_CompensateItem2_ItemType</Data></Cell>
+    <Cell><Data ss:Type="String">QResult4_CompensateItem2_ItemTypeID</Data></Cell>
+    <Cell><Data ss:Type="String">QResult4_CompensateItem2_ItemCount</Data></Cell>
+    <Cell><Data ss:Type="String">QResult4_NextQuest</Data></Cell>
+    <Cell><Data ss:Type="String">QResult4_TransTalk</Data></Cell>
+    <Cell><Data ss:Type="String">QResult5_NeedMobID</Data></Cell>
+    <Cell><Data ss:Type="String">QResult5_NeedMobCount</Data></Cell>
+    <Cell><Data ss:Type="String">QResult5_NeedItemID</Data></Cell>
+    <Cell><Data ss:Type="String">QResult5_NeedItemCount</Data></Cell>
+    <Cell><Data ss:Type="String">QResult5_NeedTime</Data></Cell>
+    <Cell><Data ss:Type="String">QResult5_NeedHG</Data></Cell>
+    <Cell><Data ss:Type="String">QResult5_NeedVG</Data></Cell>
+    <Cell><Data ss:Type="String">QResult5_NeedOG</Data></Cell>
+    <Cell><Data ss:Type="String">QResult5_Exp</Data></Cell>
+    <Cell><Data ss:Type="String">QResult5_Money</Data></Cell>
+    <Cell><Data ss:Type="String">QResult5_CompensateItem0_ItemType</Data></Cell>
+    <Cell><Data ss:Type="String">QResult5_CompensateItem0_ItemTypeID</Data></Cell>
+    <Cell><Data ss:Type="String">QResult5_CompensateItem0_ItemCount</Data></Cell>
+    <Cell><Data ss:Type="String">QResult5_CompensateItem1_ItemType</Data></Cell>
+    <Cell><Data ss:Type="String">QResult5_CompensateItem1_ItemTypeID</Data></Cell>
+    <Cell><Data ss:Type="String">QResult5_CompensateItem1_ItemCount</Data></Cell>
+    <Cell><Data ss:Type="String">QResult5_CompensateItem2_ItemType</Data></Cell>
+    <Cell><Data ss:Type="String">QResult5_CompensateItem2_ItemTypeID</Data></Cell>
+    <Cell><Data ss:Type="String">QResult5_CompensateItem2_ItemCount</Data></Cell>
+    <Cell><Data ss:Type="String">QResult5_NextQuest</Data></Cell>
+    <Cell><Data ss:Type="String">QResult5_TransTalk</Data></Cell>
+    <Cell><Data ss:Type="String">TransTalk0</Data></Cell>
+    <Cell><Data ss:Type="String">TransTalk1</Data></Cell>
+    <Cell><Data ss:Type="String">TransTalk2</Data></Cell>
+    <Cell><Data ss:Type="String">TransTalk3</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">3781</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">기본 UI 조작</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">3782</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">스킬과 스탯</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">3783</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">노비스팩이란?</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">3784</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">기초 훈련</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">3787</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">조합</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">3788</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">개조</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">3789</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">이제는 컬로스로</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">3785</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">강화</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">3790</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">가자! 전장으로!</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="16.5" ss:StyleID="s64">
+    <Cell><Data ss:Type="Number">3475</Data></Cell>
+    <Cell><Data ss:Type="String">윌리어스로 떠날 시간 입니다.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:StyleID="s64">
+    <Cell><Data ss:Type="Number">3476</Data></Cell>
+    <Cell><Data ss:Type="String">아델리아로 떠날 시간 입니다.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:StyleID="s64">
+    <Cell><Data ss:Type="Number">3477</Data></Cell>
+    <Cell><Data ss:Type="String">발데마르레그눔으로 떠날 시간 입니다.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="16.5">
+    <Cell ss:StyleID="s62"><Data ss:Type="Number">3792</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">기본 UI 조작</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="16.5">
+    <Cell ss:StyleID="s62"><Data ss:Type="Number">3793</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">스킬과 스탯</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="16.5">
+    <Cell ss:StyleID="s62"><Data ss:Type="Number">3794</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">노비스팩이란?</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="16.5">
+    <Cell ss:StyleID="s62"><Data ss:Type="Number">3795</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">기초 훈련</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="16.5">
+    <Cell ss:StyleID="s62"><Data ss:Type="Number">3798</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">조합</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="16.5">
+    <Cell ss:StyleID="s62"><Data ss:Type="Number">3799</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">개조</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="16.5">
+    <Cell ss:StyleID="s62"><Data ss:Type="Number">3800</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">이제는 글리트로</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="16.5">
+    <Cell ss:StyleID="s62"><Data ss:Type="Number">3796</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">강화</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="16.5">
+    <Cell ss:StyleID="s62"><Data ss:Type="Number">3801</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">가자! 전장으로!</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="16.5" ss:StyleID="s64">
+    <Cell><Data ss:Type="Number">3479</Data></Cell>
+    <Cell><Data ss:Type="String">크라이젠으로 떠날 시간 입니다.</Data></Cell>
+    <Cell ss:Index="8"><Data ss:Type="String">,</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="16.5" ss:StyleID="s64">
+    <Cell><Data ss:Type="Number">3480</Data></Cell>
+    <Cell><Data ss:Type="String">아드리안으로 떠날 시간 입니다.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="16.5" ss:StyleID="s64">
+    <Cell><Data ss:Type="Number">3481</Data></Cell>
+    <Cell><Data ss:Type="String">팔라이온레그눔으로 떠날 시간 입니다.</Data></Cell>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <PageSetup>
+    <Header x:Margin="0.3"/>
+    <Footer x:Margin="0.3"/>
+    <PageMargins x:Bottom="0.75" x:Left="0.7" x:Right="0.7" x:Top="0.75"/>
+   </PageSetup>
+   <Unsynced/>
+   <Selected/>
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+     <ActiveRow>21</ActiveRow>
+     <ActiveCol>15</ActiveCol>
+    </Pane>
+   </Panes>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+ <Worksheet ss:Name="Sheet2">
+  <Table ss:ExpandedColumnCount="1" ss:ExpandedRowCount="1" x:FullColumns="1"
+   x:FullRows="1" ss:DefaultColumnWidth="54" ss:DefaultRowHeight="16.5">
+   <Row ss:AutoFitHeight="0"/>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <PageSetup>
+    <Header x:Margin="0.3"/>
+    <Footer x:Margin="0.3"/>
+    <PageMargins x:Bottom="0.75" x:Left="0.7" x:Right="0.7" x:Top="0.75"/>
+   </PageSetup>
+   <Unsynced/>
+   <TopRowVisible>155</TopRowVisible>
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+     <ActiveRow>155</ActiveRow>
+     <RangeSelection>R1:R1048576</RangeSelection>
+    </Pane>
+   </Panes>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+ <Worksheet ss:Name="Sheet3">
+  <Table ss:ExpandedColumnCount="1" ss:ExpandedRowCount="1" x:FullColumns="1"
+   x:FullRows="1" ss:DefaultColumnWidth="54" ss:DefaultRowHeight="16.5">
+   <Row ss:AutoFitHeight="0"/>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <PageSetup>
+    <Header x:Margin="0.3"/>
+    <Footer x:Margin="0.3"/>
+    <PageMargins x:Bottom="0.75" x:Left="0.7" x:Right="0.7" x:Top="0.75"/>
+   </PageSetup>
+   <Unsynced/>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+</Workbook>
