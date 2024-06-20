@@ -1,0 +1,62 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<CONTENTS>
+  <View type ="VIEW" id="Login_Background" area="[0,0,1024,768]">
+    <Image path="data/interface">TA_2D_LoginBG.tga</Image>
+    <PresentUV>[0.0f, 0.0f, 1.0f, 1.0f]</PresentUV>
+
+    <View type ="VIEW" id="Login_Input_Background" area="[0,0,180,150]">
+      <Image path="data/interface">TA_2D_Login.tga</Image>
+      <PresentUV>[0.0f, 0.0f, 0.703f, 0.586f]</PresentUV>
+      <LayoutOption type="ALIGN_WIDTH_CENTER" option="PERSENTAGE">0.5f</LayoutOption>
+      <LayoutOption type="ALIGN_BOTTOM" option="ABSOLUTE">280</LayoutOption>
+
+      <View type ="INPUT_TEXT" id="Login_Input_Id" area="[12,27,162,23]">
+        <MaxInput>35</MaxInput>
+      </View>
+
+      <View type ="INPUT_TEXT" id="Login_Input_Password" area="[12,85,162,23]">
+        <MaxInput>35</MaxInput>
+        <PasswordText>TRUE</PasswordText>
+      </View>
+
+      <View type ="CHECKBOX" id="Login_Check" area="[3,117,84,20]">
+        <CheckBoxArea>[0,0,19,19]</CheckBoxArea>
+        <CheckButtonImage path="data/interface">TA_2D_LoginCheck.tga</CheckButtonImage>
+        <CheckButtonPresentUV>[0.0f,0.0f,0.66f,0.66f]</CheckButtonPresentUV>
+      </View>
+
+    </View>
+
+    <View type ="BUTTON" id="Login_Connect_Btn" area="[0,0,171,37]">
+      <Image path="data/interface">TA_2D_LoginBtn.tga</Image>
+      <PresentUV>[0.016f, 0.016f, 0.68f, 0.16f]</PresentUV>
+      <Enable>FALSE</Enable>
+      <ButtonState Type="OVER">[0.016f, 0.265f, 0.68f, 0.409f]</ButtonState>
+      <ButtonState Type="ONPRESS">[0.016f, 0.514f, 0.68f, 0.658f]</ButtonState>
+      <ButtonState Type="ENABLE">[0.016f, 0.763f, 0.68f, 0.907f]</ButtonState>
+      
+      <LayoutOption type="ALIGN_WIDTH_CENTER" option="PERSENTAGE">0.5f</LayoutOption>
+      <LayoutOption type="ALIGN_BOTTOM" option="ABSOLUTE">110</LayoutOption>
+      
+    </View>
+
+    <View type ="BUTTON" id="Login_Exit_Btn" area="[0,0,113,37]">
+      <Image path="data/interface">TA_2D_LoginBtn_EXIT.tga</Image>
+      <PresentUV>[0.03f, 0.016f, 0.914f, 0.16f]</PresentUV>
+      <ButtonState Type="OVER">[0.03f, 0.265f, 0.914f, 0.409f]</ButtonState>
+      <ButtonState Type="ONPRESS">[0.03f, 0.514f, 0.914f, 0.658f]</ButtonState>
+      <ButtonState Type="CLICKED">[0.03f, 0.763f, 0.914f, 0.907f]</ButtonState>
+
+      <LayoutOption type="ALIGN_RIGHT" option="ABSOLUTE">190</LayoutOption>
+      <LayoutOption type="ALIGN_BOTTOM" option="ABSOLUTE">110</LayoutOption>
+
+    </View>
+    
+    <View type ="TEXTVIEW" id="Login_Copyright" area="[0,0,438,24]">
+      <Bold>TRUE</Bold>
+      <Text>Copyright (c) 2012 NEXON korea Corporation. All Rights Reserved</Text>
+      <LayoutOption type="ALIGN_WIDTH_CENTER" option="PERSENTAGE">0.5f</LayoutOption>
+      <LayoutOption type="ALIGN_BOTTOM" option="ABSOLUTE">50</LayoutOption>
+    </View>
+  </View>
+</CONTENTS>

@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<CONTENTS>
+  <View type ="VIEW" id = "SKILL_ROOT" area="[200,200,345,489]">
+
+    <View type ="VIEW" id ="SKILL_LAYER01" area="[0,0,345,489]">
+      <View type ="VIEW" id ="SKILL_BG" area="[0,0,345n,489]">
+        <Image path="data/interface">skill.tga</Image>
+        <PresentUV>[0.0f, 0.0f, 0.674f, 0.955f]</PresentUV>
+      </View>
+      <View type ="TEXTVIEW" id ="SKILL_POINT" area="[245,52,50,30]">
+      </View>
+      <View type ="BUTTON" id="SKILL_BUTTON_CLOSE" area="[213,14,32,32]">
+        <Image path="data/interface">talk1_close_button.tga</Image>
+        <PresentUV>[0.0f, 0.0f, 0.25f, 1.0f]</PresentUV>
+        <ButtonState Type ="OVER">[0.25f, 0.0f, 0.5f, 1.0f]</ButtonState>
+        <ButtonState Type ="CLICKED">[0.5f, 0.0f, 0.75f, 1.0f]</ButtonState>
+        <ButtonState Type ="ONPRESS">[0.5f, 0.0f, 0.75f, 1.0f]</ButtonState>
+      </View>
+    </View>
+    <View type ="VIEW" id ="SKILL_LAYER02" area="[0,0,345,489]">
+      <!-- Tab View -->
+      <View type ="TAB_VIEW" id="SKILL_TABVIEW" area="[0,0,200,300]">
+        <Tab buttonId="SKILL_BUTTON_01" viewId="TAB_VIEW01"/>
+        <Tab buttonId="SKILL_BUTTON_02" viewId="TAB_VIEW02"/>
+        <!-- Bag Button -->
+        <View type ="BUTTON" id="SKILL_BUTTON_01" area="[0,0,46,22]">
+          <Image path="data/interface">Inven_button2.tga</Image>
+          <PresentUV>[0.0f, 0.0f, 0.36f, 0.086f]</PresentUV>
+          <ButtonState Type ="OVER">[0.5f, 0.0f, 0.86f, 0.086f]</ButtonState>
+          <ButtonState Type ="ONPRESS">[0.5f, 0.0f, 0.86f, 0.086f]</ButtonState>
+        </View>
+        <View type ="BUTTON" id="SKILL_BUTTON_02" area="[47,0,46,22]">
+          <Image path="data/interface">Inven_button2.tga</Image>
+          <PresentUV>[0.0f, 0.125f, 0.36f, 0.21f]</PresentUV>
+          <ButtonState Type ="OVER">[0.5f, 0.125f, 0.86f, 0.21f]</ButtonState>
+          <ButtonState Type ="ONPRESS">[0.5f, 0.125f, 0.86f, 0.21f]</ButtonState>
+        </View>
+        <!-- Slot -->
+        <View type="VIEW" id="TAB_VIEW01" area="[0,40,200,300]">
+          <View type ="SLOT" id="SLOT100" area="[0,0,32,32]"></View>
+          <View type ="SLOT" id="SLOT101" area="[0,39,32,32]"></View>
+          <View type ="SLOT" id="SLOT102" area="[0,78,32,32]"></View>
+          <View type ="SLOT" id="SLOT103" area="[0,117,32,32]"></View>
+          <View type ="SLOT" id="SLOT104" area="[0,156,32,32]"></View>
+          <View type ="SLOT" id="SLOT105" area="[0,195,32,32]"></View>
+
+          <View type ="SLOT" id="SLOT106" area="[50,0,32,32]"></View>
+          <View type ="SLOT" id="SLOT107" area="[50,39,32,32]"></View>
+          <View type ="SLOT" id="SLOT108" area="[50,78,32,32]"></View>
+          <View type ="SLOT" id="SLOT109" area="[50,117,32,32]"></View>
+          <View type ="SLOT" id="SLOT110" area="[50,156,32,32]"></View>
+          <View type ="SLOT" id="SLOT111" area="[50,195,32,32]"></View>
+        </View>
+        
+        <View type="VIEW" id="TAB_VIEW02" area="[3,34,233,155]">
+          <View type ="SLOT" id="SLOT200" area="[0,0,32,32]"></View>
+          <View type ="SLOT" id="SLOT201" area="[0,39,32,32]"></View>
+          <View type ="SLOT" id="SLOT202" area="[0,78,32,32]"></View>
+          <View type ="SLOT" id="SLOT203" area="[0,117,32,32]"></View>
+          <View type ="SLOT" id="SLOT204" area="[0,156,32,32]"></View>
+          <View type ="SLOT" id="SLOT205" area="[0,195,32,32]"></View>
+
+          <View type ="SLOT" id="SLOT206" area="[50,0,32,32]"></View>
+          <View type ="SLOT" id="SLOT207" area="[50,39,32,32]"></View>
+          <View type ="SLOT" id="SLOT208" area="[50,78,32,32]"></View>
+          <View type ="SLOT" id="SLOT209" area="[50,117,32,32]"></View>
+          <View type ="SLOT" id="SLOT210" area="[50,156,32,32]"></View>
+          <View type ="SLOT" id="SLOT211" area="[50,195,32,32]"></View>
+        </View>
+      </View>
+    </View>
+  </View>
+</CONTENTS>

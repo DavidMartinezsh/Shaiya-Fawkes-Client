@@ -1,0 +1,204 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<CONTENTS>
+  <View type ="VIEW" id = "INVEN_BACKGROUND" area="[200,200,256,512]">
+
+    <View type ="VIEW" id ="INVEN_LAYER01" area="[0,0,256,512]">
+      <View type ="VIEW" id ="INVEN_BG1" area="[0,0,256,512]">
+        <Image path="data/interface">II_inven.tga</Image>
+        <PresentUV>[0.0f, 0.0f, 1.0f, 1.0f]</PresentUV>
+      </View>
+      <View type ="VIEW" id ="INVEN_BG2" area="[0,0,256,512]">
+        <Image path="data/interface">II_inven_02.tga</Image>
+        <PresentUV>[0.0f, 0.0f, 1.0f, 1.0f]</PresentUV>
+      </View>
+    </View>
+    
+    <View type ="VIEW" id ="INVEN_LAYER02" area="[0,0,256,512]">
+      <!-- Tab View -->
+      <View type ="TAB_VIEW" id="INVEN_TABVIEW" area="[8,277,241,233]">
+        <Tab buttonId="INVEN_BUTTON_BAG01" viewId="TAB_VIEW01"/>
+        <Tab buttonId="INVEN_BUTTON_BAG02" viewId="TAB_VIEW02"/>
+        <Tab buttonId="INVEN_BUTTON_BAG03" viewId="TAB_VIEW03"/>
+        <Tab buttonId="INVEN_BUTTON_BAG04" viewId="TAB_VIEW04"/>
+        <Tab buttonId="INVEN_BUTTON_BAG05" viewId="TAB_VIEW05"/>
+        <!-- Bag Button -->
+        <View type ="BUTTON" id="INVEN_BUTTON_BAG01" area="[3,12,46,22]">
+          <Image path="data/interface">II_inven_button2.tga</Image>
+          <PresentUV>[0.0f, 0.0f, 0.36f, 0.086f]</PresentUV>
+          <ButtonState Type ="OVER">[0.5f, 0.0f, 0.86f, 0.086f]</ButtonState>
+          <ButtonState Type ="ONPRESS">[0.5f, 0.0f, 0.86f, 0.086f]</ButtonState>
+        </View>
+        <View type ="BUTTON" id="INVEN_BUTTON_BAG02" area="[50,12,46,22]">
+          <Image path="data/interface">II_inven_button2.tga</Image>
+          <PresentUV>[0.0f, 0.125f, 0.36f, 0.21f]</PresentUV>
+          <ButtonState Type ="OVER">[0.5f, 0.125f, 0.86f, 0.21f]</ButtonState>
+          <ButtonState Type ="ONPRESS">[0.5f, 0.125f, 0.86f, 0.21f]</ButtonState>
+        </View>
+        <View type ="BUTTON" id="INVEN_BUTTON_BAG03" area="[97,12,46,22]">
+          <Image path="data/interface">II_inven_button2.tga</Image>
+          <PresentUV>[0.0f, 0.25f, 0.36f, 0.336f]</PresentUV>
+          <ButtonState Type ="OVER">[0.5f, 0.25f, 0.86f, 0.336f]</ButtonState>
+          <ButtonState Type ="ONPRESS">[0.5f, 0.25f, 0.86f, 0.336f]</ButtonState>
+        </View>
+        <View type ="BUTTON" id="INVEN_BUTTON_BAG04" area="[144,12,46,22]">
+          <Image path="data/interface">II_inven_button2.tga</Image>
+          <PresentUV>[0.0f, 0.375f, 0.36f, 0.46f]</PresentUV>
+          <ButtonState Type ="OVER">[0.5f, 0.375f, 0.86f, 0.46f]</ButtonState>
+          <ButtonState Type ="ONPRESS">[0.5f, 0.375f, 0.86f, 0.46f]</ButtonState>
+        </View>
+        <View type ="BUTTON" id="INVEN_BUTTON_BAG05" area="[191,12,46,22]">
+          <Image path="data/interface">II_inven_button2.tga</Image>
+          <PresentUV>[0.0f, 0.5f, 0.36f, 0.586f]</PresentUV>
+          <ButtonState Type ="OVER">[0.5f, 0.5f, 0.86f, 0.586f]</ButtonState>
+          <ButtonState Type ="ONPRESS">[0.5f, 0.5f, 0.86f, 0.586f]</ButtonState>
+        </View>
+        <!-- Slot -->
+        <View type="VIEW" id="TAB_VIEW01" area="[3,34,233,155]">
+          <View type ="SLOT" id="SLOT100" area="[3,3,32,32]"></View>
+          <View type ="SLOT" id="SLOT101" area="[42,3,32,32]"></View>
+          <View type ="SLOT" id="SLOT102" area="[81,3,32,32]"></View>
+          <View type ="SLOT" id="SLOT103" area="[120,3,32,32]"></View>
+          <View type ="SLOT" id="SLOT104" area="[159,3,32,32]"></View>
+          <View type ="SLOT" id="SLOT105" area="[196,3,32,32]"></View>
+
+          <View type ="SLOT" id="SLOT106" area="[3,42,32,32]"></View>
+          <View type ="SLOT" id="SLOT107" area="[42,42,32,32]"></View>
+          <View type ="SLOT" id="SLOT108" area="[81,42,32,32]"></View>
+          <View type ="SLOT" id="SLOT109" area="[120,42,32,32]"></View>
+          <View type ="SLOT" id="SLOT110" area="[159,42,32,32]"></View>
+          <View type ="SLOT" id="SLOT111" area="[196,42,32,32]"></View>
+
+          <View type ="SLOT" id="SLOT112" area="[3,81,32,32]"></View>
+          <View type ="SLOT" id="SLOT113" area="[42,81,32,32]"></View>
+          <View type ="SLOT" id="SLOT114" area="[81,81,32,32]"></View>
+          <View type ="SLOT" id="SLOT115" area="[120,81,32,32]"></View>
+          <View type ="SLOT" id="SLOT116" area="[159,81,32,32]"></View>
+          <View type ="SLOT" id="SLOT117" area="[196,81,32,32]"></View>
+
+          <View type ="SLOT" id="SLOT118" area="[3,120,32,32]"></View>
+          <View type ="SLOT" id="SLOT119" area="[42,120,32,32]"></View>
+          <View type ="SLOT" id="SLOT120" area="[81,120,32,32]"></View>
+          <View type ="SLOT" id="SLOT121" area="[120,120,32,32]"></View>
+          <View type ="SLOT" id="SLOT122" area="[159,120,32,32]"></View>
+          <View type ="SLOT" id="SLOT123" area="[196,120,32,32]"></View>
+        </View>
+        <View type="VIEW" id="TAB_VIEW02" area="[3,34,233,155]">
+          <View type ="SLOT" id="SLOT200" area="[3,3,32,32]"></View>
+          <View type ="SLOT" id="SLOT201" area="[42,3,32,32]"></View>
+          <View type ="SLOT" id="SLOT202" area="[81,3,32,32]"></View>
+          <View type ="SLOT" id="SLOT203" area="[120,3,32,32]"></View>
+          <View type ="SLOT" id="SLOT204" area="[159,3,32,32]"></View>
+          <View type ="SLOT" id="SLOT205" area="[196,3,32,32]"></View>
+                                      
+          <View type ="SLOT" id="SLOT206" area="[3,42,32,32]"></View>
+          <View type ="SLOT" id="SLOT207" area="[42,42,32,32]"></View>
+          <View type ="SLOT" id="SLOT208" area="[81,42,32,32]"></View>
+          <View type ="SLOT" id="SLOT209" area="[120,42,32,32]"></View>
+          <View type ="SLOT" id="SLOT210" area="[159,42,32,32]"></View>
+          <View type ="SLOT" id="SLOT211" area="[196,42,32,32]"></View>
+                                      
+          <View type ="SLOT" id="SLOT212" area="[3,81,32,32]"></View>
+          <View type ="SLOT" id="SLOT213" area="[42,81,32,32]"></View>
+          <View type ="SLOT" id="SLOT214" area="[81,81,32,32]"></View>
+          <View type ="SLOT" id="SLOT215" area="[120,81,32,32]"></View>
+          <View type ="SLOT" id="SLOT216" area="[159,81,32,32]"></View>
+          <View type ="SLOT" id="SLOT217" area="[196,81,32,32]"></View>
+                                      
+          <View type ="SLOT" id="SLOT218" area="[3,120,32,32]"></View>
+          <View type ="SLOT" id="SLOT219" area="[42,120,32,32]"></View>
+          <View type ="SLOT" id="SLOT220" area="[81,120,32,32]"></View>
+          <View type ="SLOT" id="SLOT221" area="[120,120,32,32]"></View>
+          <View type ="SLOT" id="SLOT222" area="[159,120,32,32]"></View>
+          <View type ="SLOT" id="SLOT223" area="[196,120,32,32]"></View>
+        </View>
+        <View type="VIEW" id="TAB_VIEW03" area="[3,34,233,155]">
+          <View type ="SLOT" id="SLOT300" area="[3,3,32,32]"></View>
+          <View type ="SLOT" id="SLOT301" area="[42,3,32,32]"></View>
+          <View type ="SLOT" id="SLOT302" area="[81,3,32,32]"></View>
+          <View type ="SLOT" id="SLOT303" area="[120,3,32,32]"></View>
+          <View type ="SLOT" id="SLOT304" area="[159,3,32,32]"></View>
+          <View type ="SLOT" id="SLOT305" area="[196,3,32,32]"></View>
+                                      
+          <View type ="SLOT" id="SLOT306" area="[3,42,32,32]"></View>
+          <View type ="SLOT" id="SLOT307" area="[42,42,32,32]"></View>
+          <View type ="SLOT" id="SLOT308" area="[81,42,32,32]"></View>
+          <View type ="SLOT" id="SLOT309" area="[120,42,32,32]"></View>
+          <View type ="SLOT" id="SLOT310" area="[159,42,32,32]"></View>
+          <View type ="SLOT" id="SLOT311" area="[196,42,32,32]"></View>
+                                      
+          <View type ="SLOT" id="SLOT312" area="[3,81,32,32]"></View>
+          <View type ="SLOT" id="SLOT313" area="[42,81,32,32]"></View>
+          <View type ="SLOT" id="SLOT314" area="[81,81,32,32]"></View>
+          <View type ="SLOT" id="SLOT315" area="[120,81,32,32]"></View>
+          <View type ="SLOT" id="SLOT316" area="[159,81,32,32]"></View>
+          <View type ="SLOT" id="SLOT317" area="[196,81,32,32]"></View>
+                                      
+          <View type ="SLOT" id="SLOT318" area="[3,120,32,32]"></View>
+          <View type ="SLOT" id="SLOT319" area="[42,120,32,32]"></View>
+          <View type ="SLOT" id="SLOT320" area="[81,120,32,32]"></View>
+          <View type ="SLOT" id="SLOT321" area="[120,120,32,32]"></View>
+          <View type ="SLOT" id="SLOT322" area="[159,120,32,32]"></View>
+          <View type ="SLOT" id="SLOT323" area="[196,120,32,32]"></View>
+        </View>
+        <View type="VIEW" id="TAB_VIEW04" area="[3,34,233,155]">
+          <View type ="SLOT" id="SLOT400" area="[3,3,32,32]"></View>
+          <View type ="SLOT" id="SLOT401" area="[42,3,32,32]"></View>
+          <View type ="SLOT" id="SLOT402" area="[81,3,32,32]"></View>
+          <View type ="SLOT" id="SLOT403" area="[120,3,32,32]"></View>
+          <View type ="SLOT" id="SLOT404" area="[159,3,32,32]"></View>
+          <View type ="SLOT" id="SLOT405" area="[196,3,32,32]"></View>
+                                      
+          <View type ="SLOT" id="SLOT406" area="[3,42,32,32]"></View>
+          <View type ="SLOT" id="SLOT407" area="[42,42,32,32]"></View>
+          <View type ="SLOT" id="SLOT408" area="[81,42,32,32]"></View>
+          <View type ="SLOT" id="SLOT409" area="[120,42,32,32]"></View>
+          <View type ="SLOT" id="SLOT410" area="[159,42,32,32]"></View>
+          <View type ="SLOT" id="SLOT411" area="[196,42,32,32]"></View>
+                                      
+          <View type ="SLOT" id="SLOT412" area="[3,81,32,32]"></View>
+          <View type ="SLOT" id="SLOT413" area="[42,81,32,32]"></View>
+          <View type ="SLOT" id="SLOT414" area="[81,81,32,32]"></View>
+          <View type ="SLOT" id="SLOT415" area="[120,81,32,32]"></View>
+          <View type ="SLOT" id="SLOT416" area="[159,81,32,32]"></View>
+          <View type ="SLOT" id="SLOT417" area="[196,81,32,32]"></View>
+                                      
+          <View type ="SLOT" id="SLOT418" area="[3,120,32,32]"></View>
+          <View type ="SLOT" id="SLOT419" area="[42,120,32,32]"></View>
+          <View type ="SLOT" id="SLOT420" area="[81,120,32,32]"></View>
+          <View type ="SLOT" id="SLOT421" area="[120,120,32,32]"></View>
+          <View type ="SLOT" id="SLOT422" area="[159,120,32,32]"></View>
+          <View type ="SLOT" id="SLOT423" area="[196,120,32,32]"></View>
+        </View>
+        <View type="VIEW" id="TAB_VIEW05" area="[3,34,233,155]">
+          <View type ="SLOT" id="SLOT500" area="[3,3,32,32]"></View>
+          <View type ="SLOT" id="SLOT501" area="[42,3,32,32]"></View>
+          <View type ="SLOT" id="SLOT502" area="[81,3,32,32]"></View>
+          <View type ="SLOT" id="SLOT503" area="[120,3,32,32]"></View>
+          <View type ="SLOT" id="SLOT504" area="[159,3,32,32]"></View>
+          <View type ="SLOT" id="SLOT505" area="[196,3,32,32]"></View>
+                                      
+          <View type ="SLOT" id="SLOT506" area="[3,42,32,32]"></View>
+          <View type ="SLOT" id="SLOT507" area="[42,42,32,32]"></View>
+          <View type ="SLOT" id="SLOT508" area="[81,42,32,32]"></View>
+          <View type ="SLOT" id="SLOT509" area="[120,42,32,32]"></View>
+          <View type ="SLOT" id="SLOT510" area="[159,42,32,32]"></View>
+          <View type ="SLOT" id="SLOT511" area="[196,42,32,32]"></View>
+                                      
+          <View type ="SLOT" id="SLOT512" area="[3,81,32,32]"></View>
+          <View type ="SLOT" id="SLOT513" area="[42,81,32,32]"></View>
+          <View type ="SLOT" id="SLOT514" area="[81,81,32,32]"></View>
+          <View type ="SLOT" id="SLOT515" area="[120,81,32,32]"></View>
+          <View type ="SLOT" id="SLOT516" area="[159,81,32,32]"></View>
+          <View type ="SLOT" id="SLOT517" area="[196,81,32,32]"></View>
+                                      
+          <View type ="SLOT" id="SLOT518" area="[3,120,32,32]"></View>
+          <View type ="SLOT" id="SLOT519" area="[42,120,32,32]"></View>
+          <View type ="SLOT" id="SLOT520" area="[81,120,32,32]"></View>
+          <View type ="SLOT" id="SLOT521" area="[120,120,32,32]"></View>
+          <View type ="SLOT" id="SLOT522" area="[159,120,32,32]"></View>
+          <View type ="SLOT" id="SLOT523" area="[196,120,32,32]"></View>
+        </View>
+      </View>
+    </View>
+  </View>
+</CONTENTS>
