@@ -1,0 +1,1404 @@
+<?xml version="1.0"?>
+<?mso-application progid="Excel.Sheet"?>
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:o="urn:schemas-microsoft-com:office:office"
+ xmlns:x="urn:schemas-microsoft-com:office:excel"
+ xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:html="http://www.w3.org/TR/REC-html40">
+ <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+  <Author>정영민 </Author>
+  <LastAuthor>최승현 [xiahah18]</LastAuthor>
+  <Created>2013-06-20T05:42:09Z</Created>
+  <LastSaved>2013-10-25T02:03:27Z</LastSaved>
+  <Version>14.00</Version>
+ </DocumentProperties>
+ <OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office">
+  <AllowPNG/>
+ </OfficeDocumentSettings>
+ <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
+  <WindowHeight>10995</WindowHeight>
+  <WindowWidth>24825</WindowWidth>
+  <WindowTopX>540</WindowTopX>
+  <WindowTopY>270</WindowTopY>
+  <ActiveSheet>1</ActiveSheet>
+  <ProtectStructure>False</ProtectStructure>
+  <ProtectWindows>False</ProtectWindows>
+ </ExcelWorkbook>
+ <Styles>
+  <Style ss:ID="Default" ss:Name="Normal">
+   <Alignment ss:Vertical="Center"/>
+   <Borders/>
+   <Font ss:FontName="맑은 고딕" x:CharSet="129" x:Family="Modern" ss:Size="11"
+    ss:Color="#000000"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s62" ss:Name="표준 4">
+   <Alignment ss:Vertical="Center"/>
+   <Borders/>
+   <Font ss:FontName="맑은 고딕" x:CharSet="129" x:Family="Modern" ss:Size="11"
+    ss:Color="#000000"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s63">
+   <Alignment ss:Horizontal="Left" ss:Vertical="Center"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#D9D9D9"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#D9D9D9"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#D9D9D9"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#D9D9D9"/>
+   </Borders>
+  </Style>
+  <Style ss:ID="s64">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#D9D9D9"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#D9D9D9"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#D9D9D9"/>
+   </Borders>
+  </Style>
+  <Style ss:ID="s65">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center"/>
+   <Borders>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="2"/>
+   </Borders>
+  </Style>
+  <Style ss:ID="s66">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center"/>
+   <Borders/>
+  </Style>
+  <Style ss:ID="s67">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center"/>
+   <Borders>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="2"/>
+   </Borders>
+  </Style>
+  <Style ss:ID="s68">
+   <Alignment ss:Horizontal="Left" ss:Vertical="Center"/>
+  </Style>
+  <Style ss:ID="s69">
+   <Alignment ss:Vertical="Center"/>
+  </Style>
+  <Style ss:ID="s70">
+   <Alignment ss:Horizontal="Left" ss:Vertical="Center"/>
+   <Borders>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#D9D9D9"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#D9D9D9"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#D9D9D9"/>
+   </Borders>
+  </Style>
+  <Style ss:ID="s71">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center"/>
+   <Borders>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#D9D9D9"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#D9D9D9"/>
+   </Borders>
+  </Style>
+  <Style ss:ID="s72">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center"/>
+   <Borders>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="2"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="2"/>
+   </Borders>
+   <Interior ss:Color="#8DB4E2" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s73">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center"/>
+   <Borders>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="2"/>
+   </Borders>
+   <Interior ss:Color="#8DB4E2" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s74">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center"/>
+   <Borders>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="2"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="2"/>
+   </Borders>
+   <Interior ss:Color="#8DB4E2" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s75">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center"/>
+   <Borders>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="2"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="2"/>
+   </Borders>
+   <Interior ss:Color="#DA9694" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s76">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center"/>
+   <Borders>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="2"/>
+   </Borders>
+   <Interior ss:Color="#DA9694" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s77">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center"/>
+   <Borders>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="2"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="2"/>
+   </Borders>
+   <Interior ss:Color="#DA9694" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s78">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Double" ss:Weight="3"
+     ss:Color="#D9D9D9"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#D9D9D9"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#D9D9D9"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#D9D9D9"/>
+   </Borders>
+   <Interior ss:Color="#92D050" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s79">
+   <Alignment ss:Horizontal="Left" ss:Vertical="Center"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Double" ss:Weight="3"
+     ss:Color="#D9D9D9"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#D9D9D9"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#D9D9D9"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#D9D9D9"/>
+   </Borders>
+   <Interior ss:Color="#92D050" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s80">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Double" ss:Weight="3"
+     ss:Color="#D9D9D9"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#D9D9D9"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#D9D9D9"/>
+   </Borders>
+   <Interior ss:Color="#92D050" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s81">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Double" ss:Weight="3"
+     ss:Color="#D9D9D9"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="2"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#D9D9D9"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#D9D9D9"/>
+   </Borders>
+   <Interior ss:Color="#92D050" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s82">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Double" ss:Weight="3"
+     ss:Color="#D9D9D9"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#D9D9D9"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="2"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#D9D9D9"/>
+   </Borders>
+   <Interior ss:Color="#92D050" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s83">
+   <Alignment ss:Horizontal="Left" ss:Vertical="Center"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Double" ss:Weight="3"
+     ss:Color="#D9D9D9"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#D9D9D9"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#D9D9D9"/>
+   </Borders>
+   <Interior ss:Color="#92D050" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s84">
+   <Alignment ss:Horizontal="Left" ss:Vertical="Center"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#D9D9D9"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#D9D9D9"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#D9D9D9"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#D9D9D9"/>
+   </Borders>
+   <Interior ss:Color="#DAEEF3" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s85">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#D9D9D9"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#D9D9D9"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#D9D9D9"/>
+   </Borders>
+   <Interior ss:Color="#DAEEF3" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s86">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center"/>
+   <Borders>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="2"/>
+   </Borders>
+   <Interior ss:Color="#DAEEF3" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s87">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center"/>
+   <Borders/>
+   <Interior ss:Color="#DAEEF3" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s88">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center"/>
+   <Borders>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="2"/>
+   </Borders>
+   <Interior ss:Color="#DAEEF3" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s89">
+   <Alignment ss:Horizontal="Left" ss:Vertical="Center"/>
+   <Interior ss:Color="#DAEEF3" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s90">
+   <Alignment ss:Horizontal="Left" ss:Vertical="Center"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#D9D9D9"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#D9D9D9"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#D9D9D9"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#D9D9D9"/>
+   </Borders>
+   <Interior/>
+  </Style>
+  <Style ss:ID="s91">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#D9D9D9"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#D9D9D9"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#D9D9D9"/>
+   </Borders>
+   <Interior/>
+  </Style>
+  <Style ss:ID="s92">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center"/>
+   <Borders>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="2"/>
+   </Borders>
+   <Interior/>
+  </Style>
+  <Style ss:ID="s93">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center"/>
+   <Borders/>
+   <Interior/>
+  </Style>
+  <Style ss:ID="s94">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center"/>
+   <Borders>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="2"/>
+   </Borders>
+   <Interior/>
+  </Style>
+  <Style ss:ID="s95">
+   <Alignment ss:Horizontal="Left" ss:Vertical="Center"/>
+   <Interior/>
+  </Style>
+  <Style ss:ID="s96">
+   <Alignment ss:Vertical="Center"/>
+   <Interior/>
+  </Style>
+  <Style ss:ID="s97">
+   <Interior/>
+  </Style>
+  <Style ss:ID="s98">
+   <Alignment ss:Horizontal="Left" ss:Vertical="Center"/>
+   <Font ss:FontName="맑은 고딕" x:CharSet="129" x:Family="Modern" ss:Size="11"
+    ss:Color="#000000"/>
+   <Interior ss:Color="#DAEEF3" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s99">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#D9D9D9"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#D9D9D9"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#D9D9D9"/>
+   </Borders>
+   <Font ss:FontName="맑은 고딕" x:CharSet="129" x:Family="Modern" ss:Size="11"
+    ss:Color="#000000"/>
+   <Interior ss:Color="#DAEEF3" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s100">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center"/>
+   <Borders>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="2"/>
+   </Borders>
+   <Font ss:FontName="맑은 고딕" x:CharSet="129" x:Family="Modern" ss:Size="11"
+    ss:Color="#000000"/>
+   <Interior ss:Color="#DAEEF3" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s101">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center"/>
+   <Borders/>
+   <Font ss:FontName="맑은 고딕" x:CharSet="129" x:Family="Modern" ss:Size="11"
+    ss:Color="#000000"/>
+   <Interior ss:Color="#DAEEF3" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s102">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center"/>
+   <Borders>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="2"/>
+   </Borders>
+   <Font ss:FontName="맑은 고딕" x:CharSet="129" x:Family="Modern" ss:Size="11"
+    ss:Color="#000000"/>
+   <Interior ss:Color="#DAEEF3" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s103">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center"/>
+  </Style>
+  <Style ss:ID="s104">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Double" ss:Weight="3"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Interior ss:Color="#92D050" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s105">
+   <Alignment ss:Horizontal="Left" ss:Vertical="Center"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Double" ss:Weight="3"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Interior ss:Color="#92D050" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s106">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center"/>
+   <Interior ss:Color="#DAEEF3" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s107">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center"/>
+   <Interior/>
+  </Style>
+  <Style ss:ID="s108">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center"/>
+   <Interior ss:Color="#CCC0DA" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s109">
+   <Alignment ss:Horizontal="Left" ss:Vertical="Center"/>
+   <Interior ss:Color="#CCC0DA" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s110">
+   <Alignment ss:Horizontal="Left" ss:Vertical="Center"/>
+   <Interior ss:Color="#FF0000" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s112" ss:Parent="s62">
+   <Alignment ss:Horizontal="Left" ss:Vertical="Center"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#D9D9D9"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#D9D9D9"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#D9D9D9"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#D9D9D9"/>
+   </Borders>
+   <Interior/>
+  </Style>
+ </Styles>
+ <Worksheet ss:Name="EffectData">
+  <Table ss:ExpandedColumnCount="31" ss:ExpandedRowCount="32" x:FullColumns="1"
+   x:FullRows="1" ss:DefaultColumnWidth="54" ss:DefaultRowHeight="16.5">
+   <Column ss:StyleID="s63" ss:Width="288"/>
+   <Column ss:StyleID="s64" ss:AutoFitWidth="0" ss:Width="92.25"/>
+   <Column ss:StyleID="s65" ss:Width="135.75"/>
+   <Column ss:StyleID="s66" ss:Width="135"/>
+   <Column ss:StyleID="s67" ss:Width="135.75"/>
+   <Column ss:StyleID="s65" ss:Width="135.75"/>
+   <Column ss:StyleID="s66" ss:Width="135"/>
+   <Column ss:StyleID="s67" ss:Width="135.75"/>
+   <Column ss:StyleID="s68" ss:AutoFitWidth="0" ss:Width="476.25"/>
+   <Column ss:StyleID="s69" ss:AutoFitWidth="0" ss:Span="21"/>
+   <Row ss:AutoFitHeight="0" ss:Height="24">
+    <Cell ss:StyleID="s70"><Data ss:Type="String">파일이름</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="String">파일경로</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">유저이펙트 발생 위치 X좌표</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="String">유저이펙트 발생 위치 Y좌표</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="String">유저이펙트 발생 위치 Z좌표</Data></Cell>
+    <Cell ss:StyleID="s75"><Data ss:Type="String">몹이펙트 발생 위치 X좌표</Data></Cell>
+    <Cell ss:StyleID="s76"><Data ss:Type="String">몹이펙트 발생 위치 Y좌표</Data></Cell>
+    <Cell ss:StyleID="s77"><Data ss:Type="String">몹이펙트 발생 위치 Z좌표</Data></Cell>
+    <Cell><Data ss:Type="String">설명</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="20.25" ss:StyleID="s78">
+    <Cell ss:StyleID="s79"><Data ss:Type="String">FileName</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">FilePath</Data></Cell>
+    <Cell ss:StyleID="s81"><Data ss:Type="String">UserXpos</Data></Cell>
+    <Cell><Data ss:Type="String">UserYpos</Data></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="String">UserZpos</Data></Cell>
+    <Cell ss:StyleID="s81"><Data ss:Type="String">MobXpos</Data></Cell>
+    <Cell><Data ss:Type="String">MobYpos</Data></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="String">MobZpos</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">Comment</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">IN_tyro_type2_87_GravityExplosion</Data></Cell>
+    <Cell><Data ss:Type="String">data/Effect</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CA_tyro_type2_109_twojump</Data></Cell>
+    <Cell><Data ss:Type="String">data/Effect</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="String">이단 점프 이펙트 - 코드상에서 강제로 붙이는 이펙트이다. 스킬이펙트 아님</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">DA_Tyro_Camera</Data></Cell>
+    <Cell><Data ss:Type="String">data/Effect</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="String">라이트플래어???</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CA_tyro_ArmorPiercing</Data></Cell>
+    <Cell><Data ss:Type="String">data/Effect</Data></Cell>
+    <Cell><Data ss:Type="Number">0.6</Data></Cell>
+    <Cell><Data ss:Type="Number">0.1</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0.6</Data></Cell>
+    <Cell><Data ss:Type="Number">0.1</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="String">ap사격 CA Y값 위치</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CA_tyro_M_missile</Data></Cell>
+    <Cell><Data ss:Type="String">data/Effect</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">-1.1000000000000001</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">-1.1000000000000001</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="String">OPMB CA Y값 위치</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s84"><Data ss:Type="String">CA_tyro_vulcan</Data></Cell>
+    <Cell ss:StyleID="s85"><Data ss:Type="String">data/Effect</Data></Cell>
+    <Cell ss:StyleID="s86"><Data ss:Type="Number">-0.5</Data></Cell>
+    <Cell ss:StyleID="s87"><Data ss:Type="Number">0.1</Data></Cell>
+    <Cell ss:StyleID="s88"><Data ss:Type="Number">-3</Data></Cell>
+    <Cell ss:StyleID="s86"><Data ss:Type="Number">0.7</Data></Cell>
+    <Cell ss:StyleID="s87"><Data ss:Type="Number">1.7</Data></Cell>
+    <Cell ss:StyleID="s88"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s89"><Data ss:Type="String">발칸 CA 총알 위치</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">IN_tyro_type2_106_RemarkableImagination</Data></Cell>
+    <Cell><Data ss:Type="String">data/Effect</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:StyleID="s97">
+    <Cell ss:StyleID="s90"><Data ss:Type="String">CA_tyro_spear</Data></Cell>
+    <Cell ss:StyleID="s91"><Data ss:Type="String">data/Effect</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">0.4</Data></Cell>
+    <Cell ss:StyleID="s93"><Data ss:Type="Number">0.2</Data></Cell>
+    <Cell ss:StyleID="s94"><Data ss:Type="Number">-2</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">0.4</Data></Cell>
+    <Cell ss:StyleID="s93"><Data ss:Type="Number">0.2</Data></Cell>
+    <Cell ss:StyleID="s94"><Data ss:Type="Number">-2</Data></Cell>
+    <Cell ss:StyleID="s95"><Data ss:Type="String">스피어 위치</Data></Cell>
+    <Cell ss:StyleID="s96"/>
+    <Cell ss:StyleID="s96"/>
+    <Cell ss:StyleID="s96"/>
+    <Cell ss:StyleID="s96"/>
+    <Cell ss:StyleID="s96"/>
+    <Cell ss:StyleID="s96"/>
+    <Cell ss:StyleID="s96"/>
+    <Cell ss:StyleID="s96"/>
+    <Cell ss:StyleID="s96"/>
+    <Cell ss:StyleID="s96"/>
+    <Cell ss:StyleID="s96"/>
+    <Cell ss:StyleID="s96"/>
+    <Cell ss:StyleID="s96"/>
+    <Cell ss:StyleID="s96"/>
+    <Cell ss:StyleID="s96"/>
+    <Cell ss:StyleID="s96"/>
+    <Cell ss:StyleID="s96"/>
+    <Cell ss:StyleID="s96"/>
+    <Cell ss:StyleID="s96"/>
+    <Cell ss:StyleID="s96"/>
+    <Cell ss:StyleID="s96"/>
+    <Cell ss:StyleID="s96"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s98"><Data ss:Type="String">CA_tyro_UltimateRangePrecisionFire</Data></Cell>
+    <Cell ss:StyleID="s99"><Data ss:Type="String">data/Effect</Data></Cell>
+    <Cell ss:StyleID="s100"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s101"><Data ss:Type="Number">0.5</Data></Cell>
+    <Cell ss:StyleID="s102"><Data ss:Type="Number">-5</Data></Cell>
+    <Cell ss:StyleID="s100"><Data ss:Type="Number">0.8</Data></Cell>
+    <Cell ss:StyleID="s101"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s102"><Data ss:Type="Number">4</Data></Cell>
+    <Cell ss:StyleID="s98"><Data ss:Type="String">URPF CA 위치</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:StyleID="s97">
+    <Cell ss:StyleID="s95"><Data ss:Type="String">CA_tyro_ReasonForGainRapis</Data></Cell>
+    <Cell ss:StyleID="s91"><Data ss:Type="String">data/Effect</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s93"><Data ss:Type="Number">1.5</Data></Cell>
+    <Cell ss:StyleID="s94"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s93"><Data ss:Type="Number">1.5</Data></Cell>
+    <Cell ss:StyleID="s94"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s95"><Data ss:Type="String">라피스을 모으는 이유 CA 위치</Data></Cell>
+    <Cell ss:StyleID="s96"/>
+    <Cell ss:StyleID="s96"/>
+    <Cell ss:StyleID="s96"/>
+    <Cell ss:StyleID="s96"/>
+    <Cell ss:StyleID="s96"/>
+    <Cell ss:StyleID="s96"/>
+    <Cell ss:StyleID="s96"/>
+    <Cell ss:StyleID="s96"/>
+    <Cell ss:StyleID="s96"/>
+    <Cell ss:StyleID="s96"/>
+    <Cell ss:StyleID="s96"/>
+    <Cell ss:StyleID="s96"/>
+    <Cell ss:StyleID="s96"/>
+    <Cell ss:StyleID="s96"/>
+    <Cell ss:StyleID="s96"/>
+    <Cell ss:StyleID="s96"/>
+    <Cell ss:StyleID="s96"/>
+    <Cell ss:StyleID="s96"/>
+    <Cell ss:StyleID="s96"/>
+    <Cell ss:StyleID="s96"/>
+    <Cell ss:StyleID="s96"/>
+    <Cell ss:StyleID="s96"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:StyleID="s97">
+    <Cell ss:StyleID="s90"><Data ss:Type="String">CA_tyro_bomb</Data></Cell>
+    <Cell ss:StyleID="s91"><Data ss:Type="String">data/Effect</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">0.4</Data></Cell>
+    <Cell ss:StyleID="s93"><Data ss:Type="Number">0.2</Data></Cell>
+    <Cell ss:StyleID="s94"><Data ss:Type="Number">-2</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">0.4</Data></Cell>
+    <Cell ss:StyleID="s93"><Data ss:Type="Number">0.2</Data></Cell>
+    <Cell ss:StyleID="s94"><Data ss:Type="Number">-2</Data></Cell>
+    <Cell ss:StyleID="s95"><Data ss:Type="String">와이어그레네이드 CA 위치</Data></Cell>
+    <Cell ss:StyleID="s96"/>
+    <Cell ss:StyleID="s96"/>
+    <Cell ss:StyleID="s96"/>
+    <Cell ss:StyleID="s96"/>
+    <Cell ss:StyleID="s96"/>
+    <Cell ss:StyleID="s96"/>
+    <Cell ss:StyleID="s96"/>
+    <Cell ss:StyleID="s96"/>
+    <Cell ss:StyleID="s96"/>
+    <Cell ss:StyleID="s96"/>
+    <Cell ss:StyleID="s96"/>
+    <Cell ss:StyleID="s96"/>
+    <Cell ss:StyleID="s96"/>
+    <Cell ss:StyleID="s96"/>
+    <Cell ss:StyleID="s96"/>
+    <Cell ss:StyleID="s96"/>
+    <Cell ss:StyleID="s96"/>
+    <Cell ss:StyleID="s96"/>
+    <Cell ss:StyleID="s96"/>
+    <Cell ss:StyleID="s96"/>
+    <Cell ss:StyleID="s96"/>
+    <Cell ss:StyleID="s96"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">IN_tyro_V_105_FrenzyGunning</Data></Cell>
+    <Cell ss:StyleID="s91"><Data ss:Type="String">data/Effect</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">IN_tyro_104_ReasonForGainRapis</Data></Cell>
+    <Cell ss:StyleID="s91"><Data ss:Type="String">data/Effect</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s93"><Data ss:Type="Number">1.5</Data></Cell>
+    <Cell ss:StyleID="s94"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s93"><Data ss:Type="Number">1.5</Data></Cell>
+    <Cell ss:StyleID="s94"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s95"><Data ss:Type="String">라피스을 모으는 이유 CA 위치</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">tyro_009_die</Data></Cell>
+    <Cell ss:StyleID="s91"><Data ss:Type="String">data/Effect</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">IN_tyro_073_BeyondMikeTyson</Data></Cell>
+    <Cell ss:StyleID="s91"><Data ss:Type="String">data/Effect</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">IN_tyro_P_075_GorillaBossAttack</Data></Cell>
+    <Cell ss:StyleID="s91"><Data ss:Type="String">data/Effect</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">IN_tyro_37_SpeedStar</Data></Cell>
+    <Cell ss:StyleID="s91"><Data ss:Type="String">data/Effect</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">IN_tyro_S_103_WirePierce</Data></Cell>
+    <Cell ss:StyleID="s91"><Data ss:Type="String">data/Effect</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">M_IN_tyro_type2_vulcan</Data></Cell>
+    <Cell ss:StyleID="s91"><Data ss:Type="String">data/Effect</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">IN_tyro_type2_V_105_FrenzyGunning</Data></Cell>
+    <Cell ss:StyleID="s91"><Data ss:Type="String">data/Effect</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">tyro_type2_009_die</Data></Cell>
+    <Cell ss:StyleID="s91"><Data ss:Type="String">data/Effect</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">IN_tyro_type2_37_SpeedStar</Data></Cell>
+    <Cell ss:StyleID="s91"><Data ss:Type="String">data/Effect</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">IN_tyro_type2_S_103_WirePierce</Data></Cell>
+    <Cell ss:StyleID="s91"><Data ss:Type="String">data/Effect</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">M_IN_tyro_type2_raiser</Data></Cell>
+    <Cell ss:StyleID="s91"><Data ss:Type="String">data/Effect</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s68"><Data ss:Type="String">IN_tyro_87_GravityExplosion</Data></Cell>
+    <Cell ss:StyleID="s91"><Data ss:Type="String">data/Effect</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s68"><Data ss:Type="String">IN_tyro_009_HealingCamp</Data></Cell>
+    <Cell ss:StyleID="s91"><Data ss:Type="String">data/Effect</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s68"><Data ss:Type="String">DA_tyro_type2_ReasonForGainRapis</Data></Cell>
+    <Cell ss:StyleID="s91"><Data ss:Type="String">data/Effect</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s68"/>
+    <Cell ss:StyleID="s68"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s68"/>
+    <Cell ss:StyleID="s68"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s68"/>
+    <Cell ss:StyleID="s68"/>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <PageSetup>
+    <Header x:Margin="0.3"/>
+    <Footer x:Margin="0.3"/>
+    <PageMargins x:Bottom="0.75" x:Left="0.7" x:Right="0.7" x:Top="0.75"/>
+   </PageSetup>
+   <Unsynced/>
+   <Print>
+    <ValidPrinterInfo/>
+    <PaperSizeIndex>9</PaperSizeIndex>
+    <HorizontalResolution>600</HorizontalResolution>
+    <VerticalResolution>600</VerticalResolution>
+   </Print>
+   <Zoom>90</Zoom>
+   <FreezePanes/>
+   <FrozenNoSplit/>
+   <SplitHorizontal>2</SplitHorizontal>
+   <TopRowBottomPane>2</TopRowBottomPane>
+   <ActivePane>2</ActivePane>
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+    </Pane>
+    <Pane>
+     <Number>2</Number>
+     <ActiveRow>23</ActiveRow>
+    </Pane>
+   </Panes>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+ <Worksheet ss:Name="User_SkillEffectSet">
+  <Table ss:ExpandedColumnCount="28" ss:ExpandedRowCount="72" x:FullColumns="1"
+   x:FullRows="1" ss:DefaultColumnWidth="54" ss:DefaultRowHeight="16.5">
+   <Column ss:StyleID="s103" ss:AutoFitWidth="0" ss:Width="62.25"/>
+   <Column ss:StyleID="s68" ss:Width="288"/>
+   <Column ss:StyleID="s68" ss:AutoFitWidth="0" ss:Width="184.5"/>
+   <Column ss:StyleID="s68" ss:AutoFitWidth="0" ss:Width="213.75"/>
+   <Column ss:StyleID="s103" ss:AutoFitWidth="0" ss:Width="150.75"/>
+   <Column ss:StyleID="s68" ss:AutoFitWidth="0" ss:Width="186"/>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">스킬아이디</Data></Cell>
+    <Cell><Data ss:Type="String">본인사용 이펙트</Data></Cell>
+    <Cell><Data ss:Type="String">날아가는 이펙트</Data></Cell>
+    <Cell><Data ss:Type="String">대상자 이펙트</Data></Cell>
+    <Cell><Data ss:Type="String">스킬 사운드</Data></Cell>
+    <Cell><Data ss:Type="String">설명</Data></Cell>
+    <Cell ss:StyleID="s69"/>
+    <Cell ss:StyleID="s69"/>
+    <Cell ss:StyleID="s69"/>
+    <Cell ss:StyleID="s69"/>
+    <Cell ss:StyleID="s69"/>
+    <Cell ss:StyleID="s69"/>
+    <Cell ss:StyleID="s69"/>
+    <Cell ss:StyleID="s69"/>
+    <Cell ss:StyleID="s69"/>
+    <Cell ss:StyleID="s69"/>
+    <Cell ss:StyleID="s69"/>
+    <Cell ss:StyleID="s69"/>
+    <Cell ss:StyleID="s69"/>
+    <Cell ss:StyleID="s69"/>
+    <Cell ss:StyleID="s69"/>
+    <Cell ss:StyleID="s69"/>
+    <Cell ss:StyleID="s69"/>
+    <Cell ss:StyleID="s69"/>
+    <Cell ss:StyleID="s69"/>
+    <Cell ss:StyleID="s69"/>
+    <Cell ss:StyleID="s69"/>
+    <Cell ss:StyleID="s69"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="17.25" ss:StyleID="s104">
+    <Cell><Data ss:Type="String">SkillID</Data></Cell>
+    <Cell ss:StyleID="s105"><Data ss:Type="String">IN_EffectName</Data></Cell>
+    <Cell ss:StyleID="s105"><Data ss:Type="String">CA_EffectName</Data></Cell>
+    <Cell ss:StyleID="s105"><Data ss:Type="String">DA_EffectName</Data></Cell>
+    <Cell><Data ss:Type="String">SkillSound</Data></Cell>
+    <Cell ss:StyleID="s105"><Data ss:Type="String">Comment</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s106"><Data ss:Type="Number">500</Data></Cell>
+    <Cell ss:StyleID="s89"><Data ss:Type="String">IN_tyro_type2_P_072_TraumaShock</Data></Cell>
+    <Cell ss:StyleID="s89"/>
+    <Cell ss:StyleID="s89"/>
+    <Cell ss:StyleID="s106"/>
+    <Cell ss:StyleID="s89"><Data ss:Type="String">트라우마 쇼크</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s106"><Data ss:Type="Number">501</Data></Cell>
+    <Cell ss:StyleID="s89"><Data ss:Type="String">IN_tyro_type2_P_075_GorillaBossAttack</Data></Cell>
+    <Cell ss:StyleID="s89"/>
+    <Cell ss:StyleID="s89"/>
+    <Cell ss:StyleID="s106"/>
+    <Cell ss:StyleID="s89"><Data ss:Type="String">고릴라 보스 어택</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s106"><Data ss:Type="Number">502</Data></Cell>
+    <Cell ss:StyleID="s89"><Data ss:Type="String">IN_tyro_type2_S_103_WirePierce</Data></Cell>
+    <Cell ss:StyleID="s89"><Data ss:Type="String">CA_tyro_spear</Data></Cell>
+    <Cell ss:StyleID="s89"><Data ss:Type="String">DA_tyro_type2_S_103_WirePierce</Data></Cell>
+    <Cell ss:StyleID="s106"/>
+    <Cell ss:StyleID="s89"><Data ss:Type="String">와이어피어스</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s106"><Data ss:Type="Number">503</Data></Cell>
+    <Cell ss:StyleID="s89"><Data ss:Type="String">IN_tyro_type2_S_101_SwordBreakOfMine</Data></Cell>
+    <Cell ss:StyleID="s89"/>
+    <Cell ss:StyleID="s89"/>
+    <Cell ss:StyleID="s106"/>
+    <Cell ss:StyleID="s89"><Data ss:Type="String">소드 브레이크 오브 마인</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:StyleID="s97">
+    <Cell ss:StyleID="s107"><Data ss:Type="Number">504</Data></Cell>
+    <Cell ss:StyleID="s95"><Data ss:Type="String">IN_tyro_type2_V_105_FrenzyGunning</Data></Cell>
+    <Cell ss:StyleID="s95"><Data ss:Type="String">CA_tyro_vulcan</Data></Cell>
+    <Cell ss:StyleID="s95"><Data ss:Type="String">DA_tyro_type2_vulcan</Data></Cell>
+    <Cell ss:StyleID="s107"/>
+    <Cell ss:StyleID="s95"><Data ss:Type="String">플링건버드</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:StyleID="s97">
+    <Cell ss:StyleID="s107"><Data ss:Type="Number">505</Data></Cell>
+    <Cell ss:StyleID="s95"><Data ss:Type="String">IN_tyro_type2_V_105_FrenzyGunning</Data></Cell>
+    <Cell ss:StyleID="s95"><Data ss:Type="String">CA_tyro_vulcan</Data></Cell>
+    <Cell ss:StyleID="s95"><Data ss:Type="String">DA_tyro_vulcan</Data></Cell>
+    <Cell ss:StyleID="s107"/>
+    <Cell ss:StyleID="s95"><Data ss:Type="String">프렌지거닝</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">506</Data></Cell>
+    <Cell><Data ss:Type="String">IN_tyro_type2_M_100_CarpetBombilg</Data></Cell>
+    <Cell ss:Index="4"><Data ss:Type="String">DA_tyro_type2_M_100_CarpetBombilg</Data></Cell>
+    <Cell ss:Index="6"><Data ss:Type="String">카펫봄빙</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:StyleID="s97">
+    <Cell ss:StyleID="s107"><Data ss:Type="Number">507</Data></Cell>
+    <Cell ss:StyleID="s95"><Data ss:Type="String">IN_tyro_type2_M_100_OnePersonMultiTraceMissile</Data></Cell>
+    <Cell ss:StyleID="s95"><Data ss:Type="String">CA_tyro_M_missile</Data></Cell>
+    <Cell ss:StyleID="s95"><Data ss:Type="String">DA_tyro_M_missile</Data></Cell>
+    <Cell ss:StyleID="s107"/>
+    <Cell ss:StyleID="s95"><Data ss:Type="String">OPMT미사일</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">508</Data></Cell>
+    <Cell><Data ss:Type="String">IN_tyro_type2_R_104_UltimateHammering</Data></Cell>
+    <Cell><Data ss:Type="String">CA_tyro_R_shooter</Data></Cell>
+    <Cell><Data ss:Type="String">DA_tyro_type2_R_104_UltimateHammering</Data></Cell>
+    <Cell ss:Index="6"><Data ss:Type="String">얼티매이트해머링</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">509</Data></Cell>
+    <Cell><Data ss:Type="String">IN_tyro_type2_106_RemarkableImagination</Data></Cell>
+    <Cell ss:Index="4"><Data ss:Type="String">DA_tyro_type2_RemarkableImagination</Data></Cell>
+    <Cell ss:Index="6"><Data ss:Type="String">뛰어난상상력</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:StyleID="s97">
+    <Cell ss:StyleID="s106"><Data ss:Type="Number">510</Data></Cell>
+    <Cell ss:StyleID="s89"/>
+    <Cell ss:StyleID="s89"><Data ss:Type="String">IN_tyro_type2_102_ChargeSmash</Data></Cell>
+    <Cell ss:StyleID="s89"/>
+    <Cell ss:StyleID="s106"/>
+    <Cell ss:StyleID="s89"><Data ss:Type="String">차지스매시</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s108"><Data ss:Type="Number">511</Data></Cell>
+    <Cell ss:StyleID="s109"><Data ss:Type="String">IN_tyro_type2_93_SatelliteAttack</Data></Cell>
+    <Cell ss:StyleID="s109"/>
+    <Cell ss:StyleID="s109"><Data ss:Type="String">DA_tyro_93_SatelliteAttack</Data></Cell>
+    <Cell ss:StyleID="s108"/>
+    <Cell ss:StyleID="s109"><Data ss:Type="String">새틀라이트어택</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">512</Data></Cell>
+    <Cell><Data ss:Type="String">IN_tyro_type2_87_GravityExplosion</Data></Cell>
+    <Cell ss:Index="6"><Data ss:Type="String">중력폭발</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">513</Data></Cell>
+    <Cell><Data ss:Type="String">IN_tyro_type2_93_LightFlare</Data></Cell>
+    <Cell ss:Index="6"><Data ss:Type="String">라이트플레어</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">514</Data></Cell>
+    <Cell><Data ss:Type="String">IN_tyro_type2_87_GravitySwitch20</Data></Cell>
+    <Cell ss:Index="6" ss:StyleID="s110"><Data ss:Type="String">중력전환 20</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">515</Data></Cell>
+    <Cell><Data ss:Type="String">IN_tyro_type2_93_ElementaryParticleShield</Data></Cell>
+    <Cell ss:Index="6"><Data ss:Type="String">소립자 방어막</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">516</Data></Cell>
+    <Cell><Data ss:Type="String">IN_tyro_type2_93_HealingCamp</Data></Cell>
+    <Cell ss:Index="4"><Data ss:Type="String">DA_tyro_HealingCamp</Data></Cell>
+    <Cell ss:Index="6"><Data ss:Type="String">힐링캠프</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">517</Data></Cell>
+    <Cell><Data ss:Type="String">IN_tyro_type2_93_EmergencySatelliteSupportKit</Data></Cell>
+    <Cell ss:Index="6"><Data ss:Type="String">긴급위성 지원 보급품</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">518</Data></Cell>
+    <Cell><Data ss:Type="String">IN_tyro_type2_S_103_WirePierce</Data></Cell>
+    <Cell><Data ss:Type="String">CA_tyro_spear</Data></Cell>
+    <Cell><Data ss:Type="String">DA_tyro_S_103_WirePierce</Data></Cell>
+    <Cell ss:Index="6"><Data ss:Type="String">사출</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:StyleID="s97">
+    <Cell ss:StyleID="s107"><Data ss:Type="Number">520</Data></Cell>
+    <Cell ss:StyleID="s95"><Data ss:Type="String">IN_tyro_P_075_GorillaBossAttack_test</Data></Cell>
+    <Cell ss:StyleID="s95"/>
+    <Cell ss:StyleID="s95"/>
+    <Cell ss:StyleID="s107"/>
+    <Cell ss:StyleID="s95"><Data ss:Type="String">HPR최대출력</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">525</Data></Cell>
+    <Cell><Data ss:Type="String">IN_tyro_P_075_GorillaBossAttack_test</Data></Cell>
+    <Cell ss:Index="6"><Data ss:Type="String">SAS전개</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">527</Data></Cell>
+    <Cell><Data ss:Type="String">IN_tyro_P_075_GorillaBossAttack_test</Data></Cell>
+    <Cell ss:Index="6"><Data ss:Type="String">IRA</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">529</Data></Cell>
+    <Cell><Data ss:Type="String">IN_tyro_P_075_GorillaBossAttack_test</Data></Cell>
+    <Cell ss:Index="6"><Data ss:Type="String">부스터최대출력</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:StyleID="s97">
+    <Cell ss:StyleID="s107"><Data ss:Type="Number">530</Data></Cell>
+    <Cell ss:StyleID="s95"><Data ss:Type="String">IN_tyro_P_075_GorillaBossAttack_test</Data></Cell>
+    <Cell ss:StyleID="s95"/>
+    <Cell ss:StyleID="s95"/>
+    <Cell ss:StyleID="s107"/>
+    <Cell ss:StyleID="s95"><Data ss:Type="String">ST개발</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">537</Data></Cell>
+    <Cell><Data ss:Type="String">IN_tyro_type2_SugarRayLeonard</Data></Cell>
+    <Cell ss:Index="6"><Data ss:Type="String">슈거레이레너드 </Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">538</Data></Cell>
+    <Cell><Data ss:Type="String">IN_tyro_type2_073_BeyondMikeTyson</Data></Cell>
+    <Cell ss:Index="6"><Data ss:Type="String">비욘드마이크타이슨</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">539</Data></Cell>
+    <Cell><Data ss:Type="String">IN_tyro_type2_108_PullingHeadButting</Data></Cell>
+    <Cell ss:Index="6"><Data ss:Type="String">풀링헤드버팅</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:StyleID="s97">
+    <Cell ss:StyleID="s107"><Data ss:Type="Number">540</Data></Cell>
+    <Cell ss:StyleID="s95"><Data ss:Type="String">IN_tyro_type2_37_SpeedStar</Data></Cell>
+    <Cell ss:StyleID="s95"/>
+    <Cell ss:StyleID="s95"/>
+    <Cell ss:StyleID="s107"/>
+    <Cell ss:StyleID="s95"><Data ss:Type="String">스피드스타</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">541</Data></Cell>
+    <Cell><Data ss:Type="String">IN_tyro_type2_036_TrueRich</Data></Cell>
+    <Cell ss:Index="6"><Data ss:Type="String">트루리치</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">542</Data></Cell>
+    <Cell><Data ss:Type="String">IN_tyro_type2_35_BackFlyingSwordForce</Data></Cell>
+    <Cell ss:Index="6"><Data ss:Type="String">백플라잉소드 포스</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">543</Data></Cell>
+    <Cell><Data ss:Type="String">IN_tyro_type2_56_ArmorPiercing</Data></Cell>
+    <Cell><Data ss:Type="String">CA_tyro_ArmorPiercing</Data></Cell>
+    <Cell><Data ss:Type="String">DA_tyro_type2_ArmorPiercing</Data></Cell>
+    <Cell ss:Index="6"><Data ss:Type="String">AP사격</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">544</Data></Cell>
+    <Cell ss:StyleID="s95"><Data ss:Type="String">IN_tyro_type2_V_105_FrenzyGunning</Data></Cell>
+    <Cell ss:StyleID="s95"><Data ss:Type="String">CA_tyro_vulcan</Data></Cell>
+    <Cell><Data ss:Type="String">DA_target_bomb</Data></Cell>
+    <Cell ss:Index="6"><Data ss:Type="String">오버히트블래스트</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">545</Data></Cell>
+    <Cell><Data ss:Type="String">IN_tyro_type2_56_Lockingonthehell</Data></Cell>
+    <Cell ss:Index="4"><Data ss:Type="String">DA_tyro_type2_Lockingonthehell</Data></Cell>
+    <Cell ss:Index="6"><Data ss:Type="String">라킹 온 더 헬</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">546</Data></Cell>
+    <Cell><Data ss:Type="String">IN_tyro_type2_M_100_CarpetBombilg</Data></Cell>
+    <Cell ss:Index="4"><Data ss:Type="String">DA_tyro_type2_MassiveLaunch</Data></Cell>
+    <Cell ss:Index="6"><Data ss:Type="String">매시브 런치</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">547</Data></Cell>
+    <Cell><Data ss:Type="String">IN_tyro_type2_93_TearDownDrillMissile</Data></Cell>
+    <Cell ss:Index="4"><Data ss:Type="String">DA_tyro_type2_TearDownDrillMissile</Data></Cell>
+    <Cell ss:Index="6"><Data ss:Type="String">티어 다운 드릴 미사일</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">548</Data></Cell>
+    <Cell><Data ss:Type="String">IN_tyro_type2_100_AllIn</Data></Cell>
+    <Cell ss:Index="4"><Data ss:Type="String">DA_tyro_type2_AllIn</Data></Cell>
+    <Cell ss:Index="6"><Data ss:Type="String">올인 </Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">549</Data></Cell>
+    <Cell><Data ss:Type="String">IN_tyro_type2_104_UltimateRangePrecisionFire</Data></Cell>
+    <Cell><Data ss:Type="String">CA_tyro_UltimateRangePrecisionFire</Data></Cell>
+    <Cell><Data ss:Type="String">DA_tyro_type2_UltimateRangePrecisionFire</Data></Cell>
+    <Cell ss:Index="6"><Data ss:Type="String">URPF</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:StyleID="s97">
+    <Cell ss:StyleID="s107"><Data ss:Type="Number">550</Data></Cell>
+    <Cell ss:StyleID="s95"><Data ss:Type="String">IN_tyro_type2_104_ReasonForGainRapis</Data></Cell>
+    <Cell ss:StyleID="s95"><Data ss:Type="String">CA_tyro_ReasonForGainRapis</Data></Cell>
+    <Cell ss:StyleID="s95"><Data ss:Type="String">DA_tyro_type2_ReasonForGainRapis</Data></Cell>
+    <Cell ss:StyleID="s107"/>
+    <Cell ss:StyleID="s95"><Data ss:Type="String">라피스를모으는이유</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">551</Data></Cell>
+    <Cell><Data ss:Type="String">IN_tyro_type2_93_ImaGhost</Data></Cell>
+    <Cell ss:Index="4"><Data ss:Type="String">DA_tyro_type2_ImaGhost</Data></Cell>
+    <Cell ss:Index="6"><Data ss:Type="String">아이 엠 어 고스트 </Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">552</Data></Cell>
+    <Cell ss:Index="3"><Data ss:Type="String">IN_tyro_type2_102_ChargeSmash</Data></Cell>
+    <Cell><Data ss:Type="String">DA_tyro_type2_WireGrenadeR5</Data></Cell>
+    <Cell ss:Index="6"><Data ss:Type="String">차지그레네이드R5</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">553</Data></Cell>
+    <Cell><Data ss:Type="String">IN_tyro_type2_107_CircleWiring</Data></Cell>
+    <Cell ss:Index="6"><Data ss:Type="String">서클와이어링</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">554</Data></Cell>
+    <Cell><Data ss:Type="String">IN_tyro_S_103_WirePierce</Data></Cell>
+    <Cell><Data ss:Type="String">CA_tyro_bomb</Data></Cell>
+    <Cell><Data ss:Type="String">DA_tyro_type2_WireGrenadeR5</Data></Cell>
+    <Cell ss:Index="6"><Data ss:Type="String">와이어그레네이드R5</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">555</Data></Cell>
+    <Cell><Data ss:Type="String">IN_tyro_type2_100_BiologicalGrenade</Data></Cell>
+    <Cell ss:Index="4"><Data ss:Type="String">DA_tyro_type2_BiologicalGrenade</Data></Cell>
+    <Cell ss:Index="6"><Data ss:Type="String">바이오로지컬그레네이드</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">556</Data></Cell>
+    <Cell><Data ss:Type="String">IN_tyro_type2_93_SatelliteSupport</Data></Cell>
+    <Cell ss:Index="6"><Data ss:Type="String">공격위성지원</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">557</Data></Cell>
+    <Cell><Data ss:Type="String">IN_tyro_type2_93_OSC</Data></Cell>
+    <Cell ss:Index="6"><Data ss:Type="String">OSC</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">558</Data></Cell>
+    <Cell><Data ss:Type="String">IN_tyro_type2_93_OSS</Data></Cell>
+    <Cell ss:Index="4"><Data ss:Type="String">DA_tyro_type2_OSS</Data></Cell>
+    <Cell ss:Index="6"><Data ss:Type="String">OSS</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">559</Data></Cell>
+    <Cell><Data ss:Type="String">IN_tyro_type2_87_GravitySwitch2</Data></Cell>
+    <Cell ss:Index="6"><Data ss:Type="String">그레네이드R5</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:StyleID="s97">
+    <Cell ss:StyleID="s107"><Data ss:Type="Number">560</Data></Cell>
+    <Cell ss:StyleID="s95"><Data ss:Type="String">IN_tyro_type2_87_GravitySwitch2</Data></Cell>
+    <Cell ss:StyleID="s95"/>
+    <Cell ss:StyleID="s95"/>
+    <Cell ss:StyleID="s107"/>
+    <Cell ss:StyleID="s110"><Data ss:Type="String">중력전환2</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="17.25">
+    <Cell><Data ss:Type="Number">562</Data></Cell>
+    <Cell><Data ss:Type="String">IN_tyro2x_type2_01_att1</Data></Cell>
+    <Cell><Data ss:Type="String">CA_tyro2X_01_mini</Data></Cell>
+    <Cell><Data ss:Type="String">DA_tyro2x_type2_01_att1</Data></Cell>
+    <Cell><Data ss:Type="String">ch_Union_Skill_A</Data></Cell>
+    <Cell><Data ss:Type="String">타이로스 합체스킬1</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">563</Data></Cell>
+    <Cell><Data ss:Type="String">IN_tyro2x_type2_01_att2</Data></Cell>
+    <Cell><Data ss:Type="String">CA_tyro2X_01_big</Data></Cell>
+    <Cell><Data ss:Type="String">DA_tyro2x_type2_01_att2</Data></Cell>
+    <Cell><Data ss:Type="String">ch_Union_Skill_B</Data></Cell>
+    <Cell><Data ss:Type="String"> </Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">564</Data></Cell>
+    <Cell><Data ss:Type="String">IN_tyro2x_type2_01_att3</Data></Cell>
+    <Cell><Data ss:Type="String">CA_tyro2X_01_big</Data></Cell>
+    <Cell><Data ss:Type="String">DA_tyro2x_type2_01_att3</Data></Cell>
+    <Cell><Data ss:Type="String">ch_Union_Skill_C</Data></Cell>
+    <Cell><Data ss:Type="String">타이로스 합체스킬3</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">565</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">566</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">567</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">568</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">ch_tyros_sawswing_01</Data></Cell>
+    <Cell><Data ss:Type="String">배쉬</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">569</Data></Cell>
+    <Cell ss:StyleID="s112"><Data ss:Type="String">IN_tyro_type2_37_SpeedStar</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">ch_tyros_sawswing_03</Data></Cell>
+    <Cell><Data ss:Type="String">슬레쉬_어텍</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">570</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">ch_tyros_swordswing_01</Data></Cell>
+    <Cell><Data ss:Type="String">배쉬</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">571</Data></Cell>
+    <Cell><Data ss:Type="String">IN_tyro_type2_37_SpeedStar</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">ch_tyros_swordswing_03</Data></Cell>
+    <Cell><Data ss:Type="String">슬레쉬_어텍</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">572</Data></Cell>
+    <Cell><Data ss:Type="String">IN_tyro_37_SpeedStar</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">ch_tyros_sawswing_03</Data></Cell>
+    <Cell><Data ss:Type="String">슬레쉬_어텍</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">573</Data></Cell>
+    <Cell><Data ss:Type="String">IN_tyro_87_GravityExplosion</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">ch_tyros_sawswing_02</Data></Cell>
+    <Cell><Data ss:Type="String">쥬피터</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">574</Data></Cell>
+    <Cell ss:StyleID="s89"><Data ss:Type="String">IN_tyro_S_103_WirePierce</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">ch_tyros_wp</Data></Cell>
+    <Cell><Data ss:Type="String">와이어_피어스</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">575</Data></Cell>
+    <Cell><Data ss:Type="String">IN_tyro_073_BeyondMikeTyson</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">ch_tyros_punchswing_01</Data></Cell>
+    <Cell><Data ss:Type="String">훅</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">576</Data></Cell>
+    <Cell ss:StyleID="s89"><Data ss:Type="String">IN_tyro_P_075_GorillaBossAttack</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">ch_tyros_punchswing_03</Data></Cell>
+    <Cell><Data ss:Type="String">어쓰_파이크</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">577</Data></Cell>
+    <Cell><Data ss:Type="String">IN_tyro_009_HealingCamp</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">ch_tyros_breathIN</Data></Cell>
+    <Cell><Data ss:Type="String">전파장해</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">578</Data></Cell>
+    <Cell><Data ss:Type="String">IN_tyro_type2_37_SpeedStar</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">ch_tyros_swordswing_03</Data></Cell>
+    <Cell><Data ss:Type="String">슬레쉬_어텍</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">579</Data></Cell>
+    <Cell ss:StyleID="s89"><Data ss:Type="String">IN_tyro_S_103_WirePierce</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">ch_tyros_wp</Data></Cell>
+    <Cell><Data ss:Type="String">와이어_피어스</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">580</Data></Cell>
+    <Cell><Data ss:Type="String">IN_tyro_104_ReasonForGainRapis</Data></Cell>
+    <Cell><Data ss:Type="String">CA_tyro_ReasonForGainRapis</Data></Cell>
+    <Cell><Data ss:Type="String">DA_tyro_type2_ReasonForGainRapis</Data></Cell>
+    <Cell><Data ss:Type="String">ch_tyros_rifle</Data></Cell>
+    <Cell><Data ss:Type="String">초정밀 미사일</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">581</Data></Cell>
+    <Cell><Data ss:Type="String">M_IN_tyro_vulcan</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">ch_tyros_vulcan</Data></Cell>
+    <Cell><Data ss:Type="String">정밀조준</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">582</Data></Cell>
+    <Cell ss:StyleID="s89"><Data ss:Type="String">IN_tyro_P_075_GorillaBossAttack</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">ch_tyros_punchswing_03</Data></Cell>
+    <Cell><Data ss:Type="String">어쓰_파이크</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">583</Data></Cell>
+    <Cell><Data ss:Type="String">IN_tyro_104_ReasonForGainRapis</Data></Cell>
+    <Cell><Data ss:Type="String">CA_tyro_ReasonForGainRapis</Data></Cell>
+    <Cell><Data ss:Type="String">DA_tyro_type2_ReasonForGainRapis</Data></Cell>
+    <Cell><Data ss:Type="String">ch_tyros_rifle</Data></Cell>
+    <Cell><Data ss:Type="String">초정밀 미사일</Data></Cell>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <PageSetup>
+    <Header x:Margin="0.3"/>
+    <Footer x:Margin="0.3"/>
+    <PageMargins x:Bottom="0.75" x:Left="0.7" x:Right="0.7" x:Top="0.75"/>
+   </PageSetup>
+   <Unsynced/>
+   <Print>
+    <ValidPrinterInfo/>
+    <PaperSizeIndex>9</PaperSizeIndex>
+    <HorizontalResolution>600</HorizontalResolution>
+    <VerticalResolution>600</VerticalResolution>
+   </Print>
+   <Zoom>85</Zoom>
+   <Selected/>
+   <FreezePanes/>
+   <FrozenNoSplit/>
+   <SplitHorizontal>2</SplitHorizontal>
+   <TopRowBottomPane>41</TopRowBottomPane>
+   <ActivePane>2</ActivePane>
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+    </Pane>
+    <Pane>
+     <Number>2</Number>
+     <ActiveRow>66</ActiveRow>
+     <ActiveCol>3</ActiveCol>
+    </Pane>
+   </Panes>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+ <Worksheet ss:Name="Mob_SkillEffectSet">
+  <Table ss:ExpandedColumnCount="1" ss:ExpandedRowCount="1" x:FullColumns="1"
+   x:FullRows="1" ss:DefaultColumnWidth="54" ss:DefaultRowHeight="16.5">
+   <Row ss:AutoFitHeight="0"/>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <PageSetup>
+    <Header x:Margin="0.3"/>
+    <Footer x:Margin="0.3"/>
+    <PageMargins x:Bottom="0.75" x:Left="0.7" x:Right="0.7" x:Top="0.75"/>
+   </PageSetup>
+   <Unsynced/>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+</Workbook>
