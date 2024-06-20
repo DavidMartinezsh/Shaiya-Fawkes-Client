@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<CONTENTS>
+  <Container id ="YMEventViewer_Container">
+
+    <View type ="VIEW" id = "Background" area="[0,0,512,512]">
+
+      <View type ="VIEW" id = "BgImage" area="[0,0,512,512]">
+        <Image path="data/interface">YMEventBg.tga</Image>
+        <PresentUV>[0.0f, 0.0f, 1.0f, 1.0f]</PresentUV>
+      </View>
+
+      <View type ="VIEW" id = "BgDragRect" area="[0,0,512,45]">
+      </View>
+
+
+
+      <View type ="VIEW" id = "ContentsRect" area="[12,49,500,500]">
+      </View>
+      
+      
+      <View type ="BUTTON" id="Close_Btn" area="[0,0,32,32]">
+        <Image path="data/interface">talk1_close_button.tga</Image>
+        <Collision>[0,0,25,25]</Collision>
+        <PresentUV>[0.0f, 0.0f, 0.25f, 1.0f]</PresentUV>
+        <ButtonState Type ="OVER">[0.25f, 0.0f, 0.5f, 1.0f]</ButtonState>
+        <ButtonState Type ="ONPRESS">[0.5f, 0.0f, 0.75f, 1.0f]</ButtonState>
+        <ButtonState Type ="ENABLE">[0.75f, 0.0f, 1.0f, 1.0f]</ButtonState>
+      </View>
+
+    </View>
+    
+    
+  </Container>
+</CONTENTS>

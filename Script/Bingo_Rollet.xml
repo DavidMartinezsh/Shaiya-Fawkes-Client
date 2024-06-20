@@ -1,0 +1,315 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<CONTENTS>
+  <Container id ="BingoEvent_Rollet_Container">
+    <View type ="VIEW" id = "Binggo_Group" area="[0,0,1024,768]">
+      <StateEanble>FALSE</StateEanble>
+      <AutoFullScreen>TRUE</AutoFullScreen>
+
+      <!-- 빙고 View -->
+      <View type ="VIEW" id = "Binggo_Background" area="[500,200,453,506]">
+        <Image path="data/interface">roulette_bingo.tga</Image>
+        <PresentUV>[0.0f, 0.0f, 0.884f, 0.978f]</PresentUV>
+
+        <View type ="VIEW" id ="Bingo_Play_Group" area="[0,0,324,327]">
+          <StateEanble>FALSE</StateEanble>
+          <!--가로 1줄-->
+          <View type ="VIEW" id ="Bingo_View_11" area="[39,40,53,53]">
+          </View>
+          <View type ="VIEW" id ="Bingo_View_12" area="[96,40,53,53]">
+          </View>
+          <View type ="VIEW" id ="Bingo_View_13" area="[153,40,53,53]">
+          </View>
+          <View type ="VIEW" id ="Bingo_View_14" area="[210,40,53,53]">
+          </View>
+          <View type ="VIEW" id ="Bingo_View_15" area="[267,40,53,53]">
+          </View>
+
+          <!--가로 2줄-->
+          <View type ="VIEW" id ="Bingo_View_21" area="[39,97,53,53]">
+          </View>
+          <View type ="VIEW" id ="Bingo_View_22" area="[96,97,53,53]">
+          </View>
+          <View type ="VIEW" id ="Bingo_View_23" area="[153,97,53,53]">
+          </View>
+          <View type ="VIEW" id ="Bingo_View_24" area="[210,97,53,53]">
+          </View>
+          <View type ="VIEW" id ="Bingo_View_25" area="[267,97,53,53]">
+          </View>
+
+          <!--가로 3줄-->
+          <View type ="VIEW" id ="Bingo_View_31" area="[39,154,53,53]">
+          </View>
+          <View type ="VIEW" id ="Bingo_View_32" area="[96,154,53,53]">
+          </View>
+          <View type ="VIEW" id ="Bingo_View_33" area="[153,154,53,53]">
+          </View>
+          <View type ="VIEW" id ="Bingo_View_34" area="[210,154,53,53]">
+          </View>
+          <View type ="VIEW" id ="Bingo_View_35" area="[267,154,53,53]">
+          </View>
+
+          <!--가로 4줄-->
+          <View type ="VIEW" id ="Bingo_View_41" area="[39,211,53,53]">
+          </View>
+          <View type ="VIEW" id ="Bingo_View_42" area="[96,211,53,53]">
+          </View>
+          <View type ="VIEW" id ="Bingo_View_43" area="[153,211,53,53]">
+          </View>
+          <View type ="VIEW" id ="Bingo_View_44" area="[210,211,53,53]">
+          </View>
+          <View type ="VIEW" id ="Bingo_View_45" area="[267,211,53,53]">
+          </View>
+
+          <!--가로 5줄-->
+          <View type ="VIEW" id ="Bingo_View_51" area="[39,268,53,53]">
+          </View>
+          <View type ="VIEW" id ="Bingo_View_52" area="[96,268,53,53]">
+          </View>
+          <View type ="VIEW" id ="Bingo_View_53" area="[153,268,53,53]">
+          </View>
+          <View type ="VIEW" id ="Bingo_View_54" area="[210,268,53,53]">
+          </View>
+          <View type ="VIEW" id ="Bingo_View_55" area="[267,268,53,36]">
+          </View>
+
+          <!--가로 완성 버튼-->
+          <View type ="BUTTON" id="Row_Complate_1" area="[330,40,128,64]">
+            <Enable>FALSE</Enable>
+            <Image path="data/interface">bingo_1st_Btn.tga</Image>
+            <Collision>[0,0,88,54]</Collision>
+            <PresentUV>[0.0f, 0.0f, 1.0f, 0.25f]</PresentUV>
+            <ButtonState Type ="OVER">[0.0f, 0.25, 1.0f, 0.5f]</ButtonState>
+            <ButtonState Type ="ONPRESS">[0.0f, 0.5f, 1.0f, 0.75f]</ButtonState>
+            <ButtonState Type ="ENABLE">[0.0f, 0.75f, 1.0f, 1.0f]</ButtonState>
+            <ButtonState Type ="SELECTED">[0.0f, 0.25, 1.0f, 0.5f]</ButtonState>
+          </View>
+
+          <View type ="BUTTON" id="Row_Complate_2" area="[330,97,128,64]">
+            <Enable>FALSE</Enable>
+            <Image path="data/interface">bingo_2st_Btn.tga</Image>
+            <Collision>[0,0,88,54]</Collision>
+            <PresentUV>[0.0f, 0.0f, 1.0f, 0.25f]</PresentUV>
+            <ButtonState Type ="OVER">[0.0f, 0.25, 1.0f, 0.5f]</ButtonState>
+            <ButtonState Type ="ONPRESS">[0.0f, 0.5f, 1.0f, 0.75f]</ButtonState>
+            <ButtonState Type ="ENABLE">[0.0f, 0.75f, 1.0f, 1.0f]</ButtonState>
+            <ButtonState Type ="SELECTED">[0.0f, 0.25, 1.0f, 0.5f]</ButtonState>
+          </View>
+
+          <View type ="BUTTON" id="Row_Complate_3" area="[330,154,128,64]">
+            <Enable>FALSE</Enable>
+            <Image path="data/interface">bingo_3st_Btn.tga</Image>
+            <Collision>[0,0,88,54]</Collision>
+            <PresentUV>[0.0f, 0.0f, 1.0f, 0.25f]</PresentUV>
+            <ButtonState Type ="OVER">[0.0f, 0.25, 1.0f, 0.5f]</ButtonState>
+            <ButtonState Type ="ONPRESS">[0.0f, 0.5f, 1.0f, 0.75f]</ButtonState>
+            <ButtonState Type ="ENABLE">[0.0f, 0.75f, 1.0f, 1.0f]</ButtonState>
+            <ButtonState Type ="SELECTED">[0.0f, 0.25, 1.0f, 0.5f]</ButtonState>
+          </View>
+
+          <View type ="BUTTON" id="Row_Complate_4" area="[330,211,128,64]">
+            <Enable>FALSE</Enable>
+            <Image path="data/interface">bingo_4st_Btn.tga</Image>
+            <Collision>[0,0,88,54]</Collision>
+            <PresentUV>[0.0f, 0.0f, 1.0f, 0.25f]</PresentUV>
+            <ButtonState Type ="OVER">[0.0f, 0.25, 1.0f, 0.5f]</ButtonState>
+            <ButtonState Type ="ONPRESS">[0.0f, 0.5f, 1.0f, 0.75f]</ButtonState>
+            <ButtonState Type ="ENABLE">[0.0f, 0.75f, 1.0f, 1.0f]</ButtonState>
+            <ButtonState Type ="SELECTED">[0.0f, 0.25, 1.0f, 0.5f]</ButtonState>
+          </View>
+
+          <View type ="BUTTON" id="Row_Complate_5" area="[330,268,128,64]">
+            <Enable>FALSE</Enable>
+            <Image path="data/interface">bingo_5st_Btn.tga</Image>
+            <Collision>[0,0,88,54]</Collision>
+            <PresentUV>[0.0f, 0.0f, 1.0f, 0.25f]</PresentUV>
+            <ButtonState Type ="OVER">[0.0f, 0.25, 1.0f, 0.5f]</ButtonState>
+            <ButtonState Type ="ONPRESS">[0.0f, 0.5f, 1.0f, 0.75f]</ButtonState>
+            <ButtonState Type ="ENABLE">[0.0f, 0.75f, 1.0f, 1.0f]</ButtonState>
+            <ButtonState Type ="SELECTED">[0.0f, 0.25, 1.0f, 0.5f]</ButtonState>
+          </View>
+
+          <!--세로 완성 버튼-->
+          <View type ="BUTTON" id="Col_Complate_1" area="[39,331,64,128]">
+            <Enable>FALSE</Enable>
+            <Image path="data/interface">roulette_bingo_1st_Btn.tga</Image>
+            <Collision>[0,0,54,88]</Collision>
+            <PresentUV>[0.0f, 0.0f, 1.0f, 0.25f]</PresentUV>
+            <ButtonState Type ="OVER">[0.0f, 0.25, 1.0f, 0.5f]</ButtonState>
+            <ButtonState Type ="ONPRESS">[0.0f, 0.5f, 1.0f, 0.75f]</ButtonState>
+            <ButtonState Type ="ENABLE">[0.0f, 0.75f, 1.0f, 1.0f]</ButtonState>
+            <ButtonState Type ="SELECTED">[0.0f, 0.25, 1.0f, 0.5f]</ButtonState>
+          </View>
+
+          <View type ="BUTTON" id="Col_Complate_2" area="[96,331,64,128]">
+            <Enable>FALSE</Enable>
+            <Image path="data/interface">roulette_bingo_2st_Btn.tga</Image>
+            <Collision>[0,0,54,88]</Collision>
+            <PresentUV>[0.0f, 0.0f, 1.0f, 0.25f]</PresentUV>
+            <ButtonState Type ="OVER">[0.0f, 0.25, 1.0f, 0.5f]</ButtonState>
+            <ButtonState Type ="ONPRESS">[0.0f, 0.5f, 1.0f, 0.75f]</ButtonState>
+            <ButtonState Type ="ENABLE">[0.0f, 0.75f, 1.0f, 1.0f]</ButtonState>
+            <ButtonState Type ="SELECTED">[0.0f, 0.25, 1.0f, 0.5f]</ButtonState>
+          </View>
+
+          <View type ="BUTTON" id="Col_Complate_3" area="[153,331,64,128]">
+            <Enable>FALSE</Enable>
+            <Image path="data/interface">roulette_bingo_3st_Btn.tga</Image>
+            <Collision>[0,0,54,88]</Collision>
+            <PresentUV>[0.0f, 0.0f, 1.0f, 0.25f]</PresentUV>
+            <ButtonState Type ="OVER">[0.0f, 0.25, 1.0f, 0.5f]</ButtonState>
+            <ButtonState Type ="ONPRESS">[0.0f, 0.5f, 1.0f, 0.75f]</ButtonState>
+            <ButtonState Type ="ENABLE">[0.0f, 0.75f, 1.0f, 1.0f]</ButtonState>
+            <ButtonState Type ="SELECTED">[0.0f, 0.25, 1.0f, 0.5f]</ButtonState>
+          </View>
+
+          <View type ="BUTTON" id="Col_Complate_4" area="[210,331,64,128]">
+            <Enable>FALSE</Enable>
+            <Image path="data/interface">roulette_bingo_4st_Btn.tga</Image>
+            <Collision>[0,0,54,88]</Collision>
+            <PresentUV>[0.0f, 0.0f, 1.0f, 0.25f]</PresentUV>
+            <ButtonState Type ="OVER">[0.0f, 0.25, 1.0f, 0.5f]</ButtonState>
+            <ButtonState Type ="ONPRESS">[0.0f, 0.5f, 1.0f, 0.75f]</ButtonState>
+            <ButtonState Type ="ENABLE">[0.0f, 0.75f, 1.0f, 1.0f]</ButtonState>
+            <ButtonState Type ="SELECTED">[0.0f, 0.25, 1.0f, 0.5f]</ButtonState>
+          </View>
+
+          <View type ="BUTTON" id="Col_Complate_5" area="[267,331,64,128]">
+            <Enable>FALSE</Enable>
+            <Image path="data/interface">roulette_bingo_5st_Btn.tga</Image>
+            <Collision>[0,0,54,88]</Collision>
+            <PresentUV>[0.0f, 0.0f, 1.0f, 0.25f]</PresentUV>
+            <ButtonState Type ="OVER">[0.0f, 0.25, 1.0f, 0.5f]</ButtonState>
+            <ButtonState Type ="ONPRESS">[0.0f, 0.5f, 1.0f, 0.75f]</ButtonState>
+            <ButtonState Type ="ENABLE">[0.0f, 0.75f, 1.0f, 1.0f]</ButtonState>
+            <ButtonState Type ="SELECTED">[0.0f, 0.25, 1.0f, 0.5f]</ButtonState>
+          </View>
+
+          <!--대각선 버튼-->
+          <View type ="BUTTON" id="Diagonal_Complate" area="[324,331,128,128]">
+            <Enable>FALSE</Enable>
+            <Image path="data/interface">roulette_bingo_all_Btn.tga</Image>
+            <Collision>[8,10,83,71]</Collision>
+            <PresentUV>[0.0f, 0.0f, 1.0f, 0.25f]</PresentUV>
+            <ButtonState Type ="OVER">[0.0f, 0.25, 1.0f, 0.5f]</ButtonState>
+            <ButtonState Type ="ONPRESS">[0.0f, 0.5f, 1.0f, 0.75f]</ButtonState>
+            <ButtonState Type ="ENABLE">[0.0f, 0.75f, 1.0f, 1.0f]</ButtonState>
+            <ButtonState Type ="SELECTED">[0.0f, 0.25, 1.0f, 0.5f]</ButtonState>
+          </View>
+
+        </View>
+
+        <!--버튼 들-->
+        <View type ="BUTTON" id="Bingo_Ok_Btn" area="[184,440,128,32]">
+          <Image path="data/interface">bingo_ok_Btn.tga</Image>
+          <Collision>[0,0,66,27]</Collision>
+          <PresentUV>[0.0f, 0.0f, 1.0f, 0.25f]</PresentUV>
+          <ButtonState Type ="OVER">[0.0f, 0.25, 1.0f, 0.5f]</ButtonState>
+          <ButtonState Type ="ONPRESS">[0.0f, 0.5f, 1.0f, 0.75f]</ButtonState>
+          <ButtonState Type ="ENABLE">[0.0f, 0.75f, 1.0f, 1.0f]</ButtonState>
+        </View>
+
+      </View>
+
+      <!-- 롤렛 뷰-->
+      <View type ="VIEW" id ="Bingo_Rollet_Background" area="[200,200,305,400]">
+        <Visible>TRUE</Visible>
+
+        <Image path="data/interface">roulette_bg.tga</Image>
+        <PresentUV>[0.0f, 0.0f, 0.5957f, 0.7812f]</PresentUV>
+        <!--
+        <View type ="VIEW" id ="Bingo_Rollet_View" area="[23,58,256,256]">
+          <StateEanble>FALSE</StateEanble>
+          <Image path="data/interface">roulette.tga</Image>
+          <PresentUV>[0.0f, 0.0f, 1.0f, 1.0f]</PresentUV>
+        </View>
+        -->
+        
+        <!--
+        <View type ="VIEW" id ="Bingo_Rollet_Needle_View" area="[147,40,32,32]">
+          <StateEanble>FALSE</StateEanble>
+          <Image path="data/interface">roulette_result_needle.tga</Image>
+          <PresentUV>[0.0f, 0.0f, 1.0, 1.0f]</PresentUV>
+        </View>
+        -->
+        <!-- 빙고 코인 사용-->
+        <View type ="BUTTON" id="Bingo_Fill_Btn" area="[66,318,256,64]">
+          <Image path="data/interface">roulette_btn.tga</Image>
+          <Collision>[4,4,162,43]</Collision>
+          <PresentUV>[0.0f, 0.0f, 1.0f, 0.25f]</PresentUV>
+          <ButtonState Type ="OVER">[0.0f, 0.25, 1.0f, 0.5f]</ButtonState>
+          <ButtonState Type ="ONPRESS">[0.0f, 0.5f, 1.0f, 0.75f]</ButtonState>
+          <ButtonState Type ="CLICKED">[0.0f, 0.5f, 1.0f, 0.75f]</ButtonState>
+          <ButtonState Type ="ENABLE">[0.0f, 0.75f, 1.0f, 1.0f]</ButtonState>
+
+          <View type="TEXTVIEW" id="FillItem_Num_Text" area="[127,20,32,16]">
+            <Bold>TRUE</Bold>
+            <TextColor>[0,0,0,255]</TextColor>
+            <Text>[]</Text>
+          </View>
+
+        </View>
+
+        <!-- 빙고 골드 사용-->
+        <View type ="BUTTON" id="Bingo_Fill_Money_Btn" area="[66,364,256,64]">
+          <Image path="data/interface">roulette_btn_gold.tga</Image>
+          <Collision>[4,4,162,43]</Collision>
+          <PresentUV>[0.0f, 0.0f, 1.0f, 0.25f]</PresentUV>
+          <ButtonState Type ="OVER">[0.0f, 0.25, 1.0f, 0.5f]</ButtonState>
+          <ButtonState Type ="ONPRESS">[0.0f, 0.5f, 1.0f, 0.75f]</ButtonState>
+          <ButtonState Type ="CLICKED">[0.0f, 0.5f, 1.0f, 0.75f]</ButtonState>
+          <ButtonState Type ="ENABLE">[0.0f, 0.75f, 1.0f, 1.0f]</ButtonState>
+
+          <View type="TEXTVIEW" id="FillItem_Num_Money_Text" area="[102,20,64,16]">
+            <Bold>TRUE</Bold>
+            <TextColor>[0,0,0,255]</TextColor>
+            <Text>[]</Text>
+          </View>
+
+        </View>
+        
+      </View>
+      
+      <!-- 시간 표시 View -->
+      <View type ="VIEW" id ="Time_Background" area="[10,200,128,76]">
+        <Visible>TRUE</Visible>
+
+        <Image path="data/interface">roulette_time.tga</Image>
+        <PresentUV>[0.0f, 0.0f, 1.0f, 0.5937f]</PresentUV>
+        
+        <!--<LayoutOption type="ALIGN_HEIGHT_CENTER" option="PERSENTAGE">0.5f</LayoutOption>-->
+        <!-- 시간 표시 -->
+        <View type ="VIEW" id ="GetItem_Time0" area="[6,28,32,32]">
+          <StateEanble>FALSE</StateEanble>
+          <Image path="data/interface">pvp_number_02.tga</Image>
+          <PresentUV>[0.0f, 0.0f, 0.0625f, 0.52f]</PresentUV>
+        </View>
+
+        <View type ="VIEW" id ="GetItem_Time1" area="[32,28,32,32]">
+          <StateEanble>FALSE</StateEanble>
+          <Image path="data/interface">pvp_number_02.tga</Image>
+          <PresentUV>[0.0f, 0.0f, 0.0625f, 0.52f]</PresentUV>
+        </View>
+
+        <!--
+        <View type ="VIEW" id ="Clear_Stage_TimeBound" area="[28,28,16,16]">
+          <Image path="data/interface">dungeon_action_time_number.tga</Image>
+          <PresentUV>[0.625f, 0.0f, 0.6875f, 0.52f]</PresentUV>
+        </View>
+        -->
+        
+        <View type ="VIEW" id ="GetItem_Time2" area="[73,28,32,32]">
+          <StateEanble>FALSE</StateEanble>
+          <Image path="data/interface">pvp_number_02.tga</Image>
+          <PresentUV>[0.0f, 0.0f, 0.0625f, 0.52f]</PresentUV>
+        </View>
+
+        <View type ="VIEW" id ="GetItem_Time3" area="[99,28,32,32]">
+          <StateEanble>FALSE</StateEanble>
+          <Image path="data/interface">pvp_number_02.tga</Image>
+          <PresentUV>[0.0f, 0.0f, 0.0625f, 0.52f]</PresentUV>
+        </View>
+      </View>
+      
+    </View>
+  </Container>
+</CONTENTS>

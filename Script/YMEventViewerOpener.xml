@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<CONTENTS>
+  <Container id ="YMEventViewerOpener_Container">
+
+    <View type ="VIEW" id = "Background" area="[100,100,110,50]">
+      <!--Image path="data/interface">random_item_bg.tga</Image-->
+
+      <View type ="BUTTON" id="OpenList_Btn" area="[10,10,128,32]">
+        <Image path="data/interface">bingo_ok_Btn.tga</Image>
+        <Collision>[0,0,91,30]</Collision>
+        <PresentUV>[0.0f, 0.0f, 1.0f, 0.25f]</PresentUV>
+        <ButtonState Type ="OVER">[0.0f, 0.25, 1.0f, 0.5f]</ButtonState>
+        <ButtonState Type ="ONPRESS">[0.0f, 0.5f, 1.0f, 0.75f]</ButtonState>
+        <ButtonState Type ="ENABLE">[0.0f, 0.75f, 1.0f, 1.0f]</ButtonState>
+      </View>
+
+    </View>
+    
+    
+  </Container>
+</CONTENTS>

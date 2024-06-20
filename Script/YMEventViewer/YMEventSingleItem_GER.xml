@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<CONTENTS>
+  <Container id ="YMEventSingleItem">
+    <View type ="VIEW" id = "Background" area="[0,0,512,100]">
+      <EmptyView>TRUE</EmptyView>
+      <View type ="TEXTVIEW" id = "EventName" area="[21,12,500,1]">
+        <Text>이벤트이름</Text>
+      </View>
+
+      <View type ="TEXTVIEW" id = "EventContent" area="[28,40,500,1]">
+        <Text>이벤트 내용</Text>
+        <MultiLine>TRUE</MultiLine>
+        <TextVerticalAlign>TOP</TextVerticalAlign>
+      </View>
+
+      <View type ="TEXTVIEW" id = "EventTime" area="[28,100,500,1]">
+        <Text>이벤트기간</Text>
+        <MultiLine>TRUE</MultiLine>
+        <TextVerticalAlign>TOP</TextVerticalAlign>
+      </View>
+      
+      <View type ="BUTTON" id="OpenWebPage" area="[380,100,128,64]">
+        <Image path="data/interface">YMEventBg_Btn.tga</Image>
+        <Collision>[0,0,91,36]</Collision>
+        <PresentUV>[0.0f, 0.0f, 1.0f, 0.25f]</PresentUV>
+        <ButtonState Type ="OVER">[0.0f, 0.25, 1.0f, 0.5f]</ButtonState>
+        <ButtonState Type ="ONPRESS">[0.0f, 0.5f, 1.0f, 0.75f]</ButtonState>
+        <ButtonState Type ="ENABLE">[0.0f, 0.75f, 1.0f, 1.0f]</ButtonState>
+      </View>
+
+    </View>
+    
+    
+  </Container>
+</CONTENTS>

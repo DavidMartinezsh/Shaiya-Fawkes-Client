@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<CONTENTS>
+  <Container id ="TyrosCombineMF_Container">
+
+    <View type ="VIEW" id = "EmptyBackground" area="[0,0,2048,2048]">
+      
+      <View type ="VIEW" id = "TyrosCombineMF_GlassLeft" area="[0,0,512,2048]">
+        <Image path="data/interface">dynoss_window.tga</Image>
+        <PresentUV>[0.0f, 0.0f, 1.0f, 1.0f]</PresentUV>
+      </View>
+
+      <View type ="VIEW" id = "TyrosCombineMF_GlassRight" area="[600,0,512,2048]">
+        <Image path="data/interface">dynoss_window.tga</Image>
+        <PresentUV>[1.0f, 0.0f, 0.0f, 1.0f]</PresentUV>
+      </View>
+
+
+      <View type ="VIEW" id = "TyrosCombineMF_BottomLeft" area="[100,500,710,110]">
+        <Image path="data/interface">dynoss_main_left.tga</Image>
+        <PresentUV>[0.0f, 0.0f, 0.693f, 0.43f]</PresentUV>
+      </View>
+
+
+      <View type ="VIEW" id = "TyrosCombineMF_BottomRight" area="[800,500,710,110]">
+        <Image path="data/interface">dynoss_main_right.tga</Image>
+        <PresentUV>[0.0f, 0.0f, 0.693f, 0.43f]</PresentUV>
+      </View>
+
+      
+    </View>
+    
+    
+  </Container>
+</CONTENTS>

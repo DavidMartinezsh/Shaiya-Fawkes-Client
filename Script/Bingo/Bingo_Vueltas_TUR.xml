@@ -1,0 +1,248 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<CONTENTS>
+  <Container id ="BingoEvent_Container">
+    <View type ="VIEW" id = "Binggo_Background" area="[200,200,453,506]">
+      <Image path="data/interface/bingo">bingo.tga</Image>
+      <PresentUV>[0.0f, 0.0f, 0.884f, 0.978f]</PresentUV>
+
+      <View type ="VIEW" id ="Bingo_Play_Group" area="[0,0,324,327]">
+        <StateEanble>FALSE</StateEanble>
+        <!--가로 1줄-->
+        <View type ="VIEW" id ="Bingo_View_11" area="[39,40,53,53]">
+        </View>
+        <View type ="VIEW" id ="Bingo_View_12" area="[96,40,53,53]">
+        </View>
+        <View type ="VIEW" id ="Bingo_View_13" area="[153,40,53,53]">
+        </View>
+        <View type ="VIEW" id ="Bingo_View_14" area="[210,40,53,53]">
+        </View>
+        <View type ="VIEW" id ="Bingo_View_15" area="[267,40,53,53]">
+        </View>
+
+        <!--가로 2줄-->
+        <View type ="VIEW" id ="Bingo_View_21" area="[39,97,53,53]">
+        </View>
+        <View type ="VIEW" id ="Bingo_View_22" area="[96,97,53,53]">
+        </View>
+        <View type ="VIEW" id ="Bingo_View_23" area="[153,97,53,53]">
+        </View>
+        <View type ="VIEW" id ="Bingo_View_24" area="[210,97,53,53]">
+        </View>
+        <View type ="VIEW" id ="Bingo_View_25" area="[267,97,53,53]">
+        </View>
+
+        <!--가로 3줄-->
+        <View type ="VIEW" id ="Bingo_View_31" area="[39,154,53,53]">
+        </View>
+        <View type ="VIEW" id ="Bingo_View_32" area="[96,154,53,53]">
+        </View>
+        <View type ="VIEW" id ="Bingo_View_33" area="[153,154,53,53]">
+        </View>
+        <View type ="VIEW" id ="Bingo_View_34" area="[210,154,53,53]">
+        </View>
+        <View type ="VIEW" id ="Bingo_View_35" area="[267,154,53,53]">
+        </View>
+
+        <!--가로 4줄-->
+        <View type ="VIEW" id ="Bingo_View_41" area="[39,211,53,53]">
+        </View>
+        <View type ="VIEW" id ="Bingo_View_42" area="[96,211,53,53]">
+        </View>
+        <View type ="VIEW" id ="Bingo_View_43" area="[153,211,53,53]">
+        </View>
+        <View type ="VIEW" id ="Bingo_View_44" area="[210,211,53,53]">
+        </View>
+        <View type ="VIEW" id ="Bingo_View_45" area="[267,211,53,53]">
+        </View>
+
+        <!--가로 5줄-->
+        <View type ="VIEW" id ="Bingo_View_51" area="[39,268,53,53]">
+        </View>
+        <View type ="VIEW" id ="Bingo_View_52" area="[96,268,53,53]">
+        </View>
+        <View type ="VIEW" id ="Bingo_View_53" area="[153,268,53,53]">
+        </View>
+        <View type ="VIEW" id ="Bingo_View_54" area="[210,268,53,53]">
+        </View>
+        <View type ="VIEW" id ="Bingo_View_55" area="[267,268,53,36]">
+        </View>
+
+        <!--가로 완성 버튼-->
+        <View type ="BUTTON" id="Row_Complate_1" area="[330,40,128,64]">
+          <Enable>FALSE</Enable>
+          <Image path="data/interface/bingo/button">bingo_Btn.tga</Image>
+          <Collision>[0,0,88,54]</Collision>
+          <PresentUV>[0.0f, 0.0f, 1.0f, 0.25f]</PresentUV>
+          <ButtonState Type ="OVER">[0.0f, 0.25, 1.0f, 0.5f]</ButtonState>
+          <ButtonState Type ="ONPRESS">[0.0f, 0.5f, 1.0f, 0.75f]</ButtonState>
+          <ButtonState Type ="ENABLE">[0.0f, 0.75f, 1.0f, 1.0f]</ButtonState>
+          <ButtonState Type ="SELECTED">[0.0f, 0.25, 1.0f, 0.5f]</ButtonState>
+          <View type ="VIEW" id = "" area="[0,0,64,64]">
+            <Image path="data/interface/bingo/text">bingo_1st_Btn_USA.tga</Image>
+            <PresentUV>[0.0f, 0.0f, 1.0f, 1.0f]</PresentUV>
+          </View>
+        </View>
+
+        <View type ="BUTTON" id="Row_Complate_2" area="[330,97,128,64]">
+          <Enable>FALSE</Enable>
+          <Image path="data/interface/bingo/button">bingo_Btn.tga</Image>
+          <Collision>[0,0,88,54]</Collision>
+          <PresentUV>[0.0f, 0.0f, 1.0f, 0.25f]</PresentUV>
+          <ButtonState Type ="OVER">[0.0f, 0.25, 1.0f, 0.5f]</ButtonState>
+          <ButtonState Type ="ONPRESS">[0.0f, 0.5f, 1.0f, 0.75f]</ButtonState>
+          <ButtonState Type ="ENABLE">[0.0f, 0.75f, 1.0f, 1.0f]</ButtonState>
+          <ButtonState Type ="SELECTED">[0.0f, 0.25, 1.0f, 0.5f]</ButtonState>
+          <View type ="VIEW" id = "" area="[0,0,64,64]">
+            <Image path="data/interface/bingo/text">bingo_2st_Btn_USA.tga</Image>
+            <PresentUV>[0.0f, 0.0f, 1.0f, 1.0f]</PresentUV>
+          </View>
+        </View>
+
+        <View type ="BUTTON" id="Row_Complate_3" area="[330,154,128,64]">
+          <Enable>FALSE</Enable>
+          <Image path="data/interface/bingo/button">bingo_Btn.tga</Image>
+          <Collision>[0,0,88,54]</Collision>
+          <PresentUV>[0.0f, 0.0f, 1.0f, 0.25f]</PresentUV>
+          <ButtonState Type ="OVER">[0.0f, 0.25, 1.0f, 0.5f]</ButtonState>
+          <ButtonState Type ="ONPRESS">[0.0f, 0.5f, 1.0f, 0.75f]</ButtonState>
+          <ButtonState Type ="ENABLE">[0.0f, 0.75f, 1.0f, 1.0f]</ButtonState>
+          <ButtonState Type ="SELECTED">[0.0f, 0.25, 1.0f, 0.5f]</ButtonState>
+          <View type ="VIEW" id = "" area="[0,0,64,64]">
+            <Image path="data/interface/bingo/text">bingo_3st_Btn_USA.tga</Image>
+            <PresentUV>[0.0f, 0.0f, 1.0f, 1.0f]</PresentUV>
+          </View>
+        </View>
+
+        <View type ="BUTTON" id="Row_Complate_4" area="[330,211,128,64]">
+          <Enable>FALSE</Enable>
+          <Image path="data/interface/bingo/button">bingo_Btn.tga</Image>
+          <Collision>[0,0,88,54]</Collision>
+          <PresentUV>[0.0f, 0.0f, 1.0f, 0.25f]</PresentUV>
+          <ButtonState Type ="OVER">[0.0f, 0.25, 1.0f, 0.5f]</ButtonState>
+          <ButtonState Type ="ONPRESS">[0.0f, 0.5f, 1.0f, 0.75f]</ButtonState>
+          <ButtonState Type ="ENABLE">[0.0f, 0.75f, 1.0f, 1.0f]</ButtonState>
+          <ButtonState Type ="SELECTED">[0.0f, 0.25, 1.0f, 0.5f]</ButtonState>
+          <View type ="VIEW" id = "" area="[0,0,64,64]">
+            <Image path="data/interface/bingo/text">bingo_4st_Btn_USA.tga</Image>
+            <PresentUV>[0.0f, 0.0f, 1.0f, 1.0f]</PresentUV>
+          </View>
+        </View>
+
+        <View type ="BUTTON" id="Row_Complate_5" area="[330,268,128,64]">
+          <Enable>FALSE</Enable>
+          <Image path="data/interface/bingo/button">bingo_Btn.tga</Image>
+          <Collision>[0,0,88,54]</Collision>
+          <PresentUV>[0.0f, 0.0f, 1.0f, 0.25f]</PresentUV>
+          <ButtonState Type ="OVER">[0.0f, 0.25, 1.0f, 0.5f]</ButtonState>
+          <ButtonState Type ="ONPRESS">[0.0f, 0.5f, 1.0f, 0.75f]</ButtonState>
+          <ButtonState Type ="ENABLE">[0.0f, 0.75f, 1.0f, 1.0f]</ButtonState>
+          <ButtonState Type ="SELECTED">[0.0f, 0.25, 1.0f, 0.5f]</ButtonState>
+          <View type ="VIEW" id = "" area="[0,0,64,64]">
+            <Image path="data/interface/bingo/text">bingo_5st_Btn_USA.tga</Image>
+            <PresentUV>[0.0f, 0.0f, 1.0f, 1.0f]</PresentUV>
+          </View>
+        </View>
+
+        <!--세로 완성 버튼-->
+        <View type ="BUTTON" id="Col_Complate_1" area="[39,331,64,128]">
+          <Enable>FALSE</Enable>
+          <Image path="data/interface/bingo/button">bingo_Btn02.tga</Image>
+          <Collision>[0,0,54,88]</Collision>
+          <PresentUV>[0.0f, 0.0f, 1.0f, 0.25f]</PresentUV>
+          <ButtonState Type ="OVER">[0.0f, 0.25, 1.0f, 0.5f]</ButtonState>
+          <ButtonState Type ="ONPRESS">[0.0f, 0.5f, 1.0f, 0.75f]</ButtonState>
+          <ButtonState Type ="ENABLE">[0.0f, 0.75f, 1.0f, 1.0f]</ButtonState>
+          <ButtonState Type ="SELECTED">[0.0f, 0.25, 1.0f, 0.5f]</ButtonState>
+          <View type ="VIEW" id = "" area="[0,0,64,64]">
+            <Image path="data/interface/bingo/text">bingo_mon_Btn_USA.tga</Image>
+            <PresentUV>[0.0f, 0.0f, 1.0f, 1.0f]</PresentUV>
+          </View>
+        </View>
+
+        <View type ="BUTTON" id="Col_Complate_2" area="[96,331,64,128]">
+          <Enable>FALSE</Enable>
+          <Image path="data/interface/bingo/button">bingo_Btn02.tga</Image>
+          <Collision>[0,0,54,88]</Collision>
+          <PresentUV>[0.0f, 0.0f, 1.0f, 0.25f]</PresentUV>
+          <ButtonState Type ="OVER">[0.0f, 0.25, 1.0f, 0.5f]</ButtonState>
+          <ButtonState Type ="ONPRESS">[0.0f, 0.5f, 1.0f, 0.75f]</ButtonState>
+          <ButtonState Type ="ENABLE">[0.0f, 0.75f, 1.0f, 1.0f]</ButtonState>
+          <ButtonState Type ="SELECTED">[0.0f, 0.25, 1.0f, 0.5f]</ButtonState>
+          <View type ="VIEW" id = "" area="[0,0,64,64]">
+            <Image path="data/interface/bingo/text">bingo_tue_Btn_USA.tga</Image>
+            <PresentUV>[0.0f, 0.0f, 1.0f, 1.0f]</PresentUV>
+          </View>
+        </View>
+
+        <View type ="BUTTON" id="Col_Complate_3" area="[153,331,64,128]">
+          <Enable>FALSE</Enable>
+          <Image path="data/interface/bingo/button">bingo_Btn02.tga</Image>
+          <Collision>[0,0,54,88]</Collision>
+          <PresentUV>[0.0f, 0.0f, 1.0f, 0.25f]</PresentUV>
+          <ButtonState Type ="OVER">[0.0f, 0.25, 1.0f, 0.5f]</ButtonState>
+          <ButtonState Type ="ONPRESS">[0.0f, 0.5f, 1.0f, 0.75f]</ButtonState>
+          <ButtonState Type ="ENABLE">[0.0f, 0.75f, 1.0f, 1.0f]</ButtonState>
+          <ButtonState Type ="SELECTED">[0.0f, 0.25, 1.0f, 0.5f]</ButtonState>
+          <View type ="VIEW" id = "" area="[0,0,64,64]">
+            <Image path="data/interface/bingo/text">bingo_wed_Btn_USA.tga</Image>
+            <PresentUV>[0.0f, 0.0f, 1.0f, 1.0f]</PresentUV>
+          </View>
+        </View>
+
+        <View type ="BUTTON" id="Col_Complate_4" area="[210,331,64,128]">
+          <Enable>FALSE</Enable>
+          <Image path="data/interface/bingo/button">bingo_Btn02.tga</Image>
+          <Collision>[0,0,54,88]</Collision>
+          <PresentUV>[0.0f, 0.0f, 1.0f, 0.25f]</PresentUV>
+          <ButtonState Type ="OVER">[0.0f, 0.25, 1.0f, 0.5f]</ButtonState>
+          <ButtonState Type ="ONPRESS">[0.0f, 0.5f, 1.0f, 0.75f]</ButtonState>
+          <ButtonState Type ="ENABLE">[0.0f, 0.75f, 1.0f, 1.0f]</ButtonState>
+          <ButtonState Type ="SELECTED">[0.0f, 0.25, 1.0f, 0.5f]</ButtonState>
+          <View type ="VIEW" id = "" area="[0,0,64,64]">
+            <Image path="data/interface/bingo/text">bingo_thu_Btn_USA.tga</Image>
+            <PresentUV>[0.0f, 0.0f, 1.0f, 1.0f]</PresentUV>
+          </View>
+        </View>
+
+        <View type ="BUTTON" id="Col_Complate_5" area="[267,331,64,128]">
+          <Enable>FALSE</Enable>
+          <Image path="data/interface/bingo/button">bingo_Btn02.tga</Image>
+          <Collision>[0,0,54,88]</Collision>
+          <PresentUV>[0.0f, 0.0f, 1.0f, 0.25f]</PresentUV>
+          <ButtonState Type ="OVER">[0.0f, 0.25, 1.0f, 0.5f]</ButtonState>
+          <ButtonState Type ="ONPRESS">[0.0f, 0.5f, 1.0f, 0.75f]</ButtonState>
+          <ButtonState Type ="ENABLE">[0.0f, 0.75f, 1.0f, 1.0f]</ButtonState>
+          <ButtonState Type ="SELECTED">[0.0f, 0.25, 1.0f, 0.5f]</ButtonState>
+          <View type ="VIEW" id = "" area="[0,0,64,64]">
+            <Image path="data/interface/bingo/text">bingo_fri_Btn_USA.tga</Image>
+            <PresentUV>[0.0f, 0.0f, 1.0f, 1.0f]</PresentUV>
+          </View>
+        </View>
+
+        <!--대각선 버튼-->
+        <View type ="BUTTON" id="Diagonal_Complate" area="[324,331,128,128]">
+          <Enable>FALSE</Enable>
+          <Image path="data/interface/bingo/button">bingo_bonus_Btn.tga</Image>
+          <Collision>[8,10,83,71]</Collision>
+          <PresentUV>[0.0f, 0.0f, 1.0f, 0.25f]</PresentUV>
+          <ButtonState Type ="OVER">[0.0f, 0.25, 1.0f, 0.5f]</ButtonState>
+          <ButtonState Type ="ONPRESS">[0.0f, 0.5f, 1.0f, 0.75f]</ButtonState>
+          <ButtonState Type ="ENABLE">[0.0f, 0.75f, 1.0f, 1.0f]</ButtonState>
+          <ButtonState Type ="SELECTED">[0.0f, 0.25, 1.0f, 0.5f]</ButtonState>
+          <View type ="VIEW" id = "" area="[18,11,64,64]">
+            <Image path="data/interface/bingo/text">bingo_bonus_Btn_USA.tga</Image>
+            <PresentUV>[0.0f, 0.0f, 1.0f, 1.0f]</PresentUV>
+          </View>
+        </View>
+
+      </View>
+      
+      <!--버튼 들-->
+      <View type ="BUTTON" id="Bingo_Ok_Btn" area="[184,440,66,27]">
+        <Collision>[0,0,66,27]</Collision>
+        <ButtonTextFreeSize Type ="LAYOUT">[0, 0, 12004]</ButtonTextFreeSize>
+      </View>
+      
+    </View>
+  </Container>
+</CONTENTS>

@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<CONTENTS>
+  <Container id ="ItemCreateEffect_Container">
+
+    <View type ="VIEW" id = "Background" area="[0,0,512,512]">
+      <Image path="data/interface/RandomItem">random_item_bg.tga</Image>
+
+      <View type ="VIEW" id = "" area="[77,14,256,32]">
+        <Image path="data/interface/RandomItem/text">random_item_bg_01_ITA.tga</Image>
+      </View>
+
+      <View type ="BUTTON" id="Ok_Btn" area="[165,287,88,29]">
+        <Collision>[0,0,88,29]</Collision>
+        <ButtonTextFreeSizeOption>
+          <Image path="data/interface/Button">Design0.tga</Image>
+          <FontOption fontIndex="0" message="12004" />
+        </ButtonTextFreeSizeOption>
+      </View>
+
+      <View type ="VIEW" id = "BtnSelectCover" area="[0,0,128,128]">
+        <Image path="data/interface/RandomItem">random_item_select.tga</Image>
+      </View>
+
+      <!--셀렉트 버튼-->
+      <View type ="BUTTON" id="Sel_Btn1" area="[240,160,128,128]">
+        <Image path="data/interface/RandomItem/button">random_item_red_btn.tga</Image>
+        <Collision>[26,26,0,0]</Collision>
+        <PresentUV>[0.0f, 0.0f, 1.0f, 0.25f]</PresentUV>
+        <ButtonState Type ="OVER">[0.0f, 0.25, 1.0f, 0.5f]</ButtonState>
+        <ButtonState Type ="ENABLE">[0.0f, 0.5f, 1.0f, 0.75f]</ButtonState>
+      </View>
+
+
+      <View type ="BUTTON" id="Sel_Btn2" area="[240,160,128,128]">
+        <Image path="data/interface/RandomItem/button">random_item_green_btn.tga</Image>
+        <Collision>[25,25,67,67]</Collision>
+        <PresentUV>[0.0f, 0.0f, 1.0f, 0.25f]</PresentUV>
+        <ButtonState Type ="OVER">[0.0f, 0.25, 1.0f, 0.5f]</ButtonState>
+        <ButtonState Type ="ENABLE">[0.0f, 0.5f, 1.0f, 0.75f]</ButtonState>
+      </View>
+
+
+      <View type ="BUTTON" id="Sel_Btn3" area="[240,160,128,128]">
+        <Image path="data/interface/RandomItem/button">random_item_blue_btn.tga</Image>
+        <Collision>[25,25,67,67]</Collision>
+        <PresentUV>[0.0f, 0.0f, 1.0f, 0.25f]</PresentUV>
+        <ButtonState Type ="OVER">[0.0f, 0.25, 1.0f, 0.5f]</ButtonState>
+        <ButtonState Type ="ENABLE">[0.0f, 0.5f, 1.0f, 0.75f]</ButtonState>
+      </View>
+
+
+      <View type ="VIEW" id = "BtnCover" area="[0,0,256,256]">
+        <Image path="data/interface/RandomItem">random_item_box.tga</Image>
+      </View>
+
+      <View type ="TEXTVIEW" id = "ItemGetText1Bg" area="[114,88,400,100]">
+        <Text>Text1</Text>
+      </View>
+
+      <View type ="TEXTVIEW" id = "ItemGetText2Bg" area="[114,174,400,190]">
+        <Text>Text2</Text>
+      </View>
+
+      <View type ="TEXTVIEW" id = "ItemGetText3Bg" area="[114,260,400,280]">
+        <Text>Text3</Text>
+      </View>
+
+      <View type ="TEXTVIEW" id = "ItemGetText1" area="[113,87,400,100]">
+        <Text>Text1</Text>
+      </View>
+
+      <View type ="TEXTVIEW" id = "ItemGetText2" area="[113,173,400,190]">
+        <Text>Text2</Text>
+      </View>
+
+      <View type ="TEXTVIEW" id = "ItemGetText3" area="[113,259,400,280]">
+        <Text>Text3</Text>
+      </View>
+    </View>
+  </Container>
+</CONTENTS>

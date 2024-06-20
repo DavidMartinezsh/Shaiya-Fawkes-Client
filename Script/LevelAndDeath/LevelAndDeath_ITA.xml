@@ -1,0 +1,97 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<CONTENTS>
+  <Container id ="LevelAndDeathContainer">
+    <View type ="VIEW" id = "LevelAndDeathView" area="[0,0,1024,768]">
+      <EmptyView>TRUE</EmptyView>
+      <StateEnable>FALSE</StateEnable>
+      <AutoFullScreen>TRUE</AutoFullScreen>
+
+      <!-- 레벨업 View -->
+      <View type ="VIEW" id = "LevelUpView" area="[0,0,128,500]">
+        <EmptyView>TRUE</EmptyView>
+
+        <Visible>FALSE</Visible>
+        <StateEnable>FALSE</StateEnable>
+        <LayoutOption type="ALIGN_WIDTH_CENTER" option="PERSENTAGE">0.5f</LayoutOption>
+        <LayoutOption type="ALIGN_HEIGHT_CENTER" option="PERSENTAGE">0.5f</LayoutOption>
+
+        <View type ="VIEW" id = "LevelUpMessageBackground" area="[0,103,256,45]>">
+          <StateEnable>FALSE</StateEnable>
+          <LayoutOption type="ALIGN_WIDTH_CENTER" option="PERSENTAGE">0.41f</LayoutOption>
+
+          <Image path="data/interface/LevelAndDeath">LevelUp_Bg.tga</Image>
+          <ScaledCenterUV>[0.484375f, 0.1f, 0.515625f, 0.9f]</ScaledCenterUV>
+
+        </View>
+
+        <View type="TEXTVIEW" id="LevelUpMessage_Text" area="[0,118,240,22]">
+          <TextHorizontalAlign>CENTER</TextHorizontalAlign>
+          <TextVerticalAlign>TOP</TextVerticalAlign>
+          <StateEnable>FALSE</StateEnable>
+          <LayoutOption type="ALIGN_WIDTH_CENTER" option="PERSENTAGE">0.41f</LayoutOption>
+          <GetMsg>13500</GetMsg>
+        </View>
+
+        <View type ="VIEW" id = "LevelUpBackground" area="[0,0,128,128]">
+          <StateEnable>FALSE</StateEnable>
+          <Image path="data/interface/LevelAndDeath">LevelUp.tga</Image>
+          <PresentUV>[0.0f, 0.0f, 1.0f, 1.0f]</PresentUV>
+
+          <View type="TEXTVIEW" id="Level_Text" area="[0,69,10,15]">
+            <TextHorizontalAlign>CENTER</TextHorizontalAlign>
+            <TextVerticalAlign>TOP</TextVerticalAlign>
+            <StateEnable>FALSE</StateEnable>
+            <!--이미지의 위치(게임 화면 WIDTH PERSENTAGE(0.47의 위치 - 중간에서 약간 왼쪽) : 0.5 - 중간-->
+            <LayoutOption type="ALIGN_WIDTH_CENTER" option="PERSENTAGE">0.47f</LayoutOption>
+            <Text>0</Text>
+          </View>
+
+        </View>
+      </View>
+
+      <View type ="VIEW" id = "DeathView" area="[0,0,402,392]>">
+        <Visible>FALSE</Visible>
+        <StateEnable>FALSE</StateEnable>
+
+        <LayoutOption type="ALIGN_WIDTH_CENTER" option="PERSENTAGE">0.5f</LayoutOption>
+        <LayoutOption type="ALIGN_HEIGHT_CENTER" option="PERSENTAGE">0.5f</LayoutOption>
+
+        <Image path="data/interface/LevelAndDeath">death.tga</Image>
+        <PresentUV>[0.0f, 0.0f, 1.0f, 1.0f]</PresentUV>
+
+        <View type="TEXTVIEW" id="DeathView_Text" area="[100,184,200,60]">
+          <MultiLine>TRUE</MultiLine>
+          <TextHorizontalAlign>CETNER</TextHorizontalAlign>
+          <TextVerticalAlign>TOP</TextVerticalAlign>
+          <StateEnable>FALSE</StateEnable>
+          <Text>TEJSI \nTJISJF \nDIJF SIJD</Text>
+        </View>
+
+        <View type="TEXTVIEW" id="DeathViewTime_Text" area="[100,244,200,70]">
+          <TextHorizontalAlign>CETNER</TextHorizontalAlign>
+          <TextVerticalAlign>TOP</TextVerticalAlign>
+          <StateEnable>FALSE</StateEnable>
+          <Text>TEJSI \nTJISJF \nDIJF SIJD</Text>
+        </View>
+
+        <View type ="BUTTON" id="DeathView_Btn_1" area="[0,278,94,24]">
+          <ButtonTextFreeSizeOption>
+            <Image path="data/interface/Button">Design5.tga</Image>
+            <FontOption fontIndex="0" message="10067" />
+          </ButtonTextFreeSizeOption>
+          <LayoutOption type="ALIGN_WIDTH_CENTER" option="PERSENTAGE">0.5f</LayoutOption>
+        </View>
+
+        <View type ="BUTTON" id="DeathView_Btn_2" area="[0,305,94,24]">
+          <ButtonTextFreeSizeOption>
+            <Image path="data/interface/Button">Design5.tga</Image>
+            <FontOption fontIndex="0" message="10067" />
+          </ButtonTextFreeSizeOption>
+
+          <LayoutOption type="ALIGN_WIDTH_CENTER" option="PERSENTAGE">0.5f</LayoutOption>
+        </View>
+      </View>
+
+    </View>
+  </Container>
+</CONTENTS>

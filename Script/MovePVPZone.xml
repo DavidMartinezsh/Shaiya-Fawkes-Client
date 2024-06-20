@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<CONTENTS>
+  <Container id ="MovePVPZone_Container">
+
+    <View type ="VIEW" id = "Background" area="[0,0,256,374]">
+
+      <View type ="VIEW" id = "BgImage" area="[0,0,256,374]">
+        <Image path="data/interface">pvp_list.tga</Image>
+        <PresentUV>[0.0f, 0.0f, 1.0f, 0.73f]</PresentUV>
+      </View>
+
+     
+
+      <View type ="VIEW" id = "ContentsRect" area="[11,46,232,270]">
+      </View>
+      
+      
+      <View type ="BUTTON" id="Close_Btn" area="[226,9,32,32]">
+        <Image path="data/interface">talk1_close_button.tga</Image>
+        <Collision>[0,0,25,25]</Collision>
+        <PresentUV>[0.0f, 0.0f, 0.25f, 1.0f]</PresentUV>
+        <ButtonState Type ="OVER">[0.25f, 0.0f, 0.5f, 1.0f]</ButtonState>
+        <ButtonState Type ="ONPRESS">[0.5f, 0.0f, 0.75f, 1.0f]</ButtonState>
+        <ButtonState Type ="ENABLE">[0.75f, 0.0f, 1.0f, 1.0f]</ButtonState>
+      </View>
+
+
+
+      <View type ="BUTTON" id="OK_Btn" area="[95,329,72,32]">
+        <Image path="data/interface">gamble_button.tga</Image>
+        <Collision>[0,0,68,28]</Collision>
+        <PresentUV>[0.0f, 0.0f, 0.54f, 0.25f]</PresentUV>
+        <ButtonState Type ="OVER">[0.0f, 0.25f, 0.54f, 0.5f]</ButtonState>
+        <ButtonState Type ="ONPRESS">[0.0f, 0.5f, 0.54f, 0.75f]</ButtonState>
+        <ButtonState Type ="ENABLE">[0.0f, 0.75f, 0.54f, 1.0f]</ButtonState>
+      </View>
+
+    </View>
+    
+    
+  </Container>
+</CONTENTS>

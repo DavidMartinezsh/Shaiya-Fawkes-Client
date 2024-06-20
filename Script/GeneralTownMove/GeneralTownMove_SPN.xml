@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<CONTENTS>
+  <Container id ="GeneralMoveTown_Container" keyPressEnalbe ="FALSE" >
+    <View type ="VIEW" id = "GeneralMoveTown_Background" area="[0,0,544,587]">
+      <EmptyView>TRUE</EmptyView>
+      <StateEnable>FALSE</StateEnable>
+
+      <View type ="VIEW" id = "Backgrond_Top" area="[0,0,1024,64]">
+        <Collision>[0,0,512,43]</Collision>
+        <Image path="data/interface/Rader">map_up.tga</Image>
+
+        <View type="TEXTVIEW" id="Map_Title" area="[0,16,256,18]">
+          <LayoutOption type="ALIGN_WIDTH_CENTER" option="PERSENTAGE">0.27f</LayoutOption>
+        </View>
+
+        <View type ="BUTTON" id = "Close_Button" area="[510,12,32,32]">
+          <StateEnable>TRUE</StateEnable>
+          <Image path="data/interface/Common/button">close.tga</Image>
+          <Collision>[0,0,18,18]</Collision>
+          <PresentUV>[0.0f, 0.0f, 0.25f, 1.0f]</PresentUV>
+          <ButtonState Type ="OVER">[0.25f, 0.0, 0.5f, 1.0f]</ButtonState>
+          <ButtonState Type ="ONPRESS">[0.5f, 0.0f, 0.75f, 1.0f]</ButtonState>
+          <ButtonState Type ="ENABLE">[0.75f, 0.0f, 1.0f, 1.0f]</ButtonState>
+          <ButtonState Type ="SELECTED">[0.25f, 0.0, 0.5f, 1.0f]</ButtonState>
+        </View>
+
+      </View>
+      <View type ="VIEW" id = "Backgrond_Bottom" area="[0,555,1024,32]">
+        <Image path="data/interface/Rader">bottom.tga</Image>
+      </View>
+
+      <View type ="VIEW" id = "Backgrond_Left" area="[0,43,16,512]">
+        <Image path="data/interface/Rader">map_left.tga</Image>
+      </View>
+      <View type ="VIEW" id = "Backgrond_Right" area="[528,43,16,512]">
+        <Image path="data/interface/Rader">map_right.tga</Image>
+      </View>
+
+      <View type ="VIEW" id = "World_Map" area="[16,43,512,512]">
+        <Image path="data/interface/MiniMap">wm_map.tga</Image>
+
+        <View type ="VIEW" id = "World_Map_Letter" area="[0,0,512,512]">
+          <StateEnable>FALSE</StateEnable>
+          <Image path="data/interface/MiniMap">wm_letter.tga</Image>
+
+          <View type ="VIEW" id = "World_Map_Transable" area="[0,480,512,32]">
+            <StateEnable>FALSE</StateEnable>
+            <Visible>FALSE</Visible>
+            <Image path="data/interface/MiniMap">wm_warning.tga</Image>
+          </View>
+        </View>
+      </View>
+
+      <View type ="VIEW" id = "Local_Map" area="[16,43,512,512]">
+        <Visible>FALSE</Visible>
+      </View>
+
+      <View type ="VIEW" id = "Local_Map_Text" area="[16,43,512,512]">
+        <Visible>FALSE</Visible>
+      </View>
+
+    </View>
+
+  </Container>
+</CONTENTS>

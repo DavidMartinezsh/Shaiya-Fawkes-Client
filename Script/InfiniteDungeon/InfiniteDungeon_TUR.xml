@@ -1,0 +1,332 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<CONTENTS>
+  <Container id ="InfiniteDungen_Container" keyPressEnalbe ="FALSE" >
+    <View type ="VIEW" id = "InfiniteDungen_Background" area="[0,0,1024,768]">
+      <EmptyView>TRUE</EmptyView>
+      <StateEnable>FALSE</StateEnable>
+      <AutoFullScreen>TRUE</AutoFullScreen>
+
+      <!-- 스테이지 시작 창-->
+      <View type ="VIEW" id ="Stage_Start" area="[0,0,256,128]">
+        <Visible>FALSE</Visible>
+        <StateEnable>FALSE</StateEnable>
+        <Image path="data/interface/InfinityDungeon/text">dungeon_message_start_USA.tga</Image>
+        <PresentUV>[0.0f, 0.0f, 1.0f, 1.0f]</PresentUV>
+        <LayoutOption type="ALIGN_WIDTH_CENTER" option="PERSENTAGE">0.5f</LayoutOption>
+        <LayoutOption type="ALIGN_HEIGHT_CENTER" option="PERSENTAGE">0.5f</LayoutOption>
+
+        <!-- 스테이지 표시-->
+        <View type ="VIEW" id ="Start_Stage_Num0" area="[153,0,32,32]">
+          <Image path="data/interface/InfinityDungeon">dungeon_action_stage_number.tga</Image>
+          <PresentUV>[0.0f, 0.0f, 0.0625f, 0.53f]</PresentUV>
+        </View>
+
+        <View type ="VIEW" id ="Start_Stage_Num1" area="[175,0,32,32]">
+          <Image path="data/interface/InfinityDungeon">dungeon_action_stage_number.tga</Image>
+          <PresentUV>[0.0f, 0.0f, 0.0625f, 0.53f]</PresentUV>
+        </View>
+      </View>
+
+      <!-- 모든 스테이지 성공 창-->
+      <View type ="VIEW" id ="AllClear_Success" area="[0,0,512,128]">
+        <StateEnable>FALSE</StateEnable>
+        <Visible>FALSE</Visible>
+        <Image path="data/interface/InfinityDungeon/text">dungeon_message_dungeonclear_USA.tga</Image>
+        <PresentUV>[0.0f, 0.0f, 1.0f, 1.0f]</PresentUV>
+        <LayoutOption type="ALIGN_TOP" option="PERSENTAGE">0.25f</LayoutOption>
+        <LayoutOption type="ALIGN_WIDTH_CENTER" option="PERSENTAGE">0.5f</LayoutOption>
+
+        <View type="TEXTVIEW" id="AllClear_Success_Text" area="[0,94,240,16]">
+          <LayoutOption type="ALIGN_WIDTH_CENTER" option="PERSENTAGE">0.5f</LayoutOption>
+          <GetMsg>10329</GetMsg>
+        </View>
+      </View>
+
+      <!-- 클리어 성공 창-->
+      <View type ="VIEW" id ="Clear_Success" area="[0,0,512,256]">
+        <StateEnable>FALSE</StateEnable>
+        <Visible>FALSE</Visible>
+        <Image path="data/interface/InfinityDungeon/text">dungeon_message_clear_USA.tga</Image>
+        <PresentUV>[0.0f, 0.0f, 1.0f, 1.0f]</PresentUV>
+        <LayoutOption type="ALIGN_TOP" option="PERSENTAGE">0.25f</LayoutOption>
+        <LayoutOption type="ALIGN_WIDTH_CENTER" option="PERSENTAGE">0.5f</LayoutOption>
+      </View>
+
+      <!-- 클리어 싪패 창-->
+      <View type ="VIEW" id ="Clear_Failed" area="[0,0,256,64]">
+        <StateEnable>FALSE</StateEnable>
+        <Visible>FALSE</Visible>
+        <Image path="data/interface/InfinityDungeon/text">dungeon_message_failed_USA.tga</Image>
+        <PresentUV>[0.0f, 0.0f, 1.0f, 1.0f]</PresentUV>
+        <LayoutOption type="ALIGN_TOP" option="PERSENTAGE">0.25f</LayoutOption>
+        <LayoutOption type="ALIGN_WIDTH_CENTER" option="PERSENTAGE">0.5f</LayoutOption>
+      </View>
+
+      <!--입장 던전 목록-->
+      <View type ="VIEW" id ="Enter_Group_Background" area="[0,0,333,444]">
+        <Visible>FALSE</Visible>
+        <Image path="data/interface/InfinityDungeon">dungeon_action_menu.tga</Image>
+        <PresentUV>[0.0f, 0.0f, 0.65f, 0.875f]</PresentUV>
+        <LayoutOption type="ALIGN_WIDTH_CENTER" option="PERSENTAGE">0.5f</LayoutOption>
+        <LayoutOption type="ALIGN_HEIGHT_CENTER" option="PERSENTAGE">0.5f</LayoutOption>
+        <View type ="VIEW" id = "" area="[40,0,256,64]">
+          <StateEnable>FALSE</StateEnable>
+          <Image path="data/interface/InfinityDungeon/text">dungeon_action_menu_text_MainTitle_USA.tga</Image>
+        </View>
+        <View type ="VIEW" id = "" area="[18,52,512,32]">
+          <StateEnable>FALSE</StateEnable>
+          <Image path="data/interface/InfinityDungeon/text">dungeon_action_menu_text_01_USA.tga</Image>
+        </View>
+        <View type ="VIEW" id = "" area="[40,82,256,64]">
+          <StateEnable>FALSE</StateEnable>
+          <Image path="data/interface/InfinityDungeon/text">dungeon_action_menu_text_02_USA.tga</Image>
+        </View>
+
+        <!--List_2-->
+        <View type ="LISTBOX" id="Enter_Listbox_2" area="[44,128,252,243]">
+          <ListBoxBackgroundOption>
+            <EmptyView>TRUE</EmptyView>
+          </ListBoxBackgroundOption>
+
+          <SelectViewOption>
+            <Color>[150,150,150,150]</Color>
+            <Opacity>0.5</Opacity>
+          </SelectViewOption>
+
+          <OverViewOption>
+            <EmptyView>TRUE</EmptyView>
+          </OverViewOption>
+
+          <UpButtonOption>
+            <Image path="data/interface/Common">scrollbar.tga</Image>
+            <PresentUV>[0.0f, 0.0f, 0.0937f, 0.2968f]</PresentUV>
+
+            <ButtonState Type ="OVER">[0.125f, 0.0f, 0.218f, 0.2968f]</ButtonState>
+            <ButtonState Type ="ONPRESS">[0.25f, 0.0f, 0.3437f, 0.2968f]</ButtonState>
+          </UpButtonOption>
+
+          <DownButtonOption>
+            <Image path="data/interface/Common">scrollbar.tga</Image>
+            <PresentUV>[0.0f, 0.4843f, 0.0937f, 0.7812f]</PresentUV>
+
+            <ButtonState Type ="OVER">[0.125f, 0.4843f, 0.218f, 0.7812f]</ButtonState>
+            <ButtonState Type ="ONPRESS">[0.25f, 0.4843f, 0.3437f, 0.7812f]</ButtonState>
+          </DownButtonOption>
+
+          <ScrollBarOption>
+            <EmptyView>TRUE</EmptyView>
+            <ButtonOption>
+              <Image path="data/interface/Common">scrollbar.tga</Image>
+              <PresentUV>[0.390625f,0.5f,0.4609375f,0.515625f]</PresentUV>
+            </ButtonOption>
+          </ScrollBarOption>
+
+          <ItemList>
+          </ItemList>
+        </View>
+
+
+        <View type ="BUTTON" id="Enter_Ok_Btn" area="[74,391,80,28]">
+          <Collision>[0,0,80,28]</Collision>
+          <ButtonTextFreeSizeOption>
+            <Image path="data/interface/Button">Design0.tga</Image>
+            <FontOption fontIndex="0" message="12129" />
+          </ButtonTextFreeSizeOption>
+        </View>
+
+        <View type ="BUTTON" id="Enter_Cancel_Btn" area="[182,391,80,28]">
+          <Collision>[0,0,80,28]</Collision>
+          <ButtonTextFreeSizeOption>
+            <Image path="data/interface/Button">Design0.tga</Image>
+            <FontOption fontIndex="0" message="12005" />
+          </ButtonTextFreeSizeOption>
+        </View>
+      </View>
+
+      <!-- 보상창 -->
+      <View type ="VIEW" id ="Comp_Group_Background" area="[256,256,256,255]">
+        <Visible>FALSE</Visible>
+        <Image path="data/interface/InfinityDungeon">dungeon_action_reward.tga</Image>
+        <PresentUV>[0.0f, 0.0f, 1.0f, 1.0f]</PresentUV>
+        <View type ="VIEW" id = "" area="[0,9,256,32]">
+          <Image path="data/interface/InfinityDungeon/text">dungeon_action_reward_text_01_USA.tga</Image>
+        </View>
+        <!--<LayoutOption type="ALIGN_WIDTH_CENTER" option="PERSENTAGE">0.5f</LayoutOption>-->
+        <!--<LayoutOption type="ALIGN_HEIGHT_CENTER" option="PERSENTAGE">0.5f</LayoutOption>-->
+        <!--List-->
+        <View type ="LISTBOX" id="Comp_Listbox" area="[6,45,244,147]">
+          <ListBoxBackgroundOption>
+            <EmptyView>TRUE</EmptyView>
+          </ListBoxBackgroundOption>
+
+          <SelectViewOption>
+            <Color>[150,150,150,150]</Color>
+            <Opacity>0.5</Opacity>
+          </SelectViewOption>
+
+          <OverViewOption>
+            <EmptyView>TRUE</EmptyView>
+          </OverViewOption>
+
+          <UpButtonOption area="[0,0,11,18]">
+            <Image path="data/interface/common">scrollbar.tga</Image>
+            <PresentUV>[0.0f, 0.0f, 0.0937f, 0.2968f]</PresentUV>
+
+            <ButtonState Type ="OVER">[0.125f, 0.0f, 0.218f, 0.2968f]</ButtonState>
+            <ButtonState Type ="ONPRESS">[0.25f, 0.0f, 0.3437f, 0.2968f]</ButtonState>
+          </UpButtonOption>
+
+          <DownButtonOption area="[0,0,11,18]">
+            <Image path="data/interface/common">scrollbar.tga</Image>
+            <PresentUV>[0.0f, 0.4843f, 0.0937f, 0.7812f]</PresentUV>
+
+            <ButtonState Type ="OVER">[0.125f, 0.4843f, 0.218f, 0.7812f]</ButtonState>
+            <ButtonState Type ="ONPRESS">[0.25f, 0.4843f, 0.3437f, 0.7812f]</ButtonState>
+          </DownButtonOption>
+
+          <ScrollBarOption>
+            <EmptyView>TRUE</EmptyView>
+            <ButtonOption>
+              <Image path="data/interface/Common">scrollbar.tga</Image>
+              <PresentUV>[0.390625f,0.5f,0.4609375f,0.515625f]</PresentUV>
+            </ButtonOption>
+          </ScrollBarOption>
+
+          <ItemList>
+          </ItemList>
+        </View>
+
+        <View type ="BUTTON" id="Comp_Ok_Btn" area="[37,203,80,28]">
+          <Collision>[0,0,80,28]</Collision>
+          <ButtonTextFreeSizeOption>
+            <Image path="data/interface/Button">Design0.tga</Image>
+            <FontOption fontIndex="0" message="12035" />
+          </ButtonTextFreeSizeOption>
+        </View>
+
+        <View type ="BUTTON" id="Comp_Cancel_Btn" area="[136,203,80,28]">
+          <Collision>[0,0,80,28]</Collision>
+          <ButtonTextFreeSizeOption>
+            <Image path="data/interface/Button">Design0.tga</Image>
+            <FontOption fontIndex="0" message="12130" />
+          </ButtonTextFreeSizeOption>
+        </View>
+
+      </View>
+
+      <!-- 대기실에서 나가기 확인 창-->
+      <View type ="VIEW" id ="Confirm_Group_Background" area="[0,0,256,256]">
+        <Visible>FALSE</Visible>
+        <Image path="data/interface/Message">message2.tga</Image>
+        <PresentUV>[0.0f, 0.0f, 1.0f, 1.0f]</PresentUV>
+        <LayoutOption type="ALIGN_WIDTH_CENTER" option="PERSENTAGE">0.5f</LayoutOption>
+        <LayoutOption type="ALIGN_HEIGHT_CENTER" option="PERSENTAGE">0.5f</LayoutOption>
+
+        <View type="TEXTVIEW" id="Confirm_Text" area="[0,80,200,32]">
+          <LayoutOption type="ALIGN_WIDTH_CENTER" option="PERSENTAGE">0.5f</LayoutOption>
+          <GetMsg>10330</GetMsg>
+        </View>
+
+        <View type ="BUTTON" id="Out_Ok_Btn" area="[56,180,66,28]">
+          <Visible>FALSE</Visible>
+          <Collision>[0,0,66,28]</Collision>
+          <ButtonTextFreeSizeOption>
+            <Image path="data/interface/Button">Design0.tga</Image>
+            <FontOption fontIndex="0" message="12004" />
+          </ButtonTextFreeSizeOption>
+        </View>
+
+        <View type ="BUTTON" id="Confirm_Cancel_Btn" area="[130,180,66,28]">
+          <Collision>[0,0,66,28]</Collision>
+          <ButtonTextFreeSizeOption>
+            <Image path="data/interface/Button">Design0.tga</Image>
+            <FontOption fontIndex="0" message="12005" />
+          </ButtonTextFreeSizeOption>
+        </View>
+      </View>
+
+      <!-- 클리어 완료 텍스트-->
+      <View type ="VIEW" id ="ClearText_Group_Background" area="[0,0,256,128]">
+        <Visible>FALSE</Visible>
+        <Image path="data/interface/InfinityDungeon">dungeon_action.tga</Image>
+        <PresentUV>[0.0f, 0.0f, 1.0f, 1.0f]</PresentUV>
+        <LayoutOption type="ALIGN_WIDTH_CENTER" option="PERSENTAGE">0.5f</LayoutOption>
+        <LayoutOption type="ALIGN_HEIGHT_CENTER" option="PERSENTAGE">0.5f</LayoutOption>
+
+        <View type="TEXTVIEW" id="ClearText_Main_Text" area="[88,19,120,16]">
+          <GetMsg>10328</GetMsg>
+        </View>
+
+        <View type="TEXTVIEW" id="ClearText_Info_Text" area="[88,54,120,16]">
+          <GetMsg>10329</GetMsg>
+        </View>
+
+      </View>
+
+      <!-- 클리어 조건 창-->
+      <View type ="VIEW" id ="Clear_Group_Background" area="[0,0,360,154]">
+        <StateEnable>FALSE</StateEnable>
+        <Visible>FALSE</Visible>
+        <Image path="data/interface/InfinityDungeon">dungeon_action.tga</Image>
+        <PresentUV>[0.0f, 0.0f, 0.703f, 0.601f]</PresentUV>
+        <LayoutOption type="ALIGN_WIDTH_CENTER" option="PERSENTAGE">0.5f</LayoutOption>
+        <LayoutOption type="ALIGN_HEIGHT_CENTER" option="PERSENTAGE">0.8f</LayoutOption>
+
+        <!-- 스테이지 문구 표시-->
+        <View type ="VIEW" id ="Clear_Stage_Text" area="[100,11,128,35]">
+          <Image path="data/interface/InfinityDungeon/text">dungeon_action_text_USA.tga</Image>
+          <PresentUV>[0.0f, 0.1718f, 1.0f, 0.7187f]</PresentUV>
+        </View>
+
+        <!-- 스테이지 표시-->
+        <View type ="VIEW" id ="Clear_Stage_Num0" area="[228,11,32,32]">
+          <Image path="data/interface/InfinityDungeon">dungeon_action_stage_number.tga</Image>
+          <PresentUV>[0.0f, 0.0f, 0.0625f, 0.53f]</PresentUV>
+        </View>
+
+        <View type ="VIEW" id ="Clear_Stage_Num1" area="[250,11,32,32]">
+          <Image path="data/interface/InfinityDungeon">dungeon_action_stage_number.tga</Image>
+          <PresentUV>[0.0f, 0.0f, 0.0625f, 0.53f]</PresentUV>
+        </View>
+
+        <!-- 시간 표시 -->
+        <View type ="VIEW" id ="Clear_Stage_Time0" area="[160,53,16,16]">
+          <Image path="data/interface/InfinityDungeon">dungeon_action_time_number.tga</Image>
+          <PresentUV>[0.0f, 0.0f, 0.0625f, 0.5f]</PresentUV>
+        </View>
+
+        <View type ="VIEW" id ="Clear_Stage_Time1" area="[174,53,16,16]">
+          <Image path="data/interface/InfinityDungeon">dungeon_action_time_number.tga</Image>
+          <PresentUV>[0.0f, 0.0f, 0.0625f, 0.5f]</PresentUV>
+        </View>
+
+        <View type ="VIEW" id ="Clear_Stage_TimeBound" area="[188,53,16,16]">
+          <Image path="data/interface/InfinityDungeon">dungeon_action_time_number.tga</Image>
+          <PresentUV>[0.625f, 0.0f, 0.6875f, 0.5f]</PresentUV>
+        </View>
+
+        <View type ="VIEW" id ="Clear_Stage_Time2" area="[196,53,16,16]">
+          <Image path="data/interface/InfinityDungeon">dungeon_action_time_number.tga</Image>
+          <PresentUV>[0.0f, 0.0f, 0.0625f, 0.5f]</PresentUV>
+        </View>
+
+        <View type ="VIEW" id ="Clear_Stage_Time3" area="[208,53,16,16]">
+          <Image path="data/interface/InfinityDungeon">dungeon_action_time_number.tga</Image>
+          <PresentUV>[0.0f, 0.0f, 0.0625f, 0.5f]</PresentUV>
+        </View>
+
+        <View type="TEXTVIEW" id="Clear_Goal_Text_0" area="[105,89,195,32]">
+          <GetMsg>10327</GetMsg>
+        </View>
+        <View type="TEXTVIEW" id="Clear_Goal_Text_1" area="[105,104,195,32]">
+          <GetMsg>10327</GetMsg>
+        </View>
+        <View type="TEXTVIEW" id="Clear_Goal_Text_2" area="[105,120,195,32]">
+          <GetMsg>10327</GetMsg>
+        </View>
+
+      </View>
+    </View>
+
+  </Container>
+</CONTENTS>
