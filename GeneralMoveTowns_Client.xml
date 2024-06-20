@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<CONTENTS>
+  <MOVETOWN_SCROLL MoveTownId="1" UseType ="102" UseTypeID ="92">
+    <!-- 윌리어스 / 할테크 농장-->
+    <MoveTownInfo ID ="1" MapID="19" TownTitleNum="13201">[0,0,512,512]</MoveTownInfo>
+
+    <!-- 에르마나 / 컬로스-->
+    <MoveTownInfo ID ="2" MapID="1" TownTitleNum="13200">[0,0,512,512]</MoveTownInfo>
+
+    <!-- 아델리아 / 휘그론 성-->
+    <MoveTownInfo ID ="3" MapID="28" TownTitleNum="13202">[0,0,512,512]</MoveTownInfo>
+
+    <!-- 레이크스 / 글리트-->
+    <MoveTownInfo ID ="4" MapID="2" TownTitleNum="13205">[0,0,512,512]</MoveTownInfo>
+
+    <!-- 크라이젠 / 포타미온 경비초소-->
+    <MoveTownInfo ID ="5" MapID="20" TownTitleNum="13206">[0,0,512,512]</MoveTownInfo>
+
+    <!-- 아드리안 / 아레나 성-->
+    <MoveTownInfo ID ="6" MapID="29" TownTitleNum="13207">[0,0,512,512]</MoveTownInfo>
+
+    <!-- 판타나사 / 크로우드 항구-->
+    <MoveTownInfo ID ="7" MapID="75" TownTitleNum="13204">[0,0,512,512]</MoveTownInfo>
+
+    <!-- 테오도레스 / 케리 해안-->
+    <MoveTownInfo ID ="8" MapID="76" TownTitleNum="13209">[0,0,512,512]</MoveTownInfo>
+
+    <!-- 팔라이온 레그눔 / 임시 주둔지-->
+    <MoveTownInfo ID ="9" MapID="69" TownTitleNum="13208">[0,0,512,512]</MoveTownInfo>
+
+    <!-- 발데마르 레그눔 / 임시 주둔지-->
+    <MoveTownInfo ID ="10" MapID="68" TownTitleNum="13208">[0,0,512,512]</MoveTownInfo>
+
+  </MOVETOWN_SCROLL>
+</CONTENTS>
